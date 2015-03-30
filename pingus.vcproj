@@ -323,22 +323,6 @@
 				>
 			</File>
 			<File
-				RelativePath=".\src\debug.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\src\debug.hpp"
-				>
-			</File>
-			<File
-				RelativePath=".\src\debug_stream.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\src\debug_stream.hpp"
-				>
-			</File>
-			<File
 				RelativePath=".\src\delta_manager.hpp"
 				>
 			</File>
@@ -2383,10 +2367,6 @@
 				</File>
 				<File
 					RelativePath=".\src\screen\gui_screen.hpp"
-					>
-				</File>
-				<File
-					RelativePath=".\src\screen\input_debug_screen.hpp"
 					>
 				</File>
 				<File

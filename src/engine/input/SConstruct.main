@@ -29,8 +29,6 @@ env.Program('main', [
     '../globals.cpp',
     '../sexpr_file_reader.cpp',
     '../math/vector3f.cpp',
-    '../debug.cpp',
-    '../debug_stream.cpp',
     '../system.cpp',
 ])
 
