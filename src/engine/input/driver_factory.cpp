@@ -27,10 +27,6 @@
 #  include "engine/input/xinput/xinput_driver.hpp"
 #endif
 
-#ifdef HAVE_LINUXUSBMOUSE
-#  include "engine/input/usbmouse/usbmouse_driver.hpp"
-#endif
-
 #ifdef HAVE_LINUXEVDEV
 #  include "engine/input/evdev/evdev_driver.hpp"
 #endif
@@ -48,12 +44,6 @@ DriverFactory::create(const std::string& name, Manager* manager)
   {
     return new CoreDriver(manager);
   }
-#ifdef HAVE_LINUXUSBMOUSE
-  else if (name == "usbmouse")
-  {
-    return new USBMouseDriver();
-  }
-#endif
 #ifdef HAVE_LINUXEVDEV
   else if (name == "evdev")
   {

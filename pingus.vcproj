@@ -1700,10 +1700,6 @@
 					>
 				</File>
 				<File
-					RelativePath=".\src\input\usbmouse_driver.hpp"
-					>
-				</File>
-				<File
 					RelativePath=".\src\input\wiimote.hpp"
 					>
 				</File>
