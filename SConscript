@@ -21,7 +21,7 @@ import sys, os
 import SCons.Util
 
 Import('package_version')
-
+
 def CheckSDLLib(context, sdllib):
     """
     On some platforms, SDL does this ugly redefine-main thing, that can
@@ -69,7 +69,7 @@ def CheckMyProgram(context, prgn):
             return True
     context.Result("failed")
     return False
-
+
 class Project:
     def configure(self):
         self.configure_begin()

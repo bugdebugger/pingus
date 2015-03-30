@@ -135,7 +135,7 @@ void clip(int& i, int min, int max)
 }
 
 } // namespace
-
+
 SDLFramebuffer::SDLFramebuffer() :
   screen(0),
   cliprect_stack()
