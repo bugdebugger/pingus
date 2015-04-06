@@ -29,18 +29,15 @@
     (solidcolor-background 
       (color 0.8 0.8 1 1))
     (exit 
-      (owner-id 0)
       (position 421.204 554.309 0)
       (surface 
         (image "exits/desert")
-        (modifier "ROT0"))
-      (owner-id 0))
+        (modifier "ROT0")))
     (entrance 
       (position 1448 424 0)
       (type "generic")
       (direction "left")
-      (release-rate 125)
-      (owner-id 0))
+      (release-rate 125))
     (groundpiece 
       (type "transparent")
       (surface 

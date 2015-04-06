@@ -294,12 +294,10 @@
         (modifier "ROT0"))
       (position 191 2991 0))
     (exit 
-      (owner-id 0)
       (position 301.96 2994.7 0)
       (surface 
         (image "exits/ice2")
-        (modifier "ROT0"))
-      (owner-id 0))
+        (modifier "ROT0")))
     (groundpiece 
       (type "ground")
       (surface 
@@ -468,8 +466,7 @@
       (position 229.357 293.143 0)
       (type "generic")
       (direction "right")
-      (release-rate 150)
-      (owner-id 0))
+      (release-rate 150))
     (hotspot 
       (surface 
         (image "entrances/snow_front")

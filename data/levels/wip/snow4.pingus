@@ -24,12 +24,10 @@
     (levelsize 1504 480))
   (objects 
     (exit 
-      (owner-id 0)
       (position 1432 248 -1100)
       (surface 
         (image "exits/ice")
-        (modifier "ROT0"))
-      (owner-id 0))
+        (modifier "ROT0")))
     (surface-background 
       (surface 
         (image "textures/stars")
@@ -444,8 +442,7 @@
       (position 202 174 0)
       (type "generic")
       (direction "misc")
-      (release-rate 50)
-      (owner-id 0))
+      (release-rate 50))
     (groundpiece 
       (type "ground")
       (surface 

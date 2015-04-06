@@ -599,8 +599,7 @@
       (surface 
         (image "exits/mud")
         (modifier "ROT0"))
-      (position 747 375 0)
-      (owner-id 0))
+      (position 747 375 0))
     (groundpiece 
       (type "ground")
       (surface 
@@ -1033,8 +1032,7 @@
       (surface 
         (image "exits/pwexit")
         (modifier "ROT0"))
-      (position 129 1197 0)
-      (owner-id 0))
+      (position 129 1197 0))
     (groundpiece 
       (type "ground")
       (surface 
@@ -1705,22 +1703,18 @@
       (position 1098 318 0))
     (entrance 
       (position 1830 831 110)
-      (owner-id 0)
       (direction "left")
       (release-rate 150))
     (entrance 
       (position 1382 388 110)
-      (owner-id 0)
       (direction "right")
       (release-rate 150))
     (entrance 
       (position 1748 225 110)
-      (owner-id 0)
       (direction "left")
       (release-rate 150))
     (entrance 
       (position 961 223 110)
-      (owner-id 0)
       (direction "right")
       (release-rate 150))))
 

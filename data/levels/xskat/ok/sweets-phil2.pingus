@@ -253,13 +253,10 @@
       (position 583 134 0)
       (type "cloud")
       (direction "left")
-      (release-rate 25)
-      (owner-id 0))
+      (release-rate 25))
     (exit 
-      (owner-id 0)
       (position 685 192 0)
       (surface 
         (image "exits/sweetexit")
-        (modifier "ROT0"))
-      (owner-id 0))))
+        (modifier "ROT0")))))
 ;; EOF ;;

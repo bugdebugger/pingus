@@ -445,8 +445,7 @@
       (surface 
         (image "exits/ice2")
         (modifier "ROT0"))
-      (position 1969.47 564.245 0)
-      (owner-id 0))
+      (position 1969.47 564.245 0))
     (groundpiece 
       (type "ground")
       (surface 
@@ -613,8 +612,7 @@
       (surface 
         (image "exits/ice2")
         (modifier "ROT0"))
-      (position 1380.47 774.245 0)
-      (owner-id 0))
+      (position 1380.47 774.245 0))
     (groundpiece 
       (type "ground")
       (surface 
@@ -770,8 +768,7 @@
       (position 311 506 0)
       (overrides 
         (release-rate 200)
-        (direction "right")
-        (owner-id 0)))
+        (direction "right")))
     (groundpiece 
       (type "ground")
       (surface 

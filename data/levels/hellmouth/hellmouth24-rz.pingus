@@ -35,8 +35,7 @@
       (surface 
         (image "exits/stone")
         (modifier "ROT0"))
-      (position 707 617 0)
-      (owner-id 0))
+      (position 707 617 0))
     (groundpiece 
       (type "ground")
       (surface 
@@ -82,13 +81,11 @@
     (entrance 
       (type "generic")
       (position 576 518 0)
-      (owner-id 0)
       (direction "right")
       (release-rate 100))
     (entrance 
       (type "generic")
       (position 1410 590 0)
-      (owner-id 0)
       (direction "left")
       (release-rate 100))
     (groundpiece 

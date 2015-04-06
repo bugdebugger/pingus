@@ -32,15 +32,13 @@
     (entrance 
       (type "generic")
       (position 979 555 0)
-      (owner-id 0)
       (direction "misc")
       (release-rate 25))
     (exit 
       (surface 
         (image "exits/space")
         (modifier "ROT0"))
-      (position 1630 1067 0)
-      (owner-id 0))
+      (position 1630 1067 0))
     (hotspot 
       (surface 
         (image "hotspots/space/engine")

@@ -42,7 +42,6 @@
     (entrance 
       (type "generic")
       (position 391 159 110)
-      (owner-id 0)
       (direction "misc")
       (release-rate 10))))
 

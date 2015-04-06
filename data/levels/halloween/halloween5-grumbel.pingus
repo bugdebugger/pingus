@@ -351,8 +351,7 @@ Yet again the solution is your call... your gray matter is the key to the Pingus
       (surface 
         (image "exits/halloween")
         (modifier "ROT0"))
-      (position 1362 591 0)
-      (owner-id 0))
+      (position 1362 591 0))
     (groundpiece 
       (type "ground")
       (surface 
@@ -946,7 +945,6 @@ Yet again the solution is your call... your gray matter is the key to the Pingus
       (repeat 31))
     (entrance 
       (position 584 435 1000)
-      (owner-id 0)
       (direction "misc")
       (release-rate 150))))
 

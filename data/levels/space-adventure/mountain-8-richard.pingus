@@ -301,8 +301,7 @@
       (surface 
         (image "exits/ice2")
         (modifier "ROT0"))
-      (position 979 506 0)
-      (owner-id 0))
+      (position 979 506 0))
     (groundpiece 
       (type "ground")
       (surface 
@@ -684,8 +683,7 @@
       (position 1019 799 0)
       (overrides 
         (release-rate 150)
-        (direction "right")
-        (owner-id 0)))
+        (direction "right")))
     (groundpiece 
       (type "bridge")
       (surface 
@@ -802,8 +800,7 @@
       (position 920 799 0)
       (overrides 
         (release-rate 150)
-        (direction "left")
-        (owner-id 0)))
+        (direction "left")))
     (groundpiece 
       (type "solid")
       (surface 
@@ -1028,7 +1025,6 @@
       (position 1208 936 0))
     (entrance 
       (position 1481 1016 110)
-      (owner-id 0)
       (direction "misc")
       (release-rate 150))))
 

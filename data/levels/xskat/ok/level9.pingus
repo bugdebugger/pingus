@@ -606,21 +606,17 @@
       (position 251 112 0)
       (type "generic")
       (direction "right")
-      (release-rate 25)
-      (owner-id 0))
+      (release-rate 25))
     (exit 
-      (owner-id 0)
       (position 539 480 0)
       (surface 
         (image "exits/stone")
-        (modifier "ROT0"))
-      (owner-id 0))
+        (modifier "ROT0")))
     (entrance 
       (position 1242 132 0)
       (type "generic")
       (direction "left")
-      (release-rate 25)
-      (owner-id 0))
+      (release-rate 25))
     (teleporter 
       (target-id "id2287508")
       (position 937 209 100))

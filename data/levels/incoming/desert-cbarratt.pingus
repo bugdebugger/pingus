@@ -173,15 +173,13 @@
       (position 1762 220 0)
       (overrides 
         (release-rate 50)
-        (direction "misc")
-        (owner-id 0)))
+        (direction "misc")))
     (prefab 
       (name "prefabs/entrances/eastern")
       (position 341 222 0)
       (overrides 
         (release-rate 70)
-        (direction "misc")
-        (owner-id 0)))
+        (direction "misc")))
     (groundpiece 
       (type "ground")
       (surface 
@@ -278,8 +276,7 @@
       (surface 
         (image "exits/desert_tut")
         (modifier "ROT0"))
-      (position 1049 540 0)
-      (owner-id 0))
+      (position 1049 540 0))
     (groundpiece 
       (type "ground")
       (surface 

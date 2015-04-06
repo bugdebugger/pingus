@@ -713,7 +713,6 @@
       (direction "left")
       (release-rate 25))
     (exit 
-      (owner-id 0)
       (position 1076 849 0)
       (surface 
         (image "exits/ice")

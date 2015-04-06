@@ -106,8 +106,7 @@ closer to ther smoke")
       (position 157 533 0)
       (overrides 
         (release-rate 50)
-        (direction "misc")
-        (owner-id 0)))
+        (direction "misc")))
     (groundpiece 
       (type "ground")
       (surface 
@@ -353,8 +352,7 @@ closer to ther smoke")
       (surface 
         (image "exits/xmas")
         (modifier "ROT0"))
-      (position 1340 1019 0)
-      (owner-id 0))
+      (position 1340 1019 0))
     (groundpiece 
       (type "solid")
       (surface 

@@ -762,8 +762,7 @@
       (surface 
         (image "exits/industrial")
         (modifier "ROT0"))
-      (position 356 837 0)
-      (owner-id 0))
+      (position 356 837 0))
     (groundpiece 
       (type "ground")
       (surface 
@@ -1364,12 +1363,10 @@
       (position 428 307 1))
     (entrance 
       (position 234 222 100)
-      (owner-id 0)
       (direction "right")
       (release-rate 150))
     (entrance 
       (position 1034 101 100)
-      (owner-id 0)
       (direction "misc")
       (release-rate 150))
     (hotspot 

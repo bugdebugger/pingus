@@ -449,8 +449,7 @@
       (surface 
         (image "exits/ice2")
         (modifier "ROT0"))
-      (position 1443.74 847.429 0)
-      (owner-id 0))
+      (position 1443.74 847.429 0))
     (groundpiece 
       (type "ground")
       (surface 
@@ -583,8 +582,7 @@
       (position 609 502 0)
       (overrides 
         (release-rate 150)
-        (direction "right")
-        (owner-id 0)))
+        (direction "right")))
     (snow-generator 
       (position 207 451 200))))
 

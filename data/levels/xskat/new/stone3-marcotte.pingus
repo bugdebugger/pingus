@@ -46,12 +46,10 @@
       (keep-aspect #f)
       (position 0 0 -250))
     (exit 
-      (owner-id 0)
       (position 69 232 0)
       (surface 
         (image "exits/stone")
-        (modifier "ROT0"))
-      (owner-id 0))
+        (modifier "ROT0")))
     (hotspot 
       (surface 
         (image "entrances/wood_bottom")
@@ -63,8 +61,7 @@
       (position 972 100 50)
       (type "generic")
       (direction "left")
-      (release-rate 60)
-      (owner-id 0))
+      (release-rate 60))
     (groundpiece 
       (type "ground")
       (surface 

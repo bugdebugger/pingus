@@ -497,14 +497,12 @@
       (position 1187 199 0)
       (overrides 
         (release-rate 50)
-        (direction "left")
-        (owner-id 0)))
+        (direction "left")))
     (exit 
       (surface 
         (image "exits/desert_tut")
         (modifier "ROT0"))
-      (position 775 698 0)
-      (owner-id 0))
+      (position 775 698 0))
     (groundpiece 
       (type "solid")
       (surface 

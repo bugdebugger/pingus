@@ -251,15 +251,13 @@
       (surface 
         (image "exits/desert")
         (modifier "ROT0"))
-      (position 1743 972 0)
-      (owner-id 0))
+      (position 1743 972 0))
     (prefab 
       (name "prefabs/entrances/desert")
       (position 117 865 0)
       (overrides 
         (release-rate 555)
-        (direction "right")
-        (owner-id 0)))
+        (direction "right")))
     (groundpiece 
       (type "ground")
       (surface 
@@ -276,8 +274,7 @@
       (surface 
         (image "exits/desert")
         (modifier "ROT0"))
-      (position 1745 895 0)
-      (owner-id 0))
+      (position 1745 895 0))
     (groundpiece 
       (type "ground")
       (surface 
@@ -294,20 +291,17 @@
       (surface 
         (image "exits/desert")
         (modifier "ROT0"))
-      (position 1743 819 0)
-      (owner-id 0))
+      (position 1743 819 0))
     (exit 
       (surface 
         (image "exits/desert")
         (modifier "ROT0"))
-      (position 1745 742 0)
-      (owner-id 0))
+      (position 1745 742 0))
     (exit 
       (surface 
         (image "exits/desert")
         (modifier "ROT0"))
-      (position 1742 589 0)
-      (owner-id 0))
+      (position 1742 589 0))
     (groundpiece 
       (type "ground")
       (surface 
@@ -330,14 +324,12 @@
       (surface 
         (image "exits/desert")
         (modifier "ROT0"))
-      (position 1744 665 0)
-      (owner-id 0))
+      (position 1744 665 0))
     (exit 
       (surface 
         (image "exits/desert")
         (modifier "ROT0"))
-      (position 1744 512 0)
-      (owner-id 0))
+      (position 1744 512 0))
     (iceblock 
       (position 1670 512 0)
       (repeat 1))
@@ -345,8 +337,7 @@
       (surface 
         (image "exits/desert")
         (modifier "ROT0"))
-      (position 1744 1050 0)
-      (owner-id 0))
+      (position 1744 1050 0))
     (groundpiece 
       (type "ground")
       (surface 

@@ -36,15 +36,12 @@
       (position 403.747 252 0)
       (type "generic")
       (direction "right")
-      (release-rate 250)
-      (owner-id 0))
+      (release-rate 250))
     (exit 
-      (owner-id 0)
       (position 606.854 573.961 0)
       (surface 
         (image "exits/industrial")
-        (modifier "ROT0"))
-      (owner-id 0))
+        (modifier "ROT0")))
     (groundpiece 
       (type "ground")
       (surface 

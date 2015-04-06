@@ -265,12 +265,10 @@
       (position 781 255 0)
       (type "generic")
       (direction "left")
-      (release-rate 125)
-      (owner-id 0))
+      (release-rate 125))
     (entrance 
       (position 662 399 0)
       (type "generic")
       (direction "misc")
-      (release-rate 125)
-      (owner-id 0))))
+      (release-rate 125))))
 ;; EOF ;;

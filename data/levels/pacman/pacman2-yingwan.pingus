@@ -55,15 +55,12 @@
       (position 567 102 0)
       (type "generic")
       (direction "right")
-      (release-rate 30)
-      (owner-id 0))
+      (release-rate 30))
     (exit 
-      (owner-id 0)
       (position 204 555 0)
       (surface 
         (image "special/pacman/pacman")
-        (modifier "ROT0"))
-      (owner-id 0))
+        (modifier "ROT0")))
     (hotspot 
       (surface 
         (image "special/pacman/blinky")

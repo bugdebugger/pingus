@@ -873,15 +873,13 @@
     (entrance 
       (type "generic")
       (position 694 144 0)
-      (owner-id 0)
       (direction "right")
       (release-rate 40))
     (exit 
       (surface 
         (image "exits/space")
         (modifier "ROT0"))
-      (position 79 213 0)
-      (owner-id 0))
+      (position 79 213 0))
     (hotspot 
       (surface 
         (image "entrances/space")

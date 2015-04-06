@@ -769,15 +769,12 @@
       (position 1044 145 0)
       (type "cloud")
       (direction "left")
-      (release-rate 25)
-      (owner-id 0))
+      (release-rate 25))
     (exit 
-      (owner-id 0)
       (position 1015 520 0)
       (surface 
         (image "exits/sweetexit")
-        (modifier "ROT0"))
-      (owner-id 0))
+        (modifier "ROT0")))
     (liquid 
       (surface 
         (image "liquids/water")

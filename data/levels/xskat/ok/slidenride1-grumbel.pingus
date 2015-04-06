@@ -388,13 +388,10 @@
       (position 364 472 0)
       (type "generic")
       (direction "misc")
-      (release-rate 50)
-      (owner-id 0))
+      (release-rate 50))
     (exit 
-      (owner-id 0)
       (position 715 292 0)
       (surface 
         (image "exits/stone")
-        (modifier "ROT0"))
-      (owner-id 0))))
+        (modifier "ROT0")))))
 ;; EOF ;;

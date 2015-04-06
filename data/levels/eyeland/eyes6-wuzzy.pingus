@@ -430,8 +430,7 @@
       (surface 
         (image "exits/sortie_anim")
         (modifier "ROT0"))
-      (position 958 666 0)
-      (owner-id 0))
+      (position 958 666 0))
     (groundpiece 
       (type "ground")
       (surface 
@@ -926,14 +925,12 @@
       (parallax 0))
     (entrance 
       (type "generic")
-      (position 1758 223 110)
-      (owner-id 0)
+      (position 1758 223 110)
       (direction "right")
       (release-rate 60))
     (entrance 
       (type "generic")
-      (position 272 963 110)
-      (owner-id 0)
+      (position 272 963 110)
       (direction "right")
       (release-rate 60))
     (groundpiece 

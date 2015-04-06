@@ -159,15 +159,13 @@
     (entrance 
       (type "generic")
       (position 71 502 0)
-      (owner-id 0)
       (direction "left")
       (release-rate 25))
     (exit 
       (surface 
         (image "exits/desert")
         (modifier "ROT0"))
-      (position 95 421 0)
-      (owner-id 0))
+      (position 95 421 0))
     (hotspot 
       (surface 
         (image "entrances/wood_bottom")

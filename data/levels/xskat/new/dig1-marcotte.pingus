@@ -30,8 +30,7 @@
       (position 390 213 0)
       (type "generic")
       (direction "right")
-      (release-rate 25)
-      (owner-id 0))
+      (release-rate 25))
     (groundpiece 
       (type "ground")
       (surface 
@@ -1049,12 +1048,10 @@
         (modifier "ROT0"))
       (position 2037 696 0))
     (exit 
-      (owner-id 0)
       (position 2049 783 0)
       (surface 
         (image "exits/mud")
-        (modifier "ROT0"))
-      (owner-id 0))
+        (modifier "ROT0")))
     (groundpiece 
       (type "transparent")
       (surface 

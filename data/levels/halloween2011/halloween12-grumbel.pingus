@@ -441,15 +441,13 @@
       (surface 
         (image "exits/halloween")
         (modifier "ROT0"))
-      (position 852 849 0)
-      (owner-id 0))
+      (position 852 849 0))
     (prefab 
       (name "prefabs/entrances/halloween")
       (position 676 1069 0)
       (overrides 
         (release-rate 350)
-        (direction "right")
-        (owner-id 0)))
+        (direction "right")))
     (groundpiece 
       (type "ground")
       (surface 

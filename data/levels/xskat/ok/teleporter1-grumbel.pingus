@@ -341,15 +341,12 @@
       (position 648 508 0)
       (type "generic")
       (direction "misc")
-      (release-rate 50)
-      (owner-id 0))
+      (release-rate 50))
     (exit 
-      (owner-id 0)
       (position 1005 679 0)
       (surface 
         (image "exits/space")
-        (modifier "ROT0"))
-      (owner-id 0))
+        (modifier "ROT0")))
     (teleporter 
       (target-id "id2442322")
       (position 457 344 0))

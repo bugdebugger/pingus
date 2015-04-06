@@ -25,8 +25,7 @@
       (position 1120 82 0)
       (type "generic")
       (direction "misc")
-      (release-rate 50)
-      (owner-id 0))
+      (release-rate 50))
     (groundpiece 
       (type "ground")
       (surface 
@@ -202,12 +201,10 @@
         (modifier "ROT0"))
       (position 440 218 0))
     (exit 
-      (owner-id 0)
       (position 464 408 0)
       (surface 
         (image "exits/space")
-        (modifier "ROT0"))
-      (owner-id 0))
+        (modifier "ROT0")))
     (hotspot 
       (surface 
         (image "entrances/snow_back")
@@ -219,8 +216,7 @@
       (position 1057.36 312.143 0)
       (type "generic")
       (direction "right")
-      (release-rate 150)
-      (owner-id 0))
+      (release-rate 150))
     (hotspot 
       (surface 
         (image "entrances/snow_front")

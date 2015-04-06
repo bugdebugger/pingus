@@ -107,14 +107,12 @@
       (position 940 920 0)
       (overrides 
         (release-rate 50)
-        (direction "right")
-        (owner-id 0)))
+        (direction "right")))
     (exit 
       (surface 
         (image "exits/crystal")
         (modifier "ROT0"))
-      (position 1792 1068 0)
-      (owner-id 0))
+      (position 1792 1068 0))
     (rain-generator 
       (position 1376 1213 0))
     (groundpiece 
@@ -141,8 +139,7 @@
       (position 969 74 0)
       (overrides 
         (release-rate 50)
-        (direction "misc")
-        (owner-id 0)))
+        (direction "misc")))
     (prefab 
       (name "prefabs/liquids/water")
       (position 1047 1153 0)
@@ -3874,8 +3871,7 @@
       (position 186 68 0)
       (overrides 
         (release-rate 50)
-        (direction "right")
-        (owner-id 0)))
+        (direction "right")))
     (groundpiece 
       (type "ground")
       (surface 
@@ -3887,8 +3883,7 @@
       (position 650 54 0)
       (overrides 
         (release-rate 50)
-        (direction "misc")
-        (owner-id 0)))
+        (direction "misc")))
     (groundpiece 
       (type "solid")
       (surface 
@@ -5073,22 +5068,18 @@
       (position 1464 557 0))
     (entrance 
       (position 1817 144 110)
-      (owner-id 0)
       (direction "left")
       (release-rate 150))
     (entrance 
       (position 1224 310 110)
-      (owner-id 0)
       (direction "misc")
       (release-rate 150))
     (entrance 
       (position 1189 468 110)
-      (owner-id 0)
       (direction "misc")
       (release-rate 150))
     (entrance 
       (position 1740 526 110)
-      (owner-id 0)
       (direction "left")
       (release-rate 150))))
 

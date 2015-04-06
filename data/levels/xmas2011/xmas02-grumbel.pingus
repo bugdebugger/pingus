@@ -337,8 +337,7 @@
       (surface 
         (image "exits/xmas")
         (modifier "ROT0"))
-      (position 593 461 0)
-      (owner-id 0))
+      (position 593 461 0))
     (groundpiece 
       (type "ground")
       (surface 
@@ -1963,7 +1962,6 @@
       (parallax 0))
     (entrance 
       (position 794 740 110)
-      (owner-id 0)
       (direction "misc")
       (release-rate 150))))
 

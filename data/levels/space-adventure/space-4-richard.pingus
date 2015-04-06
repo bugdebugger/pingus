@@ -697,8 +697,7 @@
       (surface 
         (image "exits/space")
         (modifier "ROT0"))
-      (position 491 485 0)
-      (owner-id 0))
+      (position 491 485 0))
     (hotspot 
       (surface 
         (image "hotspots/space/engine")
@@ -1136,8 +1135,7 @@
       (position 1162 633 0)
       (overrides 
         (release-rate 180)
-        (direction "misc")
-        (owner-id 0)))
+        (direction "misc")))
     (groundpiece 
       (type "ground")
       (surface 
@@ -1149,8 +1147,7 @@
       (position 1163 449 0)
       (overrides 
         (release-rate 120)
-        (direction "misc")
-        (owner-id 0)))
+        (direction "misc")))
     (groundpiece 
       (type "ground")
       (surface 

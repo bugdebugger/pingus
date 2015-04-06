@@ -582,14 +582,12 @@
       (position 1327 173 0)
       (overrides 
         (release-rate 250)
-        (direction "left")
-        (owner-id 0)))
+        (direction "left")))
     (exit 
       (surface 
         (image "exits/xmas")
         (modifier "ROT0"))
-      (position 1451 582 0)
-      (owner-id 0))
+      (position 1451 582 0))
     (groundpiece 
       (type "ground")
       (surface 

@@ -634,8 +634,7 @@ Good Luck & a Merry Xmas 2011")
       (surface 
         (image "exits/xmas")
         (modifier "ROT0"))
-      (position 1961 814 0)
-      (owner-id 0))
+      (position 1961 814 0))
     (groundpiece 
       (type "ground")
       (surface 
@@ -1127,8 +1126,7 @@ Good Luck & a Merry Xmas 2011")
       (position 532 223 0)
       (overrides 
         (release-rate 250)
-        (direction "misc")
-        (owner-id 0)))
+        (direction "misc")))
     (groundpiece 
       (type "ground")
       (surface 

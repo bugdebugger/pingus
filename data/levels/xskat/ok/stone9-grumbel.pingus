@@ -294,15 +294,12 @@
       (position 342 216 0)
       (type "generic")
       (direction "right")
-      (release-rate 100)
-      (owner-id 0))
+      (release-rate 100))
     (exit 
-      (owner-id 0)
       (position 1068 372 0)
       (surface 
         (image "exits/stone")
-        (modifier "ROT0"))
-      (owner-id 0))
+        (modifier "ROT0")))
     (switchdoor-switch
       (target-id "id3435412174")
       (position 809 338 0))

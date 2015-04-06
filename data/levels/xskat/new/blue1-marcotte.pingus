@@ -107,8 +107,7 @@
       (position 542.351 377.949 0)
       (type "generic")
       (direction "left")
-      (release-rate 200)
-      (owner-id 0))
+      (release-rate 200))
     (groundpiece 
       (type "ground")
       (surface 
@@ -152,18 +151,15 @@
         (modifier "ROT270FLIP"))
       (position 193 265 0))
     (exit 
-      (owner-id 0)
       (position 1351.92 536.304 0)
       (surface 
         (image "exits/crystal")
-        (modifier "ROT0"))
-      (owner-id 0))
+        (modifier "ROT0")))
     (entrance 
       (position 1174.35 334.949 0)
       (type "generic")
       (direction "right")
-      (release-rate 1000)
-      (owner-id 0))
+      (release-rate 1000))
     (groundpiece 
       (type "ground")
       (surface 

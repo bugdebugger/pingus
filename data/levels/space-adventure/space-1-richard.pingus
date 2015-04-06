@@ -220,8 +220,7 @@
       (position 501 470 0)
       (overrides 
         (release-rate 25)
-        (direction "misc")
-        (owner-id 0)))
+        (direction "misc")))
     (groundpiece 
       (type "ground")
       (surface 
@@ -232,8 +231,7 @@
       (surface 
         (image "exits/space")
         (modifier "ROT0"))
-      (position 498 673 0)
-      (owner-id 0))
+      (position 498 673 0))
     (switchdoor-door 
       (position 401 540 0)
       (id "id16475")

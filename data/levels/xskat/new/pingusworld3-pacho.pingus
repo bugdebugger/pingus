@@ -90,8 +90,7 @@
       (position 694 212 0)
       (type "cloud")
       (direction "misc")
-      (release-rate 50)
-      (owner-id 0))
+      (release-rate 50))
     (groundpiece 
       (type "ground")
       (surface 
@@ -120,8 +119,7 @@
       (position 729 429 0)
       (type "generic")
       (direction "misc")
-      (release-rate 50)
-      (owner-id 0))
+      (release-rate 50))
     (liquid 
       (surface 
         (image "liquids/slime")
@@ -179,12 +177,10 @@
         (modifier "ROT0"))
       (position 977 535 0))
     (exit 
-      (owner-id 0)
       (position 1381 435 0)
       (surface 
         (image "exits/ice2")
-        (modifier "ROT0"))
-      (owner-id 0))
+        (modifier "ROT0")))
     (liquid 
       (surface 
         (image "liquids/water2")
@@ -210,8 +206,7 @@
       (position 294.357 338.143 0)
       (type "generic")
       (direction "right")
-      (release-rate 150)
-      (owner-id 0))
+      (release-rate 150))
     (hotspot 
       (surface 
         (image "entrances/snow_front")

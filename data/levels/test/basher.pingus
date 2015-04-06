@@ -177,7 +177,6 @@
     (entrance 
       (type "generic")
       (position 502 177 0)
-      (owner-id 0)
       (direction "misc")
       (release-rate 50))
     (groundpiece 

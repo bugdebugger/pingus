@@ -52,8 +52,7 @@ This is a risky trip, but you must take it to find out how to bring them all to 
       (position 1335 437 0)
       (overrides 
         (release-rate 150)
-        (direction "right")
-        (owner-id 0)))
+        (direction "right")))
     (groundpiece 
       (type "ground")
       (surface 
@@ -1000,8 +999,7 @@ This is a risky trip, but you must take it to find out how to bring them all to 
       (surface 
         (image "exits/halloween")
         (modifier "ROT0"))
-      (position 312 886 0)
-      (owner-id 0))
+      (position 312 886 0))
     (groundpiece 
       (type "ground")
       (surface 

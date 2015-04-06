@@ -1024,21 +1024,17 @@
       (position 420 208 0)
       (type "cloud")
       (direction "left")
-      (release-rate 25)
-      (owner-id 0))
+      (release-rate 25))
     (entrance 
       (position 1960 272 0)
       (type "cloud")
       (direction "left")
-      (release-rate 25)
-      (owner-id 0))
+      (release-rate 25))
     (exit 
-      (owner-id 0)
       (position 994 1059 0)
       (surface 
         (image "exits/stone")
-        (modifier "ROT0"))
-      (owner-id 0))
+        (modifier "ROT0")))
     (fake_exit 
       (position 224 860 0))))
 ;; EOF ;;

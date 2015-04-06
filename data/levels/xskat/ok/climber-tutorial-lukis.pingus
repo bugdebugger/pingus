@@ -32,8 +32,7 @@
       (position 332 321 -100)
       (type "woodthing")
       (direction "right")
-      (release-rate 50)
-      (owner-id 0))
+      (release-rate 50))
     (liquid 
       (surface 
         (image "liquids/water2")
@@ -379,12 +378,10 @@
         (modifier "ROT0"))
       (position 1088 567 0))
     (exit 
-      (owner-id 0)
       (position 1003 213 0)
       (surface 
         (image "exits/desert")
-        (modifier "ROT0"))
-      (owner-id 0))
+        (modifier "ROT0")))
     (hotspot 
       (surface 
         (image "entrances/woodthing_nmov")

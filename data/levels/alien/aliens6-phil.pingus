@@ -128,7 +128,6 @@
     (entrance 
       (type "generic")
       (position 547 123 0)
-      (owner-id 0)
       (direction "left")
       (release-rate 25))
     (groundpiece 
@@ -1984,8 +1983,7 @@
       (surface 
         (image "exits/sortie")
         (modifier "ROT0"))
-      (position 796 571 0)
-      (owner-id 0))
+      (position 796 571 0))
     (hotspot 
       (surface 
         (image "entrances/space")

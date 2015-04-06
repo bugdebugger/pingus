@@ -372,13 +372,10 @@
       (position 842 115 0)
       (type "generic")
       (direction "left")
-      (release-rate 25)
-      (owner-id 0))
+      (release-rate 25))
     (exit 
-      (owner-id 0)
       (position 216 501 0)
       (surface 
         (image "exits/space")
-        (modifier "ROT0"))
-      (owner-id 0))))
+        (modifier "ROT0")))))
 ;; EOF ;;

@@ -125,15 +125,12 @@
       (position 311 82 0)
       (type "generic")
       (direction "misc")
-      (release-rate 50)
-      (owner-id 0))
+      (release-rate 50))
     (exit 
-      (owner-id 0)
       (position 1922.31 1505.64 0)
       (surface 
         (image "exits/ordina")
-        (modifier "ROT0"))
-      (owner-id 0))
+        (modifier "ROT0")))
     (groundpiece 
       (type "ground")
       (surface 

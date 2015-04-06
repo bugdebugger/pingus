@@ -66,8 +66,7 @@
       (surface 
         (image "exits/crystal")
         (modifier "ROT0"))
-      (position 769 334 0)
-      (owner-id 0))
+      (position 769 334 0))
     (groundpiece 
       (type "solid")
       (surface 
@@ -288,7 +287,6 @@
     (entrance 
       (type "generic")
       (position 200 281 110)
-      (owner-id 0)
       (direction "misc")
       (release-rate 150))
     (groundpiece 

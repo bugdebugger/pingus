@@ -32,12 +32,10 @@
       (keep-aspect #f)
       (position 65 0 -150))
     (exit 
-      (owner-id 0)
       (position 328 615 -50)
       (surface 
         (image "exits/crystal")
-        (modifier "ROT0"))
-      (owner-id 0))
+        (modifier "ROT0")))
     (groundpiece 
       (type "ground")
       (surface 
@@ -210,8 +208,7 @@
       (position 721 339 0)
       (type "generic")
       (direction "right")
-      (release-rate 50)
-      (owner-id 0))
+      (release-rate 50))
     (groundpiece 
       (type "ground")
       (surface 

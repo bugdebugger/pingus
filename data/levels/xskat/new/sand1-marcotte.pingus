@@ -53,7 +53,6 @@
     (entrance 
       (type "generic")
       (position 249 602 0)
-      (owner-id 0)
       (direction "right")
       (release-rate 125))
     (groundpiece 
@@ -66,8 +65,7 @@
       (surface 
         (image "exits/desert")
         (modifier "ROT0"))
-      (position 1587 886 0)
-      (owner-id 0))
+      (position 1587 886 0))
     (groundpiece 
       (type "solid")
       (surface 

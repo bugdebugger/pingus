@@ -472,8 +472,7 @@
       (surface 
         (image "exits/crystal")
         (modifier "ROT0"))
-      (position 1397 548 0)
-      (owner-id 0))
+      (position 1397 548 0))
     (groundpiece 
       (type "ground")
       (surface 
@@ -974,7 +973,6 @@
     (entrance 
       (type "generic")
       (position 78 236 110)
-      (owner-id 0)
       (direction "right")
       (release-rate 150))
     (hotspot 

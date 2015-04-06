@@ -35,7 +35,6 @@
       (para-y 0.5))
     (entrance 
       (position 316 488 -50)
-      (owner-id 0)
       (direction "right")
       (release-rate 150))
     (groundpiece 
@@ -349,8 +348,7 @@
       (surface 
         (image "exits/stone")
         (modifier "ROT0"))
-      (position 1852 776 0)
-      (owner-id 0))
+      (position 1852 776 0))
     (groundpiece 
       (type "ground")
       (surface 

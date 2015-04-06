@@ -377,15 +377,12 @@
       (position 379 171 0)
       (type "woodthing")
       (direction "left")
-      (release-rate 25)
-      (owner-id 0))
+      (release-rate 25))
     (exit 
-      (owner-id 0)
       (position 1812 472 0)
       (surface 
         (image "exits/stone")
-        (modifier "ROT0"))
-      (owner-id 0))
+        (modifier "ROT0")))
     (hotspot 
       (surface 
         (image "entrances/woodthing_nmov")

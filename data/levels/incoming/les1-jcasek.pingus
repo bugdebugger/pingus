@@ -597,8 +597,7 @@
       (surface 
         (image "exits/forest")
         (modifier "ROT0"))
-      (position 1677 574 0)
-      (owner-id 0))
+      (position 1677 574 0))
     (groundpiece 
       (type "ground")
       (surface 

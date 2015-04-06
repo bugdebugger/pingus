@@ -262,15 +262,13 @@
     (entrance 
       (type "cloud")
       (position 150 89 0)
-      (owner-id 0)
       (direction "left")
       (release-rate 25))
     (exit 
       (surface 
         (image "exits/stone")
         (modifier "ROT0"))
-      (position 154 419 0)
-      (owner-id 0))
+      (position 154 419 0))
     (guillotine 
       (position 425 147 0))
     (liquid 

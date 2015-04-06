@@ -42,7 +42,6 @@
     (entrance 
       (type "generic")
       (position 264 161 0)
-      (owner-id 0)
       (direction "right")
       (release-rate 5))
     (groundpiece 

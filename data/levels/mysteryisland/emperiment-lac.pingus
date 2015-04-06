@@ -119,8 +119,7 @@
       (surface 
         (image "exits/space")
         (modifier "ROT0"))
-      (position 1029 814 0)
-      (owner-id 0))
+      (position 1029 814 0))
     (groundpiece 
       (type "solid")
       (surface 
@@ -192,7 +191,6 @@
     (entrance 
       (type "generic")
       (position 684 773 110)
-      (owner-id 0)
       (direction "right")
       (release-rate 150))))
 

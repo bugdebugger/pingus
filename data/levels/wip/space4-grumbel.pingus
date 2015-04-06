@@ -413,15 +413,12 @@
       (position 701 396 0)
       (type "generic")
       (direction "misc")
-      (release-rate 50)
-      (owner-id 0))
+      (release-rate 50))
     (exit 
-      (owner-id 0)
       (position 220 252 0)
       (surface 
         (image "exits/space")
-        (modifier "ROT0"))
-      (owner-id 0))
+        (modifier "ROT0")))
     (hotspot 
       (surface 
         (image "entrances/space")

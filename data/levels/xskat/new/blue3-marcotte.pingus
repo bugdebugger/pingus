@@ -44,12 +44,10 @@
         (modifier "ROT90"))
       (position 147 705 0))
     (exit 
-      (owner-id 0)
       (position 305.816 242.959 0)
       (surface 
         (image "exits/crystal")
-        (modifier "ROT0"))
-      (owner-id 0))
+        (modifier "ROT0")))
     (groundpiece 
       (type "ground")
       (surface 
@@ -708,8 +706,7 @@
       (position 303.796 561.367 0)
       (type "generic")
       (direction "misc")
-      (release-rate 50)
-      (owner-id 0))
+      (release-rate 50))
     (groundpiece 
       (type "ground")
       (surface 

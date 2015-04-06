@@ -173,13 +173,11 @@
     (entrance 
       (type "generic")
       (position 703 590 0)
-      (owner-id 0)
       (direction "misc")
       (release-rate 50))
     (entrance 
       (type "generic")
       (position 1027 584 0)
-      (owner-id 0)
       (direction "misc")
       (release-rate 50))
     (groundpiece 
@@ -210,7 +208,6 @@
     (entrance 
       (type "generic")
       (position 1377 584 0)
-      (owner-id 0)
       (direction "misc")
       (release-rate 50))
     (groundpiece 

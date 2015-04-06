@@ -35,18 +35,15 @@
       (keep-aspect #t)
       (position -257 2 -150))
     (exit 
-      (owner-id 0)
       (position 106 430 0)
       (surface 
         (image "exits/crystal")
-        (modifier "ROT0"))
-      (owner-id 0))
+        (modifier "ROT0")))
     (entrance 
       (position 998 432 0)
       (type "generic")
       (direction "left")
-      (release-rate 125)
-      (owner-id 0))
+      (release-rate 125))
     (hotspot 
       (surface 
         (image "hotspots/signposts/arrow_west")

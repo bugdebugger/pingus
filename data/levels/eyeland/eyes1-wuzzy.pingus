@@ -430,8 +430,7 @@
       (parallax 0))
     (entrance 
       (type "generic")
-      (position 791 382 110)
-      (owner-id 0)
+      (position 791 382 110)
       (direction "right")
       (release-rate 100))
     (surface-background 
@@ -638,8 +637,7 @@
       (surface 
         (image "exits/sortie_anim")
         (modifier "ROT0"))
-      (position 1744 731 0)
-      (owner-id 0))
+      (position 1744 731 0))
     (groundpiece 
       (type "remove")
       (surface 

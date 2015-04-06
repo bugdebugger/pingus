@@ -195,14 +195,12 @@
       (surface 
         (image "exits/forest")
         (modifier "ROT0"))
-      (position 1673 1018 0)
-      (owner-id 0))
+      (position 1673 1018 0))
     (exit 
       (surface 
         (image "exits/forest")
         (modifier "ROT0"))
-      (position 207 1019 0)
-      (owner-id 0))
+      (position 207 1019 0))
     (groundpiece 
       (type "ground")
       (surface 
@@ -382,15 +380,13 @@
       (position 153 168 0)
       (overrides 
         (release-rate 300)
-        (direction "right")
-        (owner-id 0)))
+        (direction "right")))
     (prefab 
       (name "prefabs/entrances/snow")
       (position 1774 156 0)
       (overrides 
         (release-rate 300)
-        (direction "left")
-        (owner-id 0)))
+        (direction "left")))
     (liquid 
       (surface 
         (image "liquids/slime")

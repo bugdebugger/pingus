@@ -1,7 +1,6 @@
 (pingus-prefab 
   (version 3)
   (overrides
-    (owner-id 0)
     (direction "misc")
     (release-rate 50))
   (objects 
@@ -21,7 +20,6 @@
       (parallax 0))
     (entrance 
       (position 0 0 110)
-      (owner-id 0)
       (direction "misc")
       (release-rate 150))))
 

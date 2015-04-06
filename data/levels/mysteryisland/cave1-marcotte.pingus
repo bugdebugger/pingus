@@ -43,15 +43,12 @@
       (position 640 135 0)
       (type "generic")
       (direction "misc")
-      (release-rate 75)
-      (owner-id 0))
+      (release-rate 75))
     (exit 
-      (owner-id 0)
       (position 151 394 0)
       (surface 
         (image "exits/stone")
-        (modifier "ROT0"))
-      (owner-id 0))
+        (modifier "ROT0")))
     (groundpiece 
       (type "ground")
       (surface 

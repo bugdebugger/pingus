@@ -42,13 +42,11 @@
       (direction "left")
       (release-rate 25))
     (exit 
-      (owner-id 0)
       (position 829 450 0)
       (surface 
         (image "exits/sortie_anim")
         (modifier "ROT0")))
     (exit 
-      (owner-id 0)
       (position 609 450 0)
       (surface 
         (image "exits/sortie_anim")

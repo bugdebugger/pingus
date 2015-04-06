@@ -759,8 +759,7 @@
       (surface 
         (image "exits/forest")
         (modifier "ROT0"))
-      (position 1822 581 0)
-      (owner-id 0))
+      (position 1822 581 0))
     (groundpiece 
       (type "ground")
       (surface 
@@ -2400,8 +2399,7 @@
       (position 180 321 0)
       (overrides 
         (release-rate 300)
-        (direction "right")
-        (owner-id 0)))
+        (direction "right")))
     (groundpiece 
       (type "ground")
       (surface 

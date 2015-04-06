@@ -34,14 +34,12 @@
       (position 564.4 285.2 0)
       (type "cloud")
       (direction "misc")
-      (release-rate 200)
-      (owner-id 0))
+      (release-rate 200))
     (entrance 
       (position 230 280 0)
       (type "cloud")
       (direction "misc")
-      (release-rate 120)
-      (owner-id 0))
+      (release-rate 120))
     (groundpiece 
       (type "ground")
       (surface 
@@ -55,12 +53,10 @@
         (modifier "ROT0"))
       (position 267 992 0))
     (exit 
-      (owner-id 0)
       (position 445.8 1067.7 0)
       (surface 
         (image "exits/ordina")
-        (modifier "ROT0"))
-      (owner-id 0))
+        (modifier "ROT0")))
     (groundpiece 
       (type "ground")
       (surface 
@@ -83,8 +79,7 @@
       (position 400.8 283.1 0)
       (type "cloud")
       (direction "misc")
-      (release-rate 450)
-      (owner-id 0))
+      (release-rate 450))
     (groundpiece 
       (type "ground")
       (surface 

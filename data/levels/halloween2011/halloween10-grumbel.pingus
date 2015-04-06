@@ -926,8 +926,7 @@
       (position 1021 401 0)
       (overrides 
         (release-rate 250)
-        (direction "left")
-        (owner-id 0)))
+        (direction "left")))
     (groundpiece 
       (type "ground")
       (surface 
@@ -1345,8 +1344,7 @@
       (surface 
         (image "exits/halloween")
         (modifier "ROT0"))
-      (position 1138 2033 0)
-      (owner-id 0))
+      (position 1138 2033 0))
     (groundpiece 
       (type "ground")
       (surface 

@@ -326,8 +326,7 @@
       (surface 
         (image "exits/desert_tut")
         (modifier "ROT0"))
-      (position 137 810 0)
-      (owner-id 0))
+      (position 137 810 0))
     (groundpiece 
       (type "ground")
       (surface 
@@ -866,8 +865,7 @@
       (surface 
         (image "exits/desert_tut")
         (modifier "ROT0"))
-      (position 1730 363 0)
-      (owner-id 0))
+      (position 1730 363 0))
     (groundpiece 
       (type "ground")
       (surface 

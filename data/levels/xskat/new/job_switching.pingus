@@ -39,15 +39,12 @@
       (position 348 70 0)
       (type "woodthing")
       (direction "misc")
-      (release-rate 50)
-      (owner-id 0))
+      (release-rate 50))
     (exit 
-      (owner-id 0)
       (position 795 216 0)
       (surface 
         (image "exits/ordina")
-        (modifier "ROT0"))
-      (owner-id 0))
+        (modifier "ROT0")))
     (groundpiece 
       (type "solid")
       (surface 

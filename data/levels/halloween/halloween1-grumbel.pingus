@@ -536,8 +536,7 @@
       (surface 
         (image "exits/halloween")
         (modifier "ROT0"))
-      (position 1499 739 0)
-      (owner-id 0))
+      (position 1499 739 0))
     (groundpiece 
       (type "ground")
       (surface 
@@ -1331,7 +1330,6 @@
           (parallax 0))
         (entrance 
           (position 801 260 110)
-          (owner-id 0)
           (direction "left")
           (release-rate 150))))
     (liquid 

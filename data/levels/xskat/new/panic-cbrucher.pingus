@@ -25,8 +25,7 @@
       (position 124 194 0)
       (type "generic")
       (direction "right")
-      (release-rate 50)
-      (owner-id 0))
+      (release-rate 50))
     (groundpiece 
       (type "ground")
       (surface 
@@ -109,12 +108,10 @@
         (modifier "ROT0"))
       (position 518 306 0))
     (exit 
-      (owner-id 0)
       (position 533 308 0)
       (surface 
         (image "exits/ice2")
-        (modifier "ROT0"))
-      (owner-id 0))
+        (modifier "ROT0")))
     (groundpiece 
       (type "ground")
       (surface 

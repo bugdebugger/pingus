@@ -251,8 +251,7 @@
       (surface 
         (image "exits/crystal")
         (modifier "ROT0"))
-      (position 969 551 0)
-      (owner-id 0))
+      (position 969 551 0))
     (liquid 
       (surface 
         (image "liquids/water2")
@@ -270,7 +269,6 @@
     (entrance 
       (type "generic")
       (position 732 550 110)
-      (owner-id 0)
       (direction "right")
       (release-rate 750))))
 

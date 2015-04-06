@@ -1805,15 +1805,12 @@
       (position 58 368 0)
       (type "generic")
       (direction "left")
-      (release-rate 25)
-      (owner-id 0))
+      (release-rate 25))
     (exit 
-      (owner-id 0)
       (position 769 574 0)
       (surface 
         (image "groundpieces/ground/sortie/plate_forme_left")
-        (modifier "ROT0"))
-      (owner-id 0))
+        (modifier "ROT0")))
     (hotspot 
       (surface 
         (image "entrances/space")

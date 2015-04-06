@@ -126,12 +126,10 @@
         (modifier "ROT0"))
       (position 248 211 0))
     (exit 
-      (owner-id 0)
       (position 821 798 0)
       (surface 
         (image "exits/stone")
-        (modifier "ROT0"))
-      (owner-id 0))
+        (modifier "ROT0")))
     (groundpiece 
       (type "ground")
       (surface 
@@ -274,14 +272,12 @@
       (position 346 123 0)
       (type "generic")
       (direction "right")
-      (release-rate 300)
-      (owner-id 0))
+      (release-rate 300))
     (entrance 
       (position 645 140 0)
       (type "generic")
       (direction "right")
-      (release-rate 300)
-      (owner-id 0))
+      (release-rate 300))
     (groundpiece 
       (type "ground")
       (surface 

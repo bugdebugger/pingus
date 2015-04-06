@@ -1248,7 +1248,6 @@
           (parallax 0))
         (entrance 
           (position 408 237 110)
-          (owner-id 0)
           (direction "right")
           (release-rate 250))))
     (prefab 
@@ -1320,8 +1319,7 @@
       (surface 
         (image "exits/xmas")
         (modifier "ROT0"))
-      (position 1497 973 0)
-      (owner-id 0))
+      (position 1497 973 0))
     (groundpiece 
       (type "ground")
       (surface 

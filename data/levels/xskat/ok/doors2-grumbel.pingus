@@ -1249,8 +1249,7 @@
       (position 1011 484 0)
       (type "generic")
       (direction "misc")
-      (release-rate 50)
-      (owner-id 0))
+      (release-rate 50))
     (groundpiece 
       (type "ground")
       (surface 
@@ -1273,42 +1272,32 @@
       (position 1099 111 0)
       (type "generic")
       (direction "misc")
-      (release-rate 50)
-      (owner-id 0))
+      (release-rate 50))
     (entrance 
       (position 1388 900 0)
       (type "generic")
       (direction "misc")
-      (release-rate 50)
-      (owner-id 0))
+      (release-rate 50))
     (exit 
-      (owner-id 0)
       (position 615 663 0)
       (surface 
         (image "exits/industrial")
-        (modifier "ROT0"))
-      (owner-id 0))
+        (modifier "ROT0")))
     (exit 
-      (owner-id 0)
       (position 581 1100 0)
       (surface 
         (image "exits/industrial")
-        (modifier "ROT0"))
-      (owner-id 0))
+        (modifier "ROT0")))
     (exit 
-      (owner-id 0)
       (position 209 222 0)
       (surface 
         (image "exits/industrial")
-        (modifier "ROT0"))
-      (owner-id 0))
+        (modifier "ROT0")))
     (exit 
-      (owner-id 0)
       (position 1500 175 0)
       (surface 
         (image "exits/stone")
-        (modifier "ROT0"))
-      (owner-id 0))
+        (modifier "ROT0")))
     (groundpiece 
       (type "ground")
       (surface 

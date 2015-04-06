@@ -48,12 +48,10 @@
         (modifier "ROT0"))
       (position 71 694 -150))
     (exit 
-      (owner-id 0)
       (position 542 618 -100)
       (surface 
         (image "exits/industrial")
-        (modifier "ROT0"))
-      (owner-id 0))
+        (modifier "ROT0")))
     (hotspot 
       (surface 
         (image "entrances/industrial")
@@ -653,14 +651,12 @@
       (position 811 515 0)
       (type "generic")
       (direction "misc")
-      (release-rate 50)
-      (owner-id 0))
+      (release-rate 50))
     (entrance 
       (position 400 247 50)
       (type "generic")
       (direction "misc")
-      (release-rate 50)
-      (owner-id 0))
+      (release-rate 50))
     (hotspot 
       (surface 
         (image "entrances/industrial_top")

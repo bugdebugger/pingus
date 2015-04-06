@@ -28,7 +28,6 @@
     (entrance 
       (type "generic")
       (position 474 724 0)
-      (owner-id 0)
       (direction "misc")
       (release-rate 1000))
     (groundpiece 
@@ -1612,7 +1611,6 @@
     (entrance 
       (type "generic")
       (position 799 188 0)
-      (owner-id 0)
       (direction "right")
       (release-rate 1000))
     (groundpiece 
@@ -1642,7 +1640,6 @@
     (entrance 
       (type "generic")
       (position 1101 185 0)
-      (owner-id 0)
       (direction "left")
       (release-rate 1000))
     (groundpiece 

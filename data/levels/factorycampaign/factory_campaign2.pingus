@@ -373,8 +373,7 @@
       (surface 
         (image "exits/stone")
         (modifier "ROT0"))
-      (position 1946 613 0)
-      (owner-id 0))
+      (position 1946 613 0))
     (groundpiece 
       (type "ground")
       (surface 
@@ -666,7 +665,6 @@
       (repeat 35))
     (entrance 
       (position 284 595 50)
-      (owner-id 0)
       (direction "right")
       (release-rate 150))
     (hotspot 

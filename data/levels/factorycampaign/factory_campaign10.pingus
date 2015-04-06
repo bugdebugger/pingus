@@ -216,8 +216,7 @@
       (surface 
         (image "exits/desert")
         (modifier "ROT0"))
-      (position 730 293 0)
-      (owner-id 0))
+      (position 730 293 0))
     (groundpiece 
       (type "bridge")
       (surface 
@@ -805,7 +804,6 @@
       (position 1869 403 1))
     (entrance 
       (position 279 669 100)
-      (owner-id 0)
       (direction "right")
       (release-rate 150))
     (hotspot 

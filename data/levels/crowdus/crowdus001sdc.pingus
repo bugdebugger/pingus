@@ -58,8 +58,7 @@
       (surface 
         (image "exits/stone")
         (modifier "ROT0"))
-      (position 781 404 0)
-      (owner-id 0))
+      (position 781 404 0))
     (prefab 
       (name "prefabs/entrances/woodbox")
       (position 780 440 0)
@@ -349,14 +348,12 @@
       (surface 
         (image "exits/sortie")
         (modifier "ROT0"))
-      (position 1052 829 0)
-      (owner-id 0))
+      (position 1052 829 0))
     (exit 
       (surface 
         (image "exits/crystal")
         (modifier "ROT0"))
-      (position 209 852 0)
-      (owner-id 0))
+      (position 209 852 0))
     (groundpiece 
       (type "transparent")
       (surface 
@@ -391,14 +388,12 @@
       (surface 
         (image "exits/forest")
         (modifier "ROT0"))
-      (position 757 1031 0)
-      (owner-id 0))
+      (position 757 1031 0))
     (exit 
       (surface 
         (image "exits/desert")
         (modifier "ROT0"))
-      (position 315 385 0)
-      (owner-id 0))
+      (position 315 385 0))
     (groundpiece 
       (type "ground")
       (surface 
@@ -445,8 +440,7 @@
       (surface 
         (image "exits/desert_tut")
         (modifier "ROT0"))
-      (position 579 255 0)
-      (owner-id 0))
+      (position 579 255 0))
     (groundpiece 
       (type "bridge")
       (surface 

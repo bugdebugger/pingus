@@ -42,12 +42,10 @@
       (repeat 2)
       (speed 50))
     (exit 
-      (owner-id 0)
       (position 1614 239 -5)
       (surface 
         (image "exits/ice")
-        (modifier "ROT0"))
-      (owner-id 0))
+        (modifier "ROT0")))
     (groundpiece 
       (type "ground")
       (surface 
@@ -1750,8 +1748,7 @@
       (position 488 123 0)
       (type "generic")
       (direction "left")
-      (release-rate 20)
-      (owner-id 0))
+      (release-rate 20))
     (groundpiece 
       (type "ground")
       (surface 

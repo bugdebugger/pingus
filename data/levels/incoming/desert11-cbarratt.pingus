@@ -124,8 +124,7 @@
       (position 603 374 0)
       (overrides 
         (release-rate 50)
-        (direction "misc")
-        (owner-id 0)))
+        (direction "misc")))
     (groundpiece 
       (type "solid")
       (surface 
@@ -942,8 +941,7 @@
       (surface 
         (image "exits/desert")
         (modifier "ROT0"))
-      (position 1635 1062 0)
-      (owner-id 0))
+      (position 1635 1062 0))
     (groundpiece 
       (type "solid")
       (surface 

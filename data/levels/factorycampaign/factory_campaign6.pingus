@@ -359,8 +359,7 @@
       (surface 
         (image "exits/desert")
         (modifier "ROT0"))
-      (position 1757 618 0)
-      (owner-id 0))
+      (position 1757 618 0))
     (groundpiece 
       (type "ground")
       (surface 
@@ -562,7 +561,6 @@
       (parallax 0))
     (entrance 
       (position 552 370 100)
-      (owner-id 0)
       (direction "misc")
       (release-rate 150))
     (hotspot 

@@ -132,19 +132,15 @@
       (position 390 144 0)
       (type "generic")
       (direction "misc")
-      (release-rate 25)
-      (owner-id 0))
+      (release-rate 25))
     (entrance 
       (position 690 251 0)
       (type "generic")
       (direction "misc")
-      (release-rate 25)
-      (owner-id 0))
+      (release-rate 25))
     (exit 
-      (owner-id 0)
       (position 828 309 0)
       (surface 
         (image "exits/desert")
-        (modifier "ROT0"))
-      (owner-id 0))))
+        (modifier "ROT0")))))
 ;; EOF ;;

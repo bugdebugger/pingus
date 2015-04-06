@@ -66,12 +66,10 @@
         (modifier "ROT0"))
       (position 93 185 0))
     (exit 
-      (owner-id 0)
       (position 491 560 0)
       (surface 
         (image "exits/ordina")
-        (modifier "ROT0"))
-      (owner-id 0))
+        (modifier "ROT0")))
     (groundpiece 
       (type "ground")
       (surface 
@@ -319,8 +317,7 @@
       (position 160.871 59.8569 0)
       (type "generic")
       (direction "right")
-      (release-rate 150)
-      (owner-id 0))
+      (release-rate 150))
     (hotspot 
       (surface 
         (image "entrances/snow_front")

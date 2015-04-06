@@ -442,14 +442,12 @@
       (position 826 523 0)
       (overrides 
         (release-rate 150)
-        (direction "right")
-        (owner-id 0)))
+        (direction "right")))
     (exit 
       (surface 
         (image "exits/ice2")
         (modifier "ROT0"))
-      (position 1047.48 847.52 0)
-      (owner-id 0))
+      (position 1047.48 847.52 0))
     (liquid 
       (surface 
         (image "liquids/water2")

@@ -300,12 +300,10 @@
         (modifier "ROT0"))
       (position 545 308 0))
     (exit 
-      (owner-id 0)
       (position 379 463 0)
       (surface 
         (image "exits/stone")
-        (modifier "ROT0"))
-      (owner-id 0))
+        (modifier "ROT0")))
     (groundpiece 
       (type "ground")
       (surface 
@@ -316,14 +314,12 @@
       (position 616.357 196.143 0)
       (type "generic")
       (direction "left")
-      (release-rate 150)
-      (owner-id 0))
+      (release-rate 150))
     (entrance 
       (position 397.357 169.143 0)
       (type "generic")
       (direction "misc")
-      (release-rate 150)
-      (owner-id 0))
+      (release-rate 150))
     (hotspot 
       (surface 
         (image "entrances/snow_back")
@@ -335,8 +331,7 @@
       (position 188.357 191.143 0)
       (type "generic")
       (direction "right")
-      (release-rate 150)
-      (owner-id 0))
+      (release-rate 150))
     (hotspot 
       (surface 
         (image "entrances/snow_front")

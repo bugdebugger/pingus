@@ -621,22 +621,18 @@
         (modifier "ROT0"))
       (position 350 320 0))
     (exit 
-      (owner-id 0)
       (position 696 528 0)
       (surface 
         (image "exits/pwexit")
-        (modifier "ROT0"))
-      (owner-id 0))
+        (modifier "ROT0")))
     (entrance 
       (position 1240 100 0)
       (type "generic")
       (direction "left")
-      (release-rate 100)
-      (owner-id 0))
+      (release-rate 100))
     (entrance 
       (position 160 100 0)
       (type "generic")
       (direction "right")
-      (release-rate 100)
-      (owner-id 0))))
+      (release-rate 100))))
 ;; EOF ;;

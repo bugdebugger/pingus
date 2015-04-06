@@ -566,8 +566,7 @@
       (surface 
         (image "exits/halloween")
         (modifier "ROT0"))
-      (position 1029 889 0)
-      (owner-id 0))
+      (position 1029 889 0))
     (groundpiece 
       (type "ground")
       (surface 
@@ -1461,12 +1460,10 @@
       (repeat 31))
     (entrance 
       (position 1406 408 110)
-      (owner-id 0)
       (direction "left")
       (release-rate 150))
     (entrance 
       (position 459 382 110)
-      (owner-id 0)
       (direction "right")
       (release-rate 150))))
 

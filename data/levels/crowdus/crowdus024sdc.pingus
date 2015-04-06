@@ -286,32 +286,27 @@
       (position 376 176 0)
       (overrides 
         (release-rate 150)
-        (direction "right")
-        (owner-id 0)))
+        (direction "right")))
     (exit 
       (surface 
         (image "exits/pwexit")
         (modifier "ROT0"))
-      (position 301 1120 0)
-      (owner-id 0))
+      (position 301 1120 0))
     (exit 
       (surface 
         (image "exits/pwexit")
         (modifier "ROT0"))
-      (position 1245 1118 0)
-      (owner-id 0))
+      (position 1245 1118 0))
     (exit 
       (surface 
         (image "exits/pwexit")
         (modifier "ROT0"))
-      (position 824 1119 0)
-      (owner-id 0))
+      (position 824 1119 0))
     (exit 
       (surface 
         (image "exits/pwexit")
         (modifier "ROT0"))
-      (position 1728 1118 0)
-      (owner-id 0))
+      (position 1728 1118 0))
     (groundpiece 
       (type "transparent")
       (surface 

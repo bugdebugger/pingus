@@ -295,16 +295,13 @@
         (modifier "ROT0"))
       (position 119 478 0))
     (exit 
-      (owner-id 0)
       (position 724 578 0)
       (surface 
         (image "exits/desert")
-        (modifier "ROT0"))
-      (owner-id 0))
+        (modifier "ROT0")))
     (entrance 
       (position 170 543 0)
       (type "generic")
       (direction "left")
-      (release-rate 25)
-      (owner-id 0))))
+      (release-rate 25))))
 ;; EOF ;;

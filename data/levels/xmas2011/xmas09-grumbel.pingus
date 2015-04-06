@@ -998,8 +998,7 @@
       (surface 
         (image "exits/xmas")
         (modifier "ROT0"))
-      (position 473 640 0)
-      (owner-id 0))
+      (position 473 640 0))
     (groundpiece 
       (type "ground")
       (surface 
@@ -1011,15 +1010,13 @@
       (position 926 290 0)
       (overrides 
         (release-rate 250)
-        (direction "left")
-        (owner-id 0)))
+        (direction "left")))
     (prefab 
       (name "prefabs/entrances/xmas")
       (position 2655 330 0)
       (overrides 
         (release-rate 250)
-        (direction "left")
-        (owner-id 0)))
+        (direction "left")))
     (groundpiece 
       (type "ground")
       (surface 

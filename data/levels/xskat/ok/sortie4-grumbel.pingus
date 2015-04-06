@@ -32,12 +32,10 @@
       (stretch-y #f)
       (position 197 41 -150))
     (exit 
-      (owner-id 0)
       (position 634 214 -50)
       (surface 
         (image "exits/sortie")
-        (modifier "ROT0"))
-      (owner-id 0))
+        (modifier "ROT0")))
     (groundpiece 
       (type "ground")
       (surface 
@@ -564,6 +562,5 @@
       (position 425 407 0)
       (type "generic")
       (direction "misc")
-      (release-rate 250)
-      (owner-id 0))))
+      (release-rate 250))))
 ;; EOF ;;

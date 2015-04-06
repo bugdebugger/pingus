@@ -135,8 +135,7 @@
       (position 512 147 0)
       (type "generic")
       (direction "left")
-      (release-rate 25)
-      (owner-id 0))
+      (release-rate 25))
     (groundpiece 
       (type "ground")
       (surface 
@@ -277,10 +276,8 @@
       (repeat 23)
       (speed 0))
     (exit 
-      (owner-id 0)
       (position 846 480 0)
       (surface 
         (image "exits/ice2")
-        (modifier "ROT0"))
-      (owner-id 0))))
+        (modifier "ROT0")))))
 ;; EOF ;;

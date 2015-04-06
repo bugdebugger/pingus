@@ -362,8 +362,7 @@
       (surface 
         (image "exits/ice2")
         (modifier "ROT0"))
-      (position 597.155 1033.13 0)
-      (owner-id 0))
+      (position 597.155 1033.13 0))
     (groundpiece 
       (type "ground")
       (surface 
@@ -873,8 +872,7 @@
       (position 700 162 0)
       (overrides 
         (release-rate 200)
-        (direction "right")
-        (owner-id 0)))
+        (direction "right")))
     (hotspot 
       (surface 
         (image "hotspots/signposts/arrow_southeast")

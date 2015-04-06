@@ -1228,8 +1228,7 @@
       (parallax 0))
     (entrance 
       (type "generic")
-      (position 952 188 110)
-      (owner-id 0)
+      (position 952 188 110)
       (direction "misc")
       (release-rate 150))
     (hotspot 

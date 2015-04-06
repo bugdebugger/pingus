@@ -694,8 +694,7 @@
       (position 230 540 0)
       (type "generic")
       (direction "right")
-      (release-rate 25)
-      (owner-id 0))
+      (release-rate 25))
     (liquid 
       (surface 
         (image "liquids/water")
@@ -704,12 +703,10 @@
       (repeat 7)
       (speed 50))
     (exit 
-      (owner-id 0)
       (position 1147 627 0)
       (surface 
         (image "exits/ice")
-        (modifier "ROT0"))
-      (owner-id 0))
+        (modifier "ROT0")))
     (liquid 
       (surface 
         (image "liquids/water")

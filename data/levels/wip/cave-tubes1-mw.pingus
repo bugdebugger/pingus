@@ -1007,15 +1007,12 @@
       (position 1054 157 0)
       (type "woodthing")
       (direction "left")
-      (release-rate 25)
-      (owner-id 0))
+      (release-rate 25))
     (exit 
-      (owner-id 0)
       (position 81 390 0)
       (surface 
         (image "exits/ice")
-        (modifier "ROT0"))
-      (owner-id 0))
+        (modifier "ROT0")))
     (liquid 
       (surface 
         (image "liquids/water")

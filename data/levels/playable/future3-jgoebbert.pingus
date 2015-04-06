@@ -1521,7 +1521,6 @@
       (direction "left")
       (release-rate 25))
     (exit 
-      (owner-id 0)
       (position 1112 503 0)
       (surface 
         (image "exits/sortie_anim")

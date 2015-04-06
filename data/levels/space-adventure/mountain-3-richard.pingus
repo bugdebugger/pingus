@@ -1068,8 +1068,7 @@
       (surface 
         (image "exits/ice2")
         (modifier "ROT0"))
-      (position 4867 287 0)
-      (owner-id 0))
+      (position 4867 287 0))
     (groundpiece 
       (type "ground")
       (surface 
@@ -1528,15 +1527,13 @@
       (position 158 477 0)
       (overrides 
         (release-rate 180)
-        (direction "misc")
-        (owner-id 0)))
+        (direction "misc")))
     (prefab 
       (name "prefabs/entrances/snow")
       (position 339 139 0)
       (overrides 
         (release-rate 150)
-        (direction "misc")
-        (owner-id 0)))
+        (direction "misc")))
     (groundpiece 
       (type "ground")
       (surface 

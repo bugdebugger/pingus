@@ -139,7 +139,6 @@
     (entrance 
       (type "generic")
       (position 960 204 0)
-      (owner-id 0)
       (direction "misc")
       (release-rate 50))
     (groundpiece 
@@ -380,14 +379,12 @@
       (surface 
         (image "exits/space")
         (modifier "ROT0"))
-      (position 1267 1201 0)
-      (owner-id 0))
+      (position 1267 1201 0))
     (exit 
       (surface 
         (image "exits/space")
         (modifier "ROT0"))
-      (position 624 1201 0)
-      (owner-id 0))
+      (position 624 1201 0))
     (switchdoor-switch 
       (position 1018 1161 0)
       (target-id "id4018304927"))

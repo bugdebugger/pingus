@@ -723,8 +723,7 @@
       (position 962 85 0)
       (overrides 
         (release-rate 40)
-        (direction "left")
-        (owner-id 0)))
+        (direction "left")))
     (iceblock 
       (position 871 146 0)
       (repeat 1))
@@ -921,8 +920,7 @@
       (surface 
         (image "exits/industrial")
         (modifier "ROT0"))
-      (position 206 1061 0)
-      (owner-id 0))
+      (position 206 1061 0))
     (teleporter 
       (position 18 146 0)
       (target-id "id1"))

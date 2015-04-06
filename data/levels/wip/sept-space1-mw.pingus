@@ -319,28 +319,22 @@
       (position 591 154 0)
       (type "generic")
       (direction "left")
-      (release-rate 25)
-      (owner-id 0))
+      (release-rate 25))
     (entrance 
       (position 283 147 0)
       (type "generic")
       (direction "left")
-      (release-rate 25)
-      (owner-id 0))
+      (release-rate 25))
     (exit 
-      (owner-id 0)
       (position 330 1188 0)
       (surface 
         (image "exits/space")
-        (modifier "ROT0"))
-      (owner-id 0))
+        (modifier "ROT0")))
     (exit 
-      (owner-id 0)
       (position 673 1191 0)
       (surface 
         (image "exits/space")
-        (modifier "ROT0"))
-      (owner-id 0))
+        (modifier "ROT0")))
     (hotspot 
       (surface 
         (image "entrances/space")

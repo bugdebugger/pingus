@@ -185,8 +185,7 @@
       (surface 
         (image "exits/desert")
         (modifier "ROT0"))
-      (position 1177 946 0)
-      (owner-id 0))
+      (position 1177 946 0))
     (groundpiece 
       (type "solid")
       (surface 
@@ -342,8 +341,7 @@
       (position 560 533 0)
       (overrides 
         (release-rate 50)
-        (direction "right")
-        (owner-id 0)))
+        (direction "right")))
     (liquid 
       (surface 
         (image "liquids/slime")

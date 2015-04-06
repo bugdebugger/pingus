@@ -38,8 +38,7 @@ travling for so long that it is christmas")
       (position 170 66 0)
       (overrides 
         (release-rate 50)
-        (direction "misc")
-        (owner-id 0)))
+        (direction "misc")))
     (liquid 
       (surface 
         (image "liquids/water2")
@@ -522,8 +521,7 @@ travling for so long that it is christmas")
       (position 1811 58 0)
       (overrides 
         (release-rate 50)
-        (direction "misc")
-        (owner-id 0)))
+        (direction "misc")))
     (groundpiece 
       (type "ground")
       (surface 
@@ -1378,8 +1376,7 @@ travling for so long that it is christmas")
       (surface 
         (image "exits/xmas")
         (modifier "ROT0"))
-      (position 856 1015 0)
-      (owner-id 0))
+      (position 856 1015 0))
     (groundpiece 
       (type "transparent")
       (surface 

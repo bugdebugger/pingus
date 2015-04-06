@@ -1,6 +1,5 @@
 (pingus-prefab
  (overrides
-   (owner-id 0)
    (direction "misc")
    (release-rate 50))
  (objects
@@ -14,7 +13,6 @@
 
   (entrance 
    (position 0 0 0)
-   (owner-id 0)
    (direction "misc")
    (release-rate 50))
   

@@ -1863,15 +1863,13 @@
     (entrance 
       (type "generic")
       (position 362 229 0)
-      (owner-id 0)
       (direction "left")
       (release-rate 25))
     (exit 
       (surface 
         (image "exits/sortie")
         (modifier "ROT0"))
-      (position 659 151 0)
-      (owner-id 0))
+      (position 659 151 0))
     (groundpiece 
       (type "ground")
       (surface 

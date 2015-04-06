@@ -28,8 +28,7 @@
       (position 152.403 77.4831 0)
       (type "cloud")
       (direction "misc")
-      (release-rate 50)
-      (owner-id 0))
+      (release-rate 50))
     (groundpiece 
       (type "solid")
       (surface 
@@ -37,12 +36,10 @@
         (modifier "ROT0"))
       (position 64 170 0))
     (exit 
-      (owner-id 0)
       (position 168.733 613.854 0)
       (surface 
         (image "exits/desert")
-        (modifier "ROT0"))
-      (owner-id 0))
+        (modifier "ROT0")))
     (iceblock 
       (position 638.003 275.883 0)
       (repeat 1))

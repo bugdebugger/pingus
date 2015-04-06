@@ -277,38 +277,32 @@
       (position 440.328 78.976 0)
       (type "woodthing")
       (direction "misc")
-      (release-rate 50)
-      (owner-id 0))
+      (release-rate 50))
     (entrance 
       (position 584.976 76.712 0)
       (type "woodthing")
       (direction "misc")
-      (release-rate 50)
-      (owner-id 0))
+      (release-rate 50))
     (entrance 
       (position 703.176 75.912 0)
       (type "woodthing")
       (direction "misc")
-      (release-rate 50)
-      (owner-id 0))
+      (release-rate 50))
     (entrance 
       (position 853.792 76.4241 0)
       (type "woodthing")
       (direction "misc")
-      (release-rate 50)
-      (owner-id 0))
+      (release-rate 50))
     (entrance 
       (position 78.7839 751.088 0)
       (type "woodthing")
       (direction "misc")
-      (release-rate 50)
-      (owner-id 0))
+      (release-rate 50))
     (entrance 
       (position 1153.38 739.328 0)
       (type "woodthing")
       (direction "misc")
-      (release-rate 50)
-      (owner-id 0))
+      (release-rate 50))
     (groundpiece 
       (type "ground")
       (surface 
@@ -316,12 +310,10 @@
         (modifier "ROT0"))
       (position -126 906 0))
     (exit 
-      (owner-id 0)
       (position 637.328 455.096 0)
       (surface 
         (image "exits/mud")
-        (modifier "ROT0"))
-      (owner-id 0))
+        (modifier "ROT0")))
     (teleporter 
       (target-id "id2642790")
       (position 670.624 345.968 0))

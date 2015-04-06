@@ -141,14 +141,12 @@
       (position 784 185 0)
       (overrides 
         (release-rate 50)
-        (direction "right")
-        (owner-id 0)))
+        (direction "right")))
     (exit 
       (surface 
         (image "exits/forest")
         (modifier "ROT0"))
-      (position 1767 448 0)
-      (owner-id 0))
+      (position 1767 448 0))
     (groundpiece 
       (type "ground")
       (surface 
@@ -956,8 +954,7 @@
       (surface 
         (image "exits/pwexit")
         (modifier "ROT0"))
-      (position 1061 1090 0)
-      (owner-id 0))
+      (position 1061 1090 0))
     (groundpiece 
       (type "ground")
       (surface 

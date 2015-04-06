@@ -238,8 +238,7 @@
       (position 545 470 0)
       (overrides 
         (release-rate 210)
-        (direction "right")
-        (owner-id 0)))
+        (direction "right")))
     (groundpiece 
       (type "solid")
       (surface 
@@ -256,8 +255,7 @@
       (surface 
         (image "exits/space")
         (modifier "ROT0"))
-      (position 502 673 0)
-      (owner-id 0))
+      (position 502 673 0))
     (hotspot 
       (surface 
         (image "hotspots/space/engine")
@@ -295,8 +293,7 @@
       (position 456 470 0)
       (overrides 
         (release-rate 210)
-        (direction "left")
-        (owner-id 0)))
+        (direction "left")))
     (groundpiece 
       (type "solid")
       (surface 

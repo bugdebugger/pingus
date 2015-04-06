@@ -276,8 +276,7 @@
       (surface 
         (image "exits/desert")
         (modifier "ROT0"))
-      (position 2317 577 0)
-      (owner-id 0))
+      (position 2317 577 0))
     (hotspot 
       (surface 
         (image "groundpieces/ground/desert/smallbrickpiece")
@@ -329,8 +328,7 @@
       (position 382 332 0)
       (overrides 
         (release-rate 100)
-        (direction "right")
-        (owner-id 0)))
+        (direction "right")))
     (groundpiece 
       (type "solid")
       (surface 

@@ -124,8 +124,7 @@
       (surface 
         (image "exits/easter")
         (modifier "ROT0"))
-      (position 992 672 0)
-      (owner-id 0))
+      (position 992 672 0))
     (groundpiece 
       (type "ground")
       (surface 
@@ -514,7 +513,6 @@
     (entrance 
       (type "generic")
       (position 816 173 110)
-      (owner-id 0)
       (direction "misc")
       (release-rate 150))))
 

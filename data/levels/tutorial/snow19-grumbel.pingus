@@ -81,8 +81,7 @@
       (surface 
         (image "exits/ice2")
         (modifier "ROT0"))
-      (position 1615.68 857.154 -50)
-      (owner-id 0))
+      (position 1615.68 857.154 -50))
     (liquid 
       (surface 
         (image "liquids/water2")
@@ -1019,8 +1018,7 @@
       (position 728 165 0)
       (overrides 
         (release-rate 450)
-        (direction "right")
-        (owner-id 0)))
+        (direction "right")))
     (liquid 
       (surface 
         (image "liquids/water2")

@@ -178,8 +178,7 @@
       (surface 
         (image "exits/desert")
         (modifier "ROT0"))
-      (position 1552 504 0)
-      (owner-id 0))
+      (position 1552 504 0))
     (groundpiece 
       (type "ground")
       (surface 
@@ -455,8 +454,7 @@
       (position 360 430 0)
       (overrides 
         (release-rate 150)
-        (direction "right")
-        (owner-id 0)))
+        (direction "right")))
     (groundpiece 
       (type "solid")
       (surface 

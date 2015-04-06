@@ -302,12 +302,10 @@
         (modifier "ROT0"))
       (position 694 623 0))
     (exit 
-      (owner-id 0)
       (position 519.898 735.021 0)
       (surface 
         (image "exits/crystal")
-        (modifier "ROT0"))
-      (owner-id 0))
+        (modifier "ROT0")))
     (groundpiece 
       (type "solid")
       (surface 
@@ -366,8 +364,7 @@
       (position 218.255 95.898 0)
       (type "generic")
       (direction "right")
-      (release-rate 20)
-      (owner-id 0))
+      (release-rate 20))
     (groundpiece 
       (type "ground")
       (surface 
@@ -666,8 +663,7 @@
       (position 660.255 176.898 0)
       (type "generic")
       (direction "right")
-      (release-rate 20)
-      (owner-id 0))
+      (release-rate 20))
     (groundpiece 
       (type "ground")
       (surface 
@@ -690,32 +686,27 @@
       (position 406.255 445.898 0)
       (type "generic")
       (direction "right")
-      (release-rate 100)
-      (owner-id 0))
+      (release-rate 100))
     (entrance 
       (position 465.255 177.898 0)
       (type "generic")
       (direction "right")
-      (release-rate 20)
-      (owner-id 0))
+      (release-rate 20))
     (entrance 
       (position 526.255 311.898 0)
       (type "generic")
       (direction "right")
-      (release-rate 20)
-      (owner-id 0))
+      (release-rate 20))
     (entrance 
       (position 61.255 197.898 0)
       (type "generic")
       (direction "right")
-      (release-rate 20)
-      (owner-id 0))
+      (release-rate 20))
     (entrance 
       (position 107.255 408.898 0)
       (type "generic")
       (direction "right")
-      (release-rate 20)
-      (owner-id 0))
+      (release-rate 20))
     (groundpiece 
       (type "ground")
       (surface 
@@ -738,6 +729,5 @@
       (position 268.255 308.898 0)
       (type "generic")
       (direction "right")
-      (release-rate 20)
-      (owner-id 0))))
+      (release-rate 20))))
 ;; EOF ;;

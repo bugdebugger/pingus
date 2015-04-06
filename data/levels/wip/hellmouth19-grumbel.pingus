@@ -35,8 +35,7 @@
       (surface 
         (image "exits/stone")
         (modifier "ROT0"))
-      (position 886.56 483.52 -50)
-      (owner-id 0))
+      (position 886.56 483.52 -50))
     (hotspot 
       (surface 
         (image "entrances/wood_bottom")
@@ -475,7 +474,6 @@
     (entrance 
       (type "generic")
       (position 681 524 0)
-      (owner-id 0)
       (direction "misc")
       (release-rate 50))
     (groundpiece 

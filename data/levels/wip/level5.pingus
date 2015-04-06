@@ -33,7 +33,6 @@
       (stretch-x #f)
       (stretch-y #f))
     (exit 
-      (owner-id 0)
       (position 1450 404 0)
       (surface 
         (image "exits/stone")

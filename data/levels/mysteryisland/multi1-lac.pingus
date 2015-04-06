@@ -270,8 +270,7 @@
       (surface 
         (image "exits/desert")
         (modifier "ROT0"))
-      (position 1335 962 0)
-      (owner-id 0))
+      (position 1335 962 0))
     (groundpiece 
       (type "transparent")
       (surface 
@@ -294,7 +293,6 @@
     (entrance 
       (type "generic")
       (position 465 665 110)
-      (owner-id 0)
       (direction "misc")
       (release-rate 150))))
 

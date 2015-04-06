@@ -153,18 +153,15 @@
         (modifier "ROT0"))
       (position 625 673 0))
     (exit 
-      (owner-id 0)
       (position 1119 482 0)
       (surface 
         (image "exits/sortie_anim")
-        (modifier "ROT0"))
-      (owner-id 0))
+        (modifier "ROT0")))
     (entrance 
       (position 277 660 0)
       (type "generic")
       (direction "left")
-      (release-rate 25)
-      (owner-id 0))
+      (release-rate 25))
     (hotspot 
       (surface 
         (image "entrances/entrance_eyes_anim")
@@ -183,8 +180,7 @@
       (position 301 199 0)
       (type "generic")
       (direction "left")
-      (release-rate 25)
-      (owner-id 0))
+      (release-rate 25))
     (hotspot 
       (surface 
         (image "entrances/entrance_eyes")

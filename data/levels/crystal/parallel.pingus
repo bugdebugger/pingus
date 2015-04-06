@@ -770,7 +770,6 @@
       (direction "left")
       (release-rate 25))
     (exit 
-      (owner-id 0)
       (position 452 1022 0)
       (surface 
         (image "exits/stone")

@@ -165,7 +165,6 @@
       (position 169 787 0))
     (entrance 
       (position 325.515 640.63 0)
-      (owner-id 0)
       (direction "right")
       (release-rate 200))
     (groundpiece 
@@ -220,8 +219,7 @@
       (surface 
         (image "exits/ice2")
         (modifier "ROT0"))
-      (position 1609 751 0)
-      (owner-id 0))
+      (position 1609 751 0))
     (groundpiece 
       (type "ground")
       (surface 

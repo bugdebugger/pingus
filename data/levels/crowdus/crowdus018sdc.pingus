@@ -117,8 +117,7 @@ Hints: 1) Don't leave gaps when bridging. 3) Really take care and keep careful t
       (surface 
         (image "exits/stone")
         (modifier "ROT0"))
-      (position 957 600 0)
-      (owner-id 0))
+      (position 957 600 0))
     (groundpiece 
       (type "solid")
       (surface 
@@ -136,8 +135,7 @@ Hints: 1) Don't leave gaps when bridging. 3) Really take care and keep careful t
       (position 959 415 0)
       (overrides 
         (release-rate 200)
-        (direction "right")
-        (owner-id 0)))
+        (direction "right")))
     (teleporter 
       (position 1266 738 0)
       (target-id "idA"))

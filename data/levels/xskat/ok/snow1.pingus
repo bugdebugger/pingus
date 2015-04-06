@@ -824,8 +824,7 @@
       (position 1993 201 0)
       (type "generic")
       (direction "left")
-      (release-rate 30)
-      (owner-id 0))
+      (release-rate 30))
     (hotspot 
       (surface 
         (image "entrances/wood_top")
@@ -841,10 +840,8 @@
       (repeat 40)
       (speed 50))
     (exit 
-      (owner-id 0)
       (position 1917 867 0)
       (surface 
         (image "exits/ice2")
-        (modifier "ROT0"))
-      (owner-id 0))))
+        (modifier "ROT0")))))
 ;; EOF ;;

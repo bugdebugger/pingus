@@ -434,8 +434,7 @@
       (surface 
         (image "exits/crystal")
         (modifier "ROT0"))
-      (position 1860 1155 0)
-      (owner-id 0))
+      (position 1860 1155 0))
     (groundpiece 
       (type "ground")
       (surface 
@@ -2540,8 +2539,7 @@
       (surface 
         (image "exits/crystal")
         (modifier "ROT0"))
-      (position 1840 325 0)
-      (owner-id 0))
+      (position 1840 325 0))
     (groundpiece 
       (type "ground")
       (surface 
@@ -3120,8 +3118,7 @@
       (position 43 633 0)
       (overrides 
         (release-rate 50)
-        (direction "misc")
-        (owner-id 0)))
+        (direction "misc")))
     (iceblock 
       (position 25 634 0)
       (repeat 1))
@@ -3163,497 +3160,398 @@
       (position 51 670 0))
     (entrance 
       (position 428 341 110)
-      (owner-id 0)
       (direction "left")
       (release-rate 150))
     (entrance 
       (position 169 691 110)
-      (owner-id 0)
       (direction "right")
       (release-rate 150))
     (entrance 
       (position 111 745 110)
-      (owner-id 0)
       (direction "misc")
       (release-rate 150))
     (entrance 
       (position 197 695 110)
-      (owner-id 0)
       (direction "misc")
       (release-rate 150))
     (entrance 
       (position 79 749 110)
-      (owner-id 0)
       (direction "misc")
       (release-rate 150))
     (entrance 
       (position 140 710 110)
-      (owner-id 0)
       (direction "misc")
       (release-rate 150))
     (entrance 
       (position 52 747 110)
-      (owner-id 0)
       (direction "misc")
       (release-rate 150))
     (entrance 
       (position 24 748 110)
-      (owner-id 0)
       (direction "misc")
       (release-rate 150))
     (entrance 
       (position 56 84 110)
-      (owner-id 0)
       (direction "right")
       (release-rate 150))
     (entrance 
       (position 244 33 110)
-      (owner-id 0)
       (direction "misc")
       (release-rate 150))
     (entrance 
       (position 271 33 110)
-      (owner-id 0)
       (direction "misc")
       (release-rate 150))
     (entrance 
       (position 298 33 110)
-      (owner-id 0)
       (direction "misc")
       (release-rate 150))
     (entrance 
       (position 666 127 110)
-      (owner-id 0)
       (direction "misc")
       (release-rate 150))
     (entrance 
       (position 497 509 110)
-      (owner-id 0)
       (direction "misc")
       (release-rate 150))
     (entrance 
       (position 163 32 110)
-      (owner-id 0)
       (direction "misc")
       (release-rate 150))
     (entrance 
       (position 525 486 110)
-      (owner-id 0)
       (direction "misc")
       (release-rate 150))
     (entrance 
       (position 1350 327 110)
-      (owner-id 0)
       (direction "misc")
       (release-rate 150))
     (entrance 
       (position 83 83 110)
-      (owner-id 0)
       (direction "right")
       (release-rate 150))
     (entrance 
       (position 109 62 110)
-      (owner-id 0)
       (direction "misc")
       (release-rate 150))
     (entrance 
       (position 590 429 110)
-      (owner-id 0)
       (direction "left")
       (release-rate 150))
     (entrance 
       (position 557 483 110)
-      (owner-id 0)
       (direction "misc")
       (release-rate 150))
     (entrance 
       (position 361 591 110)
-      (owner-id 0)
       (direction "misc")
       (release-rate 150))
     (entrance 
       (position 610 435 110)
-      (owner-id 0)
       (direction "misc")
       (release-rate 150))
     (entrance 
       (position 492 370 110)
-      (owner-id 0)
       (direction "left")
       (release-rate 150))
     (entrance 
       (position 1425 330 110)
-      (owner-id 0)
       (direction "misc")
       (release-rate 150))
     (entrance 
       (position 1462 333 110)
-      (owner-id 0)
       (direction "misc")
       (release-rate 150))
     (entrance 
       (position 1534 345 110)
-      (owner-id 0)
       (direction "misc")
       (release-rate 150))
     (entrance 
       (position 1499 337 110)
-      (owner-id 0)
       (direction "misc")
       (release-rate 150))
     (entrance 
       (position 412 560 110)
-      (owner-id 0)
       (direction "misc")
       (release-rate 150))
     (entrance 
       (position 440 539 110)
-      (owner-id 0)
       (direction "misc")
       (release-rate 150))
     (entrance 
       (position 1569 357 110)
-      (owner-id 0)
       (direction "misc")
       (release-rate 150))
     (entrance 
       (position 399 316 110)
-      (owner-id 0)
       (direction "left")
       (release-rate 150))
     (entrance 
       (position 1672 323 110)
-      (owner-id 0)
       (direction "misc")
       (release-rate 150))
     (entrance 
       (position 335 291 110)
-      (owner-id 0)
       (direction "left")
       (release-rate 150))
     (entrance 
       (position 1603 344 110)
-      (owner-id 0)
       (direction "misc")
       (release-rate 150))
     (entrance 
       (position 1813 325 110)
-      (owner-id 0)
       (direction "misc")
       (release-rate 150))
     (entrance 
       (position 1637 334 110)
-      (owner-id 0)
       (direction "misc")
       (release-rate 150))
     (entrance 
       (position 387 585 110)
-      (owner-id 0)
       (direction "misc")
       (release-rate 150))
     (entrance 
       (position 302 260 110)
-      (owner-id 0)
       (direction "left")
       (release-rate 150))
     (entrance 
       (position 465 60 110)
-      (owner-id 0)
       (direction "misc")
       (release-rate 150))
     (entrance 
       (position 494 56 110)
-      (owner-id 0)
       (direction "misc")
       (release-rate 150))
     (entrance 
       (position 611 99 110)
-      (owner-id 0)
       (direction "misc")
       (release-rate 150))
     (entrance 
       (position 1706 320 110)
-      (owner-id 0)
       (direction "misc")
       (release-rate 150))
     (entrance 
       (position 1738 323 110)
-      (owner-id 0)
       (direction "misc")
       (release-rate 150))
     (entrance 
       (position 367 304 110)
-      (owner-id 0)
       (direction "left")
       (release-rate 150))
     (entrance 
       (position 525 78 110)
-      (owner-id 0)
       (direction "misc")
       (release-rate 150))
     (entrance 
       (position 440 59 110)
-      (owner-id 0)
       (direction "misc")
       (release-rate 150))
     (entrance 
       (position 331 611 110)
-      (owner-id 0)
       (direction "misc")
       (release-rate 150))
     (entrance 
       (position 557 408 110)
-      (owner-id 0)
       (direction "left")
       (release-rate 150))
     (entrance 
       (position 275 642 110)
-      (owner-id 0)
       (direction "misc")
       (release-rate 150))
     (entrance 
       (position 585 458 110)
-      (owner-id 0)
       (direction "misc")
       (release-rate 150))
     (entrance 
       (position 303 637 110)
-      (owner-id 0)
       (direction "misc")
       (release-rate 150))
     (entrance 
       (position 524 399 110)
-      (owner-id 0)
       (direction "left")
       (release-rate 150))
     (entrance 
       (position 27 109 110)
-      (owner-id 0)
       (direction "right")
       (release-rate 150))
     (entrance 
       (position 92 156 110)
-      (owner-id 0)
       (direction "left")
       (release-rate 150))
     (entrance 
       (position 460 355 110)
-      (owner-id 0)
       (direction "left")
       (release-rate 150))
     (entrance 
       (position 37 117 110)
-      (owner-id 0)
       (direction "left")
       (release-rate 150))
     (entrance 
       (position 722 144 110)
-      (owner-id 0)
       (direction "misc")
       (release-rate 150))
     (entrance 
       (position 864 178 110)
-      (owner-id 0)
       (direction "misc")
       (release-rate 150))
     (entrance 
       (position 135 38 110)
-      (owner-id 0)
       (direction "right")
       (release-rate 150))
     (entrance 
       (position 695 149 110)
-      (owner-id 0)
       (direction "misc")
       (release-rate 150))
     (entrance 
       (position 1278 322 110)
-      (owner-id 0)
       (direction "misc")
       (release-rate 150))
     (entrance 
       (position 777 167 110)
-      (owner-id 0)
       (direction "misc")
       (release-rate 150))
     (entrance 
       (position 1121 264 110)
-      (owner-id 0)
       (direction "misc")
       (release-rate 150))
     (entrance 
       (position 1314 323 110)
-      (owner-id 0)
       (direction "misc")
       (release-rate 150))
     (entrance 
       (position 189 33 110)
-      (owner-id 0)
       (direction "misc")
       (release-rate 150))
     (entrance 
       (position 217 33 110)
-      (owner-id 0)
       (direction "misc")
       (release-rate 150))
     (entrance 
       (position 994 200 110)
-      (owner-id 0)
       (direction "misc")
       (release-rate 150))
     (entrance 
       (position 892 171 110)
-      (owner-id 0)
       (direction "misc")
       (release-rate 150))
     (entrance 
       (position 806 160 110)
-      (owner-id 0)
       (direction "misc")
       (release-rate 150))
     (entrance 
       (position 1194 261 110)
-      (owner-id 0)
       (direction "misc")
       (release-rate 150))
     (entrance 
       (position 1051 266 110)
-      (owner-id 0)
       (direction "misc")
       (release-rate 150))
     (entrance 
       (position 1158 259 110)
-      (owner-id 0)
       (direction "misc")
       (release-rate 150))
     (entrance 
       (position 1085 265 110)
-      (owner-id 0)
       (direction "misc")
       (release-rate 150))
     (entrance 
       (position 750 154 110)
-      (owner-id 0)
       (direction "misc")
       (release-rate 150))
     (entrance 
       (position 1208 305 110)
-      (owner-id 0)
       (direction "misc")
       (release-rate 150))
     (entrance 
       (position 1241 313 110)
-      (owner-id 0)
       (direction "misc")
       (release-rate 150))
     (entrance 
       (position 150 187 110)
-      (owner-id 0)
       (direction "left")
       (release-rate 150))
     (entrance 
       (position 328 35 110)
-      (owner-id 0)
       (direction "misc")
       (release-rate 150))
     (entrance 
       (position 384 48 110)
-      (owner-id 0)
       (direction "misc")
       (release-rate 150))
     (entrance 
       (position 1024 239 110)
-      (owner-id 0)
       (direction "misc")
       (release-rate 150))
     (entrance 
       (position 921 187 110)
-      (owner-id 0)
       (direction "misc")
       (release-rate 150))
     (entrance 
       (position 957 190 110)
-      (owner-id 0)
       (direction "misc")
       (release-rate 150))
     (entrance 
       (position 65 143 110)
-      (owner-id 0)
       (direction "left")
       (release-rate 150))
     (entrance 
       (position 358 51 110)
-      (owner-id 0)
       (direction "misc")
       (release-rate 150))
     (entrance 
       (position 9 104 110)
-      (owner-id 0)
       (direction "left")
       (release-rate 150))
     (entrance 
       (position 1387 330 110)
-      (owner-id 0)
       (direction "misc")
       (release-rate 150))
     (entrance 
       (position 470 535 110)
-      (owner-id 0)
       (direction "misc")
       (release-rate 150))
     (entrance 
       (position 239 237 110)
-      (owner-id 0)
       (direction "left")
       (release-rate 150))
     (entrance 
       (position 271 254 110)
-      (owner-id 0)
       (direction "left")
       (release-rate 150))
     (entrance 
       (position 554 75 110)
-      (owner-id 0)
       (direction "misc")
       (release-rate 150))
     (entrance 
       (position 178 205 110)
-      (owner-id 0)
       (direction "left")
       (release-rate 150))
     (entrance 
       (position 414 41 110)
-      (owner-id 0)
       (direction "misc")
       (release-rate 150))
     (entrance 
       (position 209 209 110)
-      (owner-id 0)
       (direction "left")
       (release-rate 150))
     (entrance 
       (position 836 171 110)
-      (owner-id 0)
       (direction "misc")
       (release-rate 150))
     (entrance 
       (position 582 73 110)
-      (owner-id 0)
       (direction "misc")
       (release-rate 150))
     (entrance 
       (position 120 159 110)
-      (owner-id 0)
       (direction "left")
       (release-rate 150))
     (entrance 
       (position 639 102 110)
-      (owner-id 0)
       (direction "misc")
       (release-rate 150))
     (entrance 
       (position 1776 325 110)
-      (owner-id 0)
       (direction "misc")
       (release-rate 150))))
 

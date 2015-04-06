@@ -548,13 +548,11 @@
       (direction "right")
       (release-rate 50))
     (exit 
-      (owner-id 0)
       (position 1498 495 0)
       (surface 
         (image "exits/sortie_anim")
         (modifier "ROT0")))
     (exit 
-      (owner-id 0)
       (position 1562 967 0)
       (surface 
         (image "exits/stone")

@@ -1070,18 +1070,15 @@
         (modifier "ROT0"))
       (position 203 180 0))
     (exit 
-      (owner-id 0)
       (position 1716 495 0)
       (surface 
         (image "exits/space")
-        (modifier "ROT0"))
-      (owner-id 0))
+        (modifier "ROT0")))
     (entrance 
       (position 88 186 0)
       (type "generic")
       (direction "left")
-      (release-rate 25)
-      (owner-id 0))
+      (release-rate 25))
     (hotspot 
       (surface 
         (image "entrances/space")

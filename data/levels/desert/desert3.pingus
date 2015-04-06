@@ -42,15 +42,13 @@
       (surface 
         (image "exits/desert")
         (modifier "ROT0"))
-      (position 1416 906 -47)
-      (owner-id 0))
+      (position 1416 906 -47))
     (prefab 
       (name "prefabs/entrances/desert")
       (position 329 736 0)
       (overrides 
         (release-rate 75)
-        (direction "right")
-        (owner-id 0)))
+        (direction "right")))
     (groundpiece 
       (type "ground")
       (surface 

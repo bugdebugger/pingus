@@ -597,8 +597,7 @@
       (surface 
         (image "exits/desert")
         (modifier "ROT0"))
-      (position 1682 972 0)
-      (owner-id 0))
+      (position 1682 972 0))
     (groundpiece 
       (type "transparent")
       (surface 
@@ -891,7 +890,6 @@
       (repeat 32))
     (entrance 
       (position 474 285 100)
-      (owner-id 0)
       (direction "misc")
       (release-rate 150))
     (hotspot 

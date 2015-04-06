@@ -291,16 +291,13 @@
         (modifier "ROT0"))
       (position 640 444 0))
     (exit 
-      (owner-id 0)
       (position 368 211 0)
       (surface 
         (image "exits/industrial")
-        (modifier "ROT0"))
-      (owner-id 0))
+        (modifier "ROT0")))
     (entrance 
       (position 1013 371 0)
       (type "generic")
       (direction "left")
-      (release-rate 100)
-      (owner-id 0))))
+      (release-rate 100))))
 ;; EOF ;;

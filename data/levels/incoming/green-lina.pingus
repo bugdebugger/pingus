@@ -630,8 +630,7 @@
       (surface 
         (image "exits/forest")
         (modifier "ROT0"))
-      (position 1659 313 0)
-      (owner-id 0))
+      (position 1659 313 0))
     (hotspot 
       (surface 
         (image "hotspots/desert/smalldimwall")
@@ -975,8 +974,7 @@
       (position 300 566 0)
       (overrides 
         (release-rate 50)
-        (direction "misc")
-        (owner-id 0)))
+        (direction "misc")))
     (groundpiece 
       (type "ground")
       (surface 

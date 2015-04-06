@@ -208,13 +208,10 @@
       (position 403 309 0)
       (type "generic")
       (direction "right")
-      (release-rate 100)
-      (owner-id 0))
+      (release-rate 100))
     (exit 
-      (owner-id 0)
       (position 1118 612 0)
       (surface 
         (image "exits/desert")
-        (modifier "ROT0"))
-      (owner-id 0))))
+        (modifier "ROT0")))))
 ;; EOF ;;

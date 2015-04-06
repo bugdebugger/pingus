@@ -554,15 +554,13 @@
       (position 1270 243 0)
       (overrides 
         (release-rate 300)
-        (direction "right")
-        (owner-id 0)))
+        (direction "right")))
     (prefab 
       (name "prefabs/entrances/halloween")
       (position 854 234 0)
       (overrides 
         (release-rate 300)
-        (direction "right")
-        (owner-id 0)))
+        (direction "right")))
     (prefab 
       (name "prefabs/liquids/slime")
       (position -2 1200 0)
@@ -2352,8 +2350,7 @@
           (surface 
             (image "exits/halloween")
             (modifier "ROT0"))
-          (position 1860 1040 0)
-          (owner-id 0))
+          (position 1860 1040 0))
         (groundpiece 
           (type "transparent")
           (surface 

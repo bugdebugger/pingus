@@ -246,8 +246,7 @@
       (position 54 392 0)
       (type "generic")
       (direction "left")
-      (release-rate 25)
-      (owner-id 0))
+      (release-rate 25))
     (liquid 
       (surface 
         (image "liquids/water3")
@@ -256,10 +255,8 @@
       (repeat 5)
       (speed 10))
     (exit 
-      (owner-id 0)
       (position 1038 386 0)
       (surface 
         (image "exits/desert")
-        (modifier "ROT0"))
-      (owner-id 0))))
+        (modifier "ROT0")))))
 ;; EOF ;;

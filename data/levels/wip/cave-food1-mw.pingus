@@ -540,19 +540,15 @@
       (position 332 134 0)
       (type "woodthing")
       (direction "left")
-      (release-rate 25)
-      (owner-id 0))
+      (release-rate 25))
     (entrance 
       (position 652 618 0)
       (type "woodthing")
       (direction "left")
-      (release-rate 25)
-      (owner-id 0))
+      (release-rate 25))
     (exit 
-      (owner-id 0)
       (position 1229 234 0)
       (surface 
         (image "exits/sortie")
-        (modifier "ROT0"))
-      (owner-id 0))))
+        (modifier "ROT0")))))
 ;; EOF ;;

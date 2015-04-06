@@ -883,8 +883,7 @@
       (position 728 339 0)
       (overrides 
         (release-rate 250)
-        (direction "left")
-        (owner-id 0)))
+        (direction "left")))
     (groundpiece 
       (type "ground")
       (surface 
@@ -1393,8 +1392,7 @@
       (position 1471 591 0)
       (overrides 
         (release-rate 250)
-        (direction "left")
-        (owner-id 0)))
+        (direction "left")))
     (groundpiece 
       (type "ground")
       (surface 
@@ -1436,8 +1434,7 @@
       (position 907 1388 0)
       (overrides 
         (release-rate 250)
-        (direction "misc")
-        (owner-id 0)))
+        (direction "misc")))
     (group 
       (objects 
         (groundpiece 
@@ -2240,8 +2237,7 @@
           (surface 
             (image "exits/halloween")
             (modifier "ROT0"))
-          (position 950 2009 0)
-          (owner-id 0))
+          (position 950 2009 0))
         (groundpiece 
           (type "ground")
           (surface 

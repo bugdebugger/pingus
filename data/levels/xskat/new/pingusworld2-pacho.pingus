@@ -48,8 +48,7 @@
       (position 290 455 0)
       (type "generic")
       (direction "right")
-      (release-rate 75)
-      (owner-id 0))
+      (release-rate 75))
     (groundpiece 
       (type "ground")
       (surface 
@@ -185,12 +184,10 @@
         (modifier "ROT0"))
       (position 1422 452 0))
     (exit 
-      (owner-id 0)
       (position 1521 454 0)
       (surface 
         (image "exits/industrial")
-        (modifier "ROT0"))
-      (owner-id 0))
+        (modifier "ROT0")))
     (liquid 
       (surface 
         (image "liquids/slime")
@@ -209,20 +206,17 @@
       (position 929.2 478.8 0)
       (type "generic")
       (direction "misc")
-      (release-rate 50)
-      (owner-id 0))
+      (release-rate 50))
     (entrance 
       (position 1031.8 482.2 0)
       (type "generic")
       (direction "misc")
-      (release-rate 50)
-      (owner-id 0))
+      (release-rate 50))
     (entrance 
       (position 969.8 308 0)
       (type "generic")
       (direction "misc")
-      (release-rate 50)
-      (owner-id 0))
+      (release-rate 50))
     (groundpiece 
       (type "ground")
       (surface 

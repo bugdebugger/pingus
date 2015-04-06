@@ -46,8 +46,7 @@
       (surface 
         (image "exits/halloween")
         (modifier "ROT0"))
-      (position 422 722 0)
-      (owner-id 0))
+      (position 422 722 0))
     (groundpiece 
       (type "ground")
       (surface 
@@ -108,8 +107,7 @@
       (surface 
         (image "exits/halloween")
         (modifier "ROT0"))
-      (position 1782 707 0)
-      (owner-id 0))
+      (position 1782 707 0))
     (groundpiece 
       (type "ground")
       (surface 

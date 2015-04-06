@@ -339,8 +339,7 @@
       (surface 
         (image "exits/stone")
         (modifier "ROT0"))
-      (position 170 763 0)
-      (owner-id 0))
+      (position 170 763 0))
     (groundpiece 
       (type "ground")
       (surface 

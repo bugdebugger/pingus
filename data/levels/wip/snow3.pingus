@@ -379,13 +379,11 @@
       (direction "left")
       (release-rate 30))
     (exit 
-      (owner-id 0)
       (position 1322 306 0)
       (surface 
         (image "exits/ice")
         (modifier "ROT0")))
     (exit 
-      (owner-id 0)
       (position 865 209 0)
       (surface 
         (image "exits/ice")

@@ -561,8 +561,7 @@
       (surface 
         (image "exits/stone")
         (modifier "ROT0"))
-      (position 695 999 0)
-      (owner-id 0))
+      (position 695 999 0))
     (teleporter 
       (position 723 1228 0)
       (target-id "id2252541"))
@@ -661,12 +660,10 @@
       (surface 
         (image "exits/stone")
         (modifier "ROT0"))
-      (position 1252 819 0)
-      (owner-id 0))
+      (position 1252 819 0))
     (entrance 
       (type "generic")
       (position 245 662 0)
-      (owner-id 0)
       (direction "right")
       (release-rate 150))
     (liquid 

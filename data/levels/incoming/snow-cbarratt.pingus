@@ -26,8 +26,7 @@
       (position 552 214 0)
       (overrides 
         (release-rate 30)
-        (direction "misc")
-        (owner-id 0)))
+        (direction "misc")))
     (groundpiece 
       (type "ground")
       (surface 
@@ -1202,8 +1201,7 @@
       (surface 
         (image "exits/ice2")
         (modifier "ROT0"))
-      (position 2344 1027 0)
-      (owner-id 0))
+      (position 2344 1027 0))
     (groundpiece 
       (type "ground")
       (surface 

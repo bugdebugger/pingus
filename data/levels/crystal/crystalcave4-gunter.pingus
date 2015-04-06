@@ -40,8 +40,7 @@
       (position 359.255 98.898 0)
       (type "generic")
       (direction "right")
-      (release-rate 250)
-      (owner-id 0))
+      (release-rate 250))
     (groundpiece 
       (type "solid")
       (surface 
@@ -271,12 +270,10 @@
         (modifier "ROT270"))
       (position 667 663 0))
     (exit 
-      (owner-id 0)
       (position 545.898 768.021 0)
       (surface 
         (image "exits/crystal")
-        (modifier "ROT0"))
-      (owner-id 0))
+        (modifier "ROT0")))
     (groundpiece 
       (type "solid")
       (surface 

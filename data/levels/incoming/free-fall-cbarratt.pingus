@@ -33,8 +33,7 @@
       (position 941 177 0)
       (overrides 
         (release-rate 10)
-        (direction "misc")
-        (owner-id 0)))
+        (direction "misc")))
     (groundpiece 
       (type "solid")
       (surface 
@@ -1780,8 +1779,7 @@
       (surface 
         (image "exits/industrial")
         (modifier "ROT0"))
-      (position 1177 3807 0)
-      (owner-id 0))
+      (position 1177 3807 0))
     (hotspot 
       (surface 
         (image "hotspots/signposts/danger")

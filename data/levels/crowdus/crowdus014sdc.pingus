@@ -823,14 +823,12 @@ Hint: Markers (clues) are provided for when a Pingu should do something.")
       (surface 
         (image "exits/forest")
         (modifier "ROT0"))
-      (position 905 535 0)
-      (owner-id 0))
+      (position 905 535 0))
     (exit 
       (surface 
         (image "exits/desert_tut")
         (modifier "ROT0"))
-      (position 1028 535 0)
-      (owner-id 0))
+      (position 1028 535 0))
     (groundpiece 
       (type "solid")
       (surface 
@@ -943,8 +941,7 @@ Hint: Markers (clues) are provided for when a Pingu should do something.")
       (surface 
         (image "exits/industrial")
         (modifier "ROT0"))
-      (position 882 794 0)
-      (owner-id 0))
+      (position 882 794 0))
     (groundpiece 
       (type "solid")
       (surface 
@@ -1022,29 +1019,25 @@ Hint: Markers (clues) are provided for when a Pingu should do something.")
       (position 218 183 0)
       (overrides 
         (release-rate 150)
-        (direction "left")
-        (owner-id 0)))
+        (direction "left")))
     (prefab 
       (name "prefabs/entrances/halloween")
       (position 1824 68 0)
       (overrides 
         (release-rate 150)
-        (direction "left")
-        (owner-id 0)))
+        (direction "left")))
     (prefab 
       (name "prefabs/entrances/eastern")
       (position 1778 1090 0)
       (overrides 
         (release-rate 150)
-        (direction "misc")
-        (owner-id 0)))
+        (direction "misc")))
     (prefab 
       (name "prefabs/entrances/desert")
       (position 243 1068 0)
       (overrides 
         (release-rate 150)
-        (direction "right")
-        (owner-id 0)))
+        (direction "right")))
     (groundpiece 
       (type "solid")
       (surface 
@@ -1239,8 +1232,7 @@ Hint: Markers (clues) are provided for when a Pingu should do something.")
       (surface 
         (image "exits/crystal")
         (modifier "ROT0"))
-      (position 1044 709 0)
-      (owner-id 0))
+      (position 1044 709 0))
     (hotspot 
       (surface 
         (image "hotspots/misc/tree")

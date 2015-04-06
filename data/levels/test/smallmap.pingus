@@ -61,6 +61,5 @@
       (position 145 104 0)
       (type "generic")
       (direction "left")
-      (release-rate 25)
-      (owner-id 0))))
+      (release-rate 25))))
 ;; EOF ;;

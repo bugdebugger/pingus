@@ -419,8 +419,7 @@
       (position 223 133 0)
       (type "generic")
       (direction "right")
-      (release-rate 50)
-      (owner-id 0))
+      (release-rate 50))
     (hotspot 
       (surface 
         (image "entrances/cloud")
@@ -429,10 +428,8 @@
       (speed -1)
       (parallax 1))
     (exit 
-      (owner-id 0)
       (position 1010 221 0)
       (surface 
         (image "exits/ice2")
-        (modifier "ROT0"))
-      (owner-id 0))))
+        (modifier "ROT0")))))
 ;; EOF ;;

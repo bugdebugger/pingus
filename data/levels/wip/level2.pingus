@@ -77,21 +77,17 @@
       (position 445 282 0)
       (type "generic")
       (direction "left")
-      (release-rate 30)
-      (owner-id 0))
+      (release-rate 30))
     (entrance 
       (position 824 289 0)
       (type "generic")
       (direction "left")
-      (release-rate 30)
-      (owner-id 0))
+      (release-rate 30))
     (exit 
-      (owner-id 0)
       (position 671 945 0)
       (surface 
         (image "exits/stone")
-        (modifier "ROT0"))
-      (owner-id 0))
+        (modifier "ROT0")))
     (groundpiece 
       (type "ground")
       (surface 

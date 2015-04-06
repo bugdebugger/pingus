@@ -192,8 +192,7 @@
       (position 729 210 0)
       (overrides 
         (release-rate 50)
-        (direction "misc")
-        (owner-id 0)))
+        (direction "misc")))
     (groundpiece 
       (type "ground")
       (surface 
@@ -396,8 +395,7 @@
       (surface 
         (image "exits/desert")
         (modifier "ROT0"))
-      (position 356 1047 0)
-      (owner-id 0))
+      (position 356 1047 0))
     (groundpiece 
       (type "ground")
       (surface 
@@ -659,8 +657,7 @@
     (spike 
       (position 1042 253 0))
     (entrance 
-      (position 1258 934 110)
-      (owner-id 0)
+      (position 1258 934 110)
       (direction "misc")
       (release-rate 150))))
 
