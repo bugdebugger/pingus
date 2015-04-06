@@ -27,10 +27,8 @@ Boarder::Boarder (Pingu* p) :
   speed(0.0),
   sprite()
 {
-  sprite.load(Direction::LEFT,  Sprite("pingus/player" +
-                                       pingu->get_owner_str() + "/boarder/left"));
-  sprite.load(Direction::RIGHT, Sprite("pingus/player" +
-                                       pingu->get_owner_str() + "/boarder/right"));
+  sprite.load(Direction::LEFT,  Sprite("pingus/boarder/left"));
+  sprite.load(Direction::RIGHT, Sprite("pingus/boarder/right"));
 }
 
 void

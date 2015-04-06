@@ -90,10 +90,6 @@ msgstr "Desliza-X:"
 msgid "Scroll-Y:"
 msgstr "Desliza-Y:"
 
-#: src/editor/object_properties.cpp:158
-msgid "Owner Id:"
-msgstr "Id do Dono:"
-
 #: src/editor/object_properties.cpp:162
 msgid "Z-Pos:"
 msgstr "Pos-Z:"

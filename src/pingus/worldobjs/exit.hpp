@@ -28,7 +28,6 @@ class Exit : public WorldObj
 private:
   ResDescriptor desc;
   Vector3f pos;
-  int owner_id;
 
   Sprite sprite;
   Sprite flag;

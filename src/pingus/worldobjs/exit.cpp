@@ -29,19 +29,12 @@ namespace WorldObjs {
 Exit::Exit(const FileReader& reader) :
   desc(),
   pos(),
-  owner_id(),
   sprite(),
-  flag(),
+  flag("core/misc/flag"),
   smallmap_symbol("core/misc/smallmap_exit")
 {
   reader.read_vector("position", pos);
   reader.read_desc  ("surface",  desc);
-  reader.read_int   ("owner-id", owner_id);
-
-  // Set default owner ID to 0
-  if (owner_id < 0 || owner_id > 3) owner_id = 0;
-
-  flag = Sprite("core/misc/flag" + StringUtil::to_string(owner_id));
 
   sprite = Sprite(desc);
 }
@@ -81,21 +74,17 @@ Exit::update ()
 
   for (PinguIter pingu = holder->begin(); pingu != holder->end(); ++pingu)
   {
-    // Make sure this particular exit is allowed for this pingu
-    if ((*pingu)->get_owner()  == owner_id)
+    // Make sure the pingu is within range
+    if (   (*pingu)->get_pos().x > pos.x - 1 && (*pingu)->get_pos().x < pos.x + 1
+           && (*pingu)->get_pos().y > pos.y - 5 && (*pingu)->get_pos().y < pos.y + 5)
     {
-      // Now, make sure the pingu is within range
-      if (   (*pingu)->get_pos().x > pos.x - 1 && (*pingu)->get_pos().x < pos.x + 1
-             && (*pingu)->get_pos().y > pos.y - 5 && (*pingu)->get_pos().y < pos.y + 5)
+      // Now, make sure the pingu isn't already exiting, gone, or dead
+      if (   (*pingu)->get_status() != Pingu::PS_EXITED
+             && (*pingu)->get_status() != Pingu::PS_DEAD
+             && (*pingu)->get_action() != ActionName::EXITER)
       {
-        // Now, make sure the pingu isn't already exiting, gone, or dead
-        if (   (*pingu)->get_status() != Pingu::PS_EXITED
-               && (*pingu)->get_status() != Pingu::PS_DEAD
-               && (*pingu)->get_action() != ActionName::EXITER)
-        {
-          // Pingu actually exits
-          (*pingu)->set_action(ActionName::EXITER);
-        }
+        // Pingu actually exits
+        (*pingu)->set_action(ActionName::EXITER);
       }
     }
   }

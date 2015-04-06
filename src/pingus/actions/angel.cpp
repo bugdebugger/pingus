@@ -26,7 +26,7 @@ Angel::Angel (Pingu* p)
   : PinguAction(p),
     counter(0.0),
     x_pos(pingu->get_x()),
-    sprite(Sprite("pingus/player" + pingu->get_owner_str() + "/angel"))
+    sprite(Sprite("pingus/angel"))
 {
 }
 

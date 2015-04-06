@@ -91,10 +91,6 @@ msgstr "Rull-X:"
 msgid "Scroll-Y:"
 msgstr "Rull-Y:"
 
-#: src/editor/object_properties.cpp:158
-msgid "Owner Id:"
-msgstr "Eigar-ID:"
-
 #: src/editor/object_properties.cpp:162
 msgid "Z-Pos:"
 msgstr "Z-nivå:"

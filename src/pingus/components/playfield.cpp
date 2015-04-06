@@ -46,7 +46,7 @@ Playfield::Playfield(Server* server_, GameSession* session_, const Rect& rect_) 
                             server->get_world()->get_height())));
 
   // FIXME: Temporary workaround till start-pos is integrated a bit more properly
-  state.set_pos(server->get_world()->get_start_pos(0));
+  state.set_pos(server->get_world()->get_start_pos());
 }
 
 Playfield::~Playfield()
@@ -173,7 +173,7 @@ Playfield::on_key_pressed(const Input::KeyboardEvent& ev)
     {
       Vector2i n = state.screen2world(mouse_pos);
       Vector3f p = Vector3f(n.x,n.y,0);
-      Pingu* pingu = server->get_world()->get_pingus()->create_pingu(p, 0);
+      Pingu* pingu = server->get_world()->get_pingus()->create_pingu(p);
       if (pingu)
       {
         Direction d;

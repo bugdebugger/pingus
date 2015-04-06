@@ -58,9 +58,6 @@ protected:
   /** Optional repeat field for certain objects */
   int repeat;
 
-  /** Optional owner id field for certain objects */
-  int owner_id;
-
   /** Optional release rate field for certain objects (entrances) */
   int release_rate;
 
@@ -135,9 +132,6 @@ public:
 
   /** Retrive the object's parallax (is this even used???) */
   float get_parallax() const { return parallax; }
-
-  /** Retrieve the object's owner */
-  int get_owner() const { return owner_id; }
 
   /** Retrieve the object's repeat */
   int get_repeat() const { return repeat; }
@@ -229,9 +223,6 @@ public:
 
   /** Set the object's repeat */
   void set_repeat(const int w) { repeat = w; }
-
-  /** Set the object's owner_id */
-  void set_owner(const int owner) { owner_id = owner; }
 
   /** Set the object's scroll rate in the x direction */
   void set_scroll_x(const float s) { scroll_x = s; }

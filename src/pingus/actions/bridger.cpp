@@ -37,15 +37,11 @@ Bridger::Bridger (Pingu* p) :
   block_build(false),
   name(_("Bridger") + std::string(" (" + StringUtil::to_string(bricks) + ")"))
 {
-  walk_sprite.load (Direction::LEFT,  Sprite("pingus/player" +
-                                             pingu->get_owner_str() + "/bridger_walk/left"));
-  walk_sprite.load (Direction::RIGHT, Sprite("pingus/player" +
-                                             pingu->get_owner_str() + "/bridger_walk/right"));
+  walk_sprite.load (Direction::LEFT,  Sprite("pingus/bridger_walk/left"));
+  walk_sprite.load (Direction::RIGHT, Sprite("pingus/bridger_walk/right"));
 
-  build_sprite.load(Direction::LEFT,  Sprite("pingus/player" +
-                                             pingu->get_owner_str() + "/bridger/left"));
-  build_sprite.load(Direction::RIGHT, Sprite("pingus/player" +
-                                             pingu->get_owner_str() + "/bridger/right"));
+  build_sprite.load(Direction::LEFT,  Sprite("pingus/bridger/left"));
+  build_sprite.load(Direction::RIGHT, Sprite("pingus/bridger/right"));
 }
 
 void

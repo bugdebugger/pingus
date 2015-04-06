@@ -60,7 +60,6 @@ GroupLevelObj::GroupLevelObj() :
   m_orig_pos(),
   m_overrides(),
   m_repeat(),
-  m_owner_id(),
   m_release_rate(),
   m_direction()
 {
@@ -104,12 +103,6 @@ GroupLevelObj::set_overrides(const FileReader& reader)
     m_overrides |= HAS_REPEAT;
   }
 
-  if (reader.read_int("owner-id", m_owner_id))
-  {
-    set_owner(m_owner_id);
-    m_overrides |= HAS_OWNER;
-  }
-
   if (reader.read_int("release-rate", m_release_rate))
   {
     set_release_rate(m_release_rate);
@@ -146,7 +139,6 @@ GroupLevelObj::write_properties(FileWriter& writer)
     if (m_overrides & HAS_REPEAT)       writer.write_int("repeat", m_repeat);
     if (m_overrides & HAS_RELEASE_RATE) writer.write_int("release-rate", m_release_rate);
     if (m_overrides & HAS_DIRECTION)    writer.write_string("direction", m_direction);
-    if (m_overrides & HAS_OWNER)        writer.write_int("owner-id", m_owner_id);
     writer.end_section();
     writer.end_section();
   }
@@ -229,17 +221,6 @@ GroupLevelObj::set_release_rate(const int r)
 }
 
 void
-GroupLevelObj::set_owner(const int owner)
-{
-  m_owner_id = owner;
-
-  for(auto it = m_objects.begin(); it != m_objects.end(); ++it)
-  {
-    (*it)->set_owner(m_owner_id);
-  }
-}
-
-void
 GroupLevelObj::set_direction(const std::string direction)
 {
   m_direction = direction;
@@ -272,7 +253,6 @@ GroupLevelObj::duplicate(const Vector2i& offset) const
 
   group->m_overrides    = m_overrides;
   group->m_repeat       = m_repeat;
-  group->m_owner_id     = m_owner_id;
   group->m_release_rate = m_release_rate;
   group->m_direction    = m_direction;
 

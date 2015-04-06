@@ -37,10 +37,8 @@ Basher::Basher (Pingu* p) :
 {
   assert(bash_radius.get_width() % 2 == 0);
 
-  sprite.load(Direction::LEFT,  Sprite("pingus/player" +
-                                       pingu->get_owner_str() + "/basher/left"));
-  sprite.load(Direction::RIGHT, Sprite("pingus/player" +
-                                       pingu->get_owner_str() + "/basher/right"));
+  sprite.load(Direction::LEFT,  Sprite("pingus/basher/left"));
+  sprite.load(Direction::RIGHT, Sprite("pingus/basher/right"));
 
   bash_reach = bash_radius.get_width();
 

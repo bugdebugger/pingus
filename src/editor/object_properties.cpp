@@ -55,8 +55,6 @@ ObjectProperties::ObjectProperties(EditorScreen* editor_, const Rect& rect_) :
   scroll_x_inputbox(),
   scroll_y_label(),
   scroll_y_inputbox(),
-  owner_label(),
-  owner_inputbox(),
   pos_x_label(),
   pos_x_inputbox(),
   pos_y_label(),
@@ -158,10 +156,6 @@ ObjectProperties::ObjectProperties(EditorScreen* editor_, const Rect& rect_) :
 
   scroll_x_inputbox->on_change.connect(std::bind(&ObjectProperties::on_scroll_x_change, this, std::placeholders::_1));
   scroll_y_inputbox->on_change.connect(std::bind(&ObjectProperties::on_scroll_y_change, this, std::placeholders::_1));
-
-  owner_label = create<Label>(label_rect, _("Owner Id:"));
-  owner_inputbox = create<Inputbox>(box_rect);
-  owner_inputbox->on_change.connect(std::bind(&ObjectProperties::on_owner_change, this, std::placeholders::_1));
 
   pos_x_label = create<Label>(label_rect, _("X-Pos:"));
   pos_x_inputbox = create<Inputbox>(box_rect);
@@ -316,9 +310,6 @@ ObjectProperties::hide_all()
   scroll_y_label->hide();
   scroll_y_inputbox->hide();
 
-  owner_label->hide();
-  owner_inputbox->hide();
-
   pos_x_label->hide();
   pos_x_inputbox->hide();
 
@@ -400,12 +391,6 @@ ObjectProperties::set_object(LevelObjPtr obj)
     {
       repeat_inputbox->set_text(StringUtil::to_string(obj->get_repeat()));
       place(repeat_label, repeat_inputbox);
-    }
-
-    if (attr & HAS_OWNER)
-    {
-      owner_inputbox->set_text(StringUtil::to_string(obj->get_owner()));
-      place(owner_label, owner_inputbox);
     }
 
     if (attr & HAS_COLOR)
@@ -597,13 +582,6 @@ ObjectProperties::on_entrance_direction_change(const ComboItem& item)
     else // (item.id == 2)
       (*i)->set_direction("right");
   }
-}
-
-void
-ObjectProperties::on_owner_change(const std::string& str)
-{
-  for(auto i = objects.begin(); i != objects.end(); ++i)
-    (*i)->set_owner(StringUtil::to<int>(str));
 }
 
 void

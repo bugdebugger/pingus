@@ -25,10 +25,8 @@ Jumper::Jumper (Pingu* p) :
   PinguAction(p),
   sprite()
 {
-  sprite.load(Direction::LEFT,  Sprite("pingus/player" +
-                                       pingu->get_owner_str() + "/jumper/left"));
-  sprite.load(Direction::RIGHT, Sprite("pingus/player" +
-                                       pingu->get_owner_str() + "/jumper/right"));
+  sprite.load(Direction::LEFT,  Sprite("pingus/jumper/left"));
+  sprite.load(Direction::RIGHT, Sprite("pingus/jumper/right"));
 }
 
 void

@@ -25,7 +25,7 @@ Superman::Superman (Pingu* p)
   : PinguAction(p),
     counter(0.0f),
     x_pos(pingu->get_x()),
-    sprite(Sprite("pingus/player" + pingu->get_owner_str() + "/superman"))
+    sprite(Sprite("pingus/superman"))
 {
 }
 

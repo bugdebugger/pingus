@@ -31,15 +31,11 @@ Faller::Faller (Pingu* p) :
   faller(),
   tumbler()
 {
-  faller.load(Direction::LEFT,  Sprite("pingus/player" +
-                                       pingu->get_owner_str() + "/faller/left"));
-  faller.load(Direction::RIGHT, Sprite("pingus/player" +
-                                       pingu->get_owner_str() + "/faller/right"));
+  faller.load(Direction::LEFT,  Sprite("pingus/faller/left"));
+  faller.load(Direction::RIGHT, Sprite("pingus/faller/right"));
 
-  tumbler.load(Direction::LEFT,  Sprite("pingus/player" +
-                                        pingu->get_owner_str() + "/tumbler/left"));
-  tumbler.load(Direction::RIGHT, Sprite("pingus/player" +
-                                        pingu->get_owner_str() + "/tumbler/right"));
+  tumbler.load(Direction::LEFT,  Sprite("pingus/tumbler/left"));
+  tumbler.load(Direction::RIGHT, Sprite("pingus/tumbler/right"));
 
   // FIXME: add sprites for jumping here: if x_vel > y_vel, use them
 }

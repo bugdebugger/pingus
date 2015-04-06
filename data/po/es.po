@@ -93,10 +93,6 @@ msgstr "Deslizamiento-X"
 msgid "Scroll-Y:"
 msgstr "Deslizamiento-Y:"
 
-#: src/editor/object_properties.cpp:158
-msgid "Owner Id:"
-msgstr "Id propietario:"
-
 #: src/editor/object_properties.cpp:162
 msgid "Z-Pos:"
 msgstr "Posición Z"

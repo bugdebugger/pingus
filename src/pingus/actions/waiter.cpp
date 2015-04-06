@@ -24,9 +24,8 @@ namespace Actions {
 Waiter::Waiter (Pingu* p) :
   PinguAction(p),
   countdown(2.0f),
-  sprite()
+  sprite("pingus/waiter/left")
 {
-  sprite = Sprite("pingus/player" + pingu->get_owner_str() + "/waiter/left");
 }
 
 void

@@ -92,10 +92,6 @@ msgstr "Défilement-X :"
 msgid "Scroll-Y:"
 msgstr "Défilement-Y :"
 
-#: src/editor/object_properties.cpp:158
-msgid "Owner Id:"
-msgstr "Id du propriétaire :"
-
 #: src/editor/object_properties.cpp:162
 msgid "Z-Pos:"
 msgstr "Pos-Z :"

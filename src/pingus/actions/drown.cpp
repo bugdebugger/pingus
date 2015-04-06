@@ -25,10 +25,8 @@ Drown::Drown (Pingu* p) :
   PinguAction(p),
   sprite()
 {
-  sprite.load(Direction::LEFT,  Sprite("pingus/player" +
-                                       pingu->get_owner_str() + "/drownfall/left"));
-  sprite.load(Direction::RIGHT, Sprite("pingus/player" +
-                                       pingu->get_owner_str() + "/drownfall/right"));
+  sprite.load(Direction::LEFT,  Sprite("pingus/drownfall/left"));
+  sprite.load(Direction::RIGHT, Sprite("pingus/drownfall/right"));
 }
 
 void

@@ -34,10 +34,10 @@ Bomber::Bomber (Pingu* p) :
   colmap_exploded(false),
   bomber_radius("other/bomber_radius_gfx", "other/bomber_radius"),
   sprite(),
-  explo_surf(Sprite("pingus/player" + pingu->get_owner_str() + "/explo"))
+  explo_surf(Sprite("pingus/explo"))
 {
-  sprite.load(Direction::LEFT,  "pingus/player" + pingu->get_owner_str() + "/bomber/left");
-  sprite.load(Direction::RIGHT, "pingus/player" + pingu->get_owner_str() + "/bomber/right");
+  sprite.load(Direction::LEFT,  "pingus/bomber/left");
+  sprite.load(Direction::RIGHT, "pingus/bomber/right");
 
   WorldObj::get_world()->play_sound("ohno", pingu->get_pos ());
 }

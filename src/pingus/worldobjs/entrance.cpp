@@ -29,18 +29,13 @@ Entrance::Entrance(const FileReader& reader) :
   direction(MISC),
   pos(),
   release_rate(150),
-  owner_id(0),
   smallmap_symbol("core/misc/smallmap_entrance"),
   surface(),
   last_release(),
   last_direction(0)
 {
-  reader.read_int   ("owner-id",     owner_id);
   reader.read_vector("position",     pos);
   reader.read_int   ("release-rate", release_rate);
-
-  // Set default owner ID to 0
-  if (owner_id < 0 || owner_id > 3) owner_id = 0;
 
   std::string direction_str;
   reader.read_string("direction", direction_str);
@@ -86,7 +81,7 @@ Entrance::create_pingu ()
 {
   Direction d;
 
-  Pingu* pingu = world->get_pingus()->create_pingu(pos, owner_id);
+  Pingu* pingu = world->get_pingus()->create_pingu(pos);
 
   if (pingu) // still pingus in the pool
   {

@@ -306,7 +306,7 @@ World::get_worldobj(const std::string& id)
 }
 
 Vector2i
-World::get_start_pos(int player_id)
+World::get_start_pos(void)
 {
   // FIXME: Workaround for lack of start-pos
   Vector2i pos;
@@ -314,7 +314,7 @@ World::get_start_pos(int player_id)
   for(WorldObjIter obj = world_obj.begin(); obj != world_obj.end(); ++obj)
   {
     WorldObjs::Entrance* entrance = dynamic_cast<WorldObjs::Entrance*>(*obj);
-    if (entrance && entrance->get_owner_id() == player_id)
+    if (entrance)
     {
       pos += Vector2i(static_cast<int>(entrance->get_pos().x),
                       static_cast<int>(entrance->get_pos().y));

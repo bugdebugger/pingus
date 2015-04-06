@@ -96,10 +96,6 @@ msgstr ""
 msgid "Scroll-Y:"
 msgstr ""
 
-#: src/editor/object_properties.cpp:158
-msgid "Owner Id:"
-msgstr ""
-
 #: src/editor/object_properties.cpp:162
 msgid "Z-Pos:"
 msgstr ""

@@ -35,10 +35,8 @@ Miner::Miner (Pingu* p) :
   sprite(),
   delay_count(0)
 {
-  sprite.load(Direction::LEFT,  Sprite("pingus/player" +
-                                       pingu->get_owner_str() + "/miner/left"));
-  sprite.load(Direction::RIGHT, Sprite("pingus/player" +
-                                       pingu->get_owner_str() + "/miner/right"));
+  sprite.load(Direction::LEFT,  Sprite("pingus/miner/left"));
+  sprite.load(Direction::RIGHT, Sprite("pingus/miner/right"));
 }
 
 void

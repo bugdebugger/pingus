@@ -42,7 +42,6 @@ private:
   // properties
   unsigned int m_overrides;
   int m_repeat;
-  int m_owner_id;
   int m_release_rate;
   std::string m_direction;
 
@@ -89,9 +88,6 @@ public:
 
   /** Retrive the object's parallax (is this even used???) */
   float get_parallax() const { return 0; }
-
-  /** Retrieve the object's owner */
-  int get_owner() const { return m_owner_id; }
 
   /** Retrieve the object's repeat */
   int get_repeat() const { return m_repeat; }
@@ -176,9 +172,6 @@ public:
 
   /** Set the object's repeat */
   void set_repeat(const int w);
-
-  /** Set the object's owner_id */
-  void set_owner(const int owner);
 
   /** Set the object's scroll rate in the x direction */
   void set_scroll_x(const float s) { }

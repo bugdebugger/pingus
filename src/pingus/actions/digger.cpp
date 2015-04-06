@@ -28,10 +28,9 @@ Digger::Digger(Pingu* p) :
   PinguAction(p),
   digger_radius("pingus/common/digger_radius_gfx", "pingus/common/digger_radius"),
   digger_radius_final("pingus/common/digger_radius_final_gfx", "pingus/common/digger_radius_final_gfx"),
-  sprite(),
+  sprite("pingus/digger/left"),
   delay_count(0)
 {
-  sprite = Sprite("pingus/player" + pingu->get_owner_str() + "/digger/left");
 }
 
 void

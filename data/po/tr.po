@@ -91,10 +91,6 @@ msgstr "Kaydır-X:"
 msgid "Scroll-Y:"
 msgstr "Kaydır-Y:"
 
-#: src/editor/object_properties.cpp:158
-msgid "Owner Id:"
-msgstr "Kullanıcı No:"
-
 #: src/editor/object_properties.cpp:162
 msgid "Z-Pos:"
 msgstr "Konum-Z:"

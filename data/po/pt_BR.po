@@ -91,10 +91,6 @@ msgstr "Rolar-X:"
 msgid "Scroll-Y:"
 msgstr "Rolar-Y:"
 
-#: src/editor/object_properties.cpp:158
-msgid "Owner Id:"
-msgstr "ID do proprietário:"
-
 #: src/editor/object_properties.cpp:162
 msgid "Z-Pos:"
 msgstr "Posição-Z:"

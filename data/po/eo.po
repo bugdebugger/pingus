@@ -90,10 +90,6 @@ msgstr "Rulumilo-X"
 msgid "Scroll-Y:"
 msgstr "Rulumilo-Y"
 
-#: src/editor/object_properties.cpp:158
-msgid "Owner Id:"
-msgstr "Identigo de la posedanto"
-
 #: src/editor/object_properties.cpp:162
 msgid "Z-Pos:"
 msgstr ""

@@ -38,7 +38,6 @@ GenericLevelObj::GenericLevelObj(std::string obj_name) :
   speed(0),
   parallax(0.0),
   repeat(0),
-  owner_id(0),
   release_rate(0),
   direction(),
   scroll_x(0),
@@ -75,7 +74,6 @@ GenericLevelObj::GenericLevelObj(const GenericLevelObj& rhs) :
   speed(rhs.speed),
   parallax(rhs.parallax),
   repeat(rhs.repeat),
-  owner_id(rhs.owner_id),
   release_rate(rhs.release_rate),
   direction(rhs.direction),
   scroll_x(rhs.scroll_x),
@@ -112,9 +110,9 @@ GenericLevelObj::get_attributes(std::string obj_type)
   else if (obj_type == "starfield-background")
     return HAS_STARFIELD | HAS_SPRITE_FAKE;
   else if (obj_type == "entrance")
-    return HAS_DIRECTION | HAS_RELEASE_RATE | HAS_OWNER | HAS_SPRITE_FAKE;
+    return HAS_DIRECTION | HAS_RELEASE_RATE | IS_DOOR | HAS_SPRITE_FAKE;
   else if (obj_type == "exit")
-    return HAS_OWNER | HAS_SPRITE;
+    return IS_DOOR | HAS_SPRITE;
   else if (obj_type == "spike")
     return HAS_SPRITE_FAKE;
   else if (obj_type == "snow-generator" || obj_type == "snow")
@@ -306,8 +304,6 @@ GenericLevelObj::write_properties(FileWriter &fw)
     fw.write_float("parallax", parallax);
   if (attribs_ & HAS_REPEAT)
     fw.write_int("repeat", repeat);
-  if (attribs_ & HAS_OWNER)
-    fw.write_int("owner-id", owner_id);
   if (attribs_ & HAS_DIRECTION)
     fw.write_string("direction", direction);
   if (attribs_ & HAS_RELEASE_RATE)

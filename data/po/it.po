@@ -93,10 +93,6 @@ msgstr "Scorrimento-X:"
 msgid "Scroll-Y:"
 msgstr "Scorrimento-Y:"
 
-#: src/editor/object_properties.cpp:158
-msgid "Owner Id:"
-msgstr "Id del proprietario:"
-
 #: src/editor/object_properties.cpp:162
 msgid "Z-Pos:"
 msgstr "Z-Pos:"
@@ -2738,9 +2734,6 @@ msgstr "Merry Christmas and a Happy New Year"
 #~ msgid "Couldn't open: "
 #~ msgstr "Impossibile aprire: "
 
-#~ msgid "Multiplayer"
-#~ msgstr "Multigiocatore"
-
 #~ msgid "Yes"
 #~ msgstr "Sì"
 
@@ -3366,10 +3359,6 @@ msgstr "Merry Christmas and a Happy New Year"
 
 #, fuzzy
 #~ msgid "..:: Start the story ::.."
-#~ msgstr "..:: Inizia il gioco ::.."
-
-#, fuzzy
-#~ msgid "..:: Multiplayer Match ::.."
 #~ msgstr "..:: Inizia il gioco ::.."
 
 #, fuzzy

@@ -39,9 +39,6 @@ private:
   Pingu*      pingu;
   std::string action_str;
 
-  /// The id of the owner of this capture rectangle
-  int owner_id;
-
   Sprite good;
   Sprite bad;
   Sprite arrow_left;

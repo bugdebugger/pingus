@@ -33,7 +33,7 @@ const unsigned HAS_TYPE =         1 << 0;
 const unsigned HAS_SPEED =        1 << 1;
 const unsigned HAS_PARALLAX =     1 << 2;
 const unsigned HAS_REPEAT =       1 << 3;
-const unsigned HAS_OWNER =        1 << 4;
+const unsigned IS_DOOR =          1 << 4;
 const unsigned HAS_COLOR =        1 << 5;
 const unsigned HAS_SCROLL =       1 << 6;
 const unsigned HAS_PARA =         1 << 7;
@@ -83,9 +83,6 @@ public:
 
   /** Retrive the object's parallax (is this even used???) */
   virtual float get_parallax() const = 0;
-
-  /** Retrieve the object's owner */
-  virtual int get_owner() const = 0;
 
   /** Retrieve the object's repeat */
   virtual int get_repeat() const = 0;
@@ -181,9 +178,6 @@ public:
 
   /** Set the object's repeat */
   virtual void set_repeat(const int w) = 0;
-
-  /** Set the object's owner_id */
-  virtual void set_owner(const int owner) = 0;
 
   /** Set the object's scroll rate in the x direction */
   virtual void set_scroll_x(const float s) = 0;

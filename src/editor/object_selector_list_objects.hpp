@@ -58,7 +58,6 @@ struct Entrance : public ObjectSelectorList::Object
     obj->set_pos_z(110);
     obj->set_direction("misc");
     obj->set_release_rate(150);
-    obj->set_owner(0);
     return obj;
   }
 };

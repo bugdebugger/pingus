@@ -123,11 +123,6 @@ LevelObjFactory::create(const FileReader& reader)
       reader.read_float("parallax", tmp_float);
       obj->set_parallax(tmp_float);
     }
-    if (attribs & HAS_OWNER)
-    {
-      reader.read_int("owner-id", tmp_int);
-      obj->set_owner(tmp_int);
-    }
     if (attribs & HAS_DIRECTION)
     {
       reader.read_string("direction", tmp_str);

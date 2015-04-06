@@ -68,9 +68,6 @@ private:
   /** Countdown till countdown_action is triggered (-1 for no active countdown) */
   int action_time;
 
-  /** The id of the owner of the pingus, used in multiplayer matches */
-  int owner_id;
-
   /** The stat of the pingu, these can be modified by PinguActions */
   PinguStatus status;
 
@@ -91,9 +88,8 @@ public:
 
   /** Creates a new Pingu at the given coordinates
       @param arg_id The uniq id of the pingu
-      @param pos The start position of the pingu
-      @param owner The owner id of the pingu (used for multiplayer) */
-  Pingu (int arg_id, const Vector3f& pos, int owner);
+      @param pos The start position of the pingu */
+  Pingu (int arg_id, const Vector3f& pos);
 
   /** Destruct the pingu... */
   ~Pingu ();
@@ -200,14 +196,6 @@ public:
   //bool is_tumbling () const;
 
   float get_z_pos () const { return 0; }
-
-  /** @return The owner_id of the owner, only used in multiplayer
-      configurations, ought to be 0 in single player */
-  int get_owner ();
-
-  /** @return The owner_id as a string. Only used in multiplayer
-      configurations, ought to be "0" in single player */
-  std::string get_owner_str ();
 
   bool   is_over (int x, int y);
 

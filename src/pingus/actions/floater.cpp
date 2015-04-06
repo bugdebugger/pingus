@@ -26,9 +26,8 @@ Floater::Floater(Pingu* p) :
   PinguAction(p),
   falling_depth(0),
   step(0),
-  sprite()
+  sprite("pingus/floater/left")
 {
-  sprite = Sprite("pingus/player" + pingu->get_owner_str() + "/floater/left");
 }
 
 void

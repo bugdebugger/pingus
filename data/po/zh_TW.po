@@ -90,10 +90,6 @@ msgstr "捲動-X:"
 msgid "Scroll-Y:"
 msgstr "捲動-Y:"
 
-#: src/editor/object_properties.cpp:158
-msgid "Owner Id:"
-msgstr "所屬者編號："
-
 #: src/editor/object_properties.cpp:162
 msgid "Z-Pos:"
 msgstr "Z 軸位置："

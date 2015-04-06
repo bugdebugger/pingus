@@ -95,10 +95,6 @@ msgstr "Scroll-X:"
 msgid "Scroll-Y:"
 msgstr "Scroll-Y:"
 
-#: src/editor/object_properties.cpp:158
-msgid "Owner Id:"
-msgstr "Besitzer-Id:"
-
 #: src/editor/object_properties.cpp:162
 msgid "Z-Pos:"
 msgstr "Z-Pos:"
@@ -2771,9 +2767,6 @@ msgstr "Frohe Weihnachten und ein frohes neues Jahr"
 #~ msgid "Exit Pingus?"
 #~ msgstr "Pingus beenden?"
 
-#~ msgid "Multiplayer"
-#~ msgstr "Mehrspielermodus"
-
 #, fuzzy
 #~ msgid ""
 #~ "Contrib\n"
@@ -3426,10 +3419,6 @@ msgstr "Frohe Weihnachten und ein frohes neues Jahr"
 
 #, fuzzy
 #~ msgid "..:: Start the story ::.."
-#~ msgstr "..:: das Spiel starten ::.."
-
-#, fuzzy
-#~ msgid "..:: Multiplayer Match ::.."
 #~ msgstr "..:: das Spiel starten ::.."
 
 #, fuzzy

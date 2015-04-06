@@ -27,9 +27,8 @@ Splashed::Splashed (Pingu* p) :
   PinguAction(p),
   particle_thrown(false),
   sound_played(false),
-  sprite()
+  sprite("pingus/splat")
 {
-  sprite = Sprite("pingus/player" + pingu->get_owner_str() + "/splat");
 }
 
 void

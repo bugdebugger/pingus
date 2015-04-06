@@ -85,10 +85,6 @@ msgstr "X-Görgetés:"
 msgid "Scroll-Y:"
 msgstr "Y-Görgetés:"
 
-#: src/editor/object_properties.cpp:158
-msgid "Owner Id:"
-msgstr "Tulajdonos ID:"
-
 #: src/editor/object_properties.cpp:162
 msgid "Z-Pos:"
 msgstr "Z-Pozíció:"

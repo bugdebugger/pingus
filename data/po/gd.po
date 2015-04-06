@@ -88,10 +88,6 @@ msgstr "Sgroladh-X:"
 msgid "Scroll-Y:"
 msgstr "Sgroladh-Y:"
 
-#: src/editor/object_properties.cpp:158
-msgid "Owner Id:"
-msgstr "ID cò leis:"
-
 #: src/editor/object_properties.cpp:162
 msgid "Z-Pos:"
 msgstr "Suidh-Z:"

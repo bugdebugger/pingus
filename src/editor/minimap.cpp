@@ -66,7 +66,7 @@ Minimap::draw(DrawingContext& gc)
 
     Color color;
 
-    if (attr & HAS_OWNER) // entrance & exit
+    if (attr & IS_DOOR) // entrance & exit
       color = Color(255,255,0);
     else if (attr & HAS_GPTYPE) // groundpiece
       color = Color(0,255,0);

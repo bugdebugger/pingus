@@ -27,10 +27,8 @@ Exiter::Exiter (Pingu* p) :
   sprite(),
   sound_played(false)
 {
-  sprite.load(Direction::LEFT,  Sprite("pingus/player" +
-                                       pingu->get_owner_str() + "/exit/left"));
-  sprite.load(Direction::RIGHT, Sprite("pingus/player" +
-                                       pingu->get_owner_str() + "/exit/right"));
+  sprite.load(Direction::LEFT,  Sprite("pingus/exit/left"));
+  sprite.load(Direction::RIGHT, Sprite("pingus/exit/right"));
 }
 
 void

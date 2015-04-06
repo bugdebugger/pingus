@@ -155,8 +155,8 @@ public:
   /** Get the acceleration due to gravity in the world */
   float get_gravity();
 
-  /** Returns the start pos for the given player */
-  Vector2i get_start_pos(int player_id);
+  /** Returns the start pos for the player */
+  Vector2i get_start_pos(void);
 
 private:
   World (const World&);

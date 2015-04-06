@@ -69,9 +69,6 @@ private:
   Label*    scroll_y_label;
   Inputbox* scroll_y_inputbox;
 
-  Label*    owner_label;
-  Inputbox* owner_inputbox;
-
   Label*    pos_x_label;
   Inputbox* pos_x_inputbox;
 
@@ -137,7 +134,6 @@ public:
   void on_stretch_y_change(bool t);
   void on_keep_aspect_change(bool t);
   void on_entrance_direction_change(const ComboItem& item);
-  void on_owner_change(const std::string& str);
   void on_para_x_change(const std::string& str);
   void on_para_y_change(const std::string& str);
   void on_scroll_x_change(const std::string& str);

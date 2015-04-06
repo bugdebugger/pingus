@@ -28,10 +28,8 @@ Climber::Climber (Pingu* p) :
   sprite_width(),
   sprite_height()
 {
-  sprite.load(Direction::LEFT,  Sprite("pingus/player" +
-                                       pingu->get_owner_str() + "/climber/left"));
-  sprite.load(Direction::RIGHT, Sprite("pingus/player" +
-                                       pingu->get_owner_str() + "/climber/right"));
+  sprite.load(Direction::LEFT,  Sprite("pingus/climber/left"));
+  sprite.load(Direction::RIGHT, Sprite("pingus/climber/right"));
 }
 
 Vector3f

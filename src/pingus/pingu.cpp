@@ -53,7 +53,7 @@
 using namespace Actions;
 
 // Init a pingu at the given position while falling
-Pingu::Pingu (int arg_id, const Vector3f& arg_pos, int owner) :
+Pingu::Pingu (int arg_id, const Vector3f& arg_pos) :
   action(),
   countdown_action(),
   wall_action(),
@@ -61,7 +61,6 @@ Pingu::Pingu (int arg_id, const Vector3f& arg_pos, int owner) :
   previous_action(ActionName::FALLER),
   id(arg_id),
   action_time(-1),
-  owner_id(owner),
   status(PS_ALIVE),
   pos_x(arg_pos.x),
   pos_y(arg_pos.y),
@@ -423,20 +422,6 @@ Vector3f
 Pingu::get_center_pos () const
 {
   return action->get_center_pos();
-}
-
-int
-Pingu::get_owner ()
-{
-  return owner_id;
-}
-
-std::string
-Pingu::get_owner_str ()
-{
-  std::ostringstream ostr;
-  ostr << owner_id;
-  return ostr.str();
 }
 
 bool
