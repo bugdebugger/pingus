@@ -2388,9 +2388,6 @@ msgstr "Joulu 2011"
 msgid "Merry Christmas and a Happy New Year"
 msgstr "Hauskaa joulua ja hyvää uutta vuotta"
 
-#~ msgid "Rocketlauncher"
-#~ msgstr "Raketinheittäjä"
-
 #~ msgid "Abort"
 #~ msgstr "Lopeta"
 

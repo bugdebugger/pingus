@@ -2265,8 +2265,5 @@ msgstr ""
 #~ msgid "Display:"
 #~ msgstr "Monitori:"
 
-#~ msgid "Rocketlauncher"
-#~ msgstr "Lëshues rakete"
-
 #~ msgid "-Translation"
 #~ msgstr "-Përkthim"

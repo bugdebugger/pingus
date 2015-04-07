@@ -2379,9 +2379,6 @@ msgstr ""
 #~ msgid "Egypt - Piramids"
 #~ msgstr "Egipto - Piramidoj"
 
-#~ msgid "Rocketlauncher"
-#~ msgstr "Misilĵetilo"
-
 #~ msgid "Abort"
 #~ msgstr "Haltu"
 

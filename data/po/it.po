@@ -3195,9 +3195,6 @@ msgstr "Merry Christmas and a Happy New Year"
 #~ "entrarono in un'altra grande sala. Una grande colonna sta bloccando la "
 #~ "via verso l'ingresso."
 
-#~ msgid "Rocketlauncher"
-#~ msgstr "Lanciarazzi"
-
 #~ msgid "The pingus have found themselves in the grand hall."
 #~ msgstr "I Pingus si sono trovati nella grande sala."
 

@@ -2634,9 +2634,6 @@ msgstr "Jul 2011"
 msgid "Merry Christmas and a Happy New Year"
 msgstr "God jul og godt nytt år"
 
-#~ msgid "Rocketlauncher"
-#~ msgstr "Rakettutskytar"
-
 #~ msgid "Abort"
 #~ msgstr "Avbryt"
 

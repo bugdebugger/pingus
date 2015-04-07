@@ -2722,9 +2722,6 @@ msgstr "Joyeux Noël et bonne année"
 #~ "fenêtrée, ils entrèrent dans une autre grande salle. Un large piédestal "
 #~ "bloque le chemin de l'entrée."
 
-#~ msgid "Rocketlauncher"
-#~ msgstr "Lance-roquette"
-
 #~ msgid "Abort"
 #~ msgstr "Retour"
 

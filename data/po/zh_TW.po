@@ -2619,9 +2619,6 @@ msgstr "聖誕節和新年快樂"
 #~ msgid "Filename: "
 #~ msgstr "檔案名稱: "
 
-#~ msgid "Rocketlauncher"
-#~ msgstr "火箭筒"
-
 #~ msgid "...walking..."
 #~ msgstr "...步行..."
 

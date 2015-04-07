@@ -1026,14 +1026,6 @@
 					>
 				</File>
 				<File
-					RelativePath=".\src\actions\rocket_launcher.cpp"
-					>
-				</File>
-				<File
-					RelativePath=".\src\actions\rocket_launcher.hpp"
-					>
-				</File>
-				<File
 					RelativePath=".\src\actions\slider.cpp"
 					>
 				</File>

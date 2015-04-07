@@ -3253,9 +3253,6 @@ msgstr "Frohe Weihnachten und ein frohes neues Jahr"
 #~ "kommen sie in eine weitere große Halle. Ein großer Sockel blockiert ihren "
 #~ "Weg zum Eingang."
 
-#~ msgid "Rocketlauncher"
-#~ msgstr "Rocketlauncher"
-
 #~ msgid "Abort"
 #~ msgstr "Abbruch"
 

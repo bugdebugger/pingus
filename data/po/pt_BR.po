@@ -2676,9 +2676,6 @@ msgstr "Feliz Natal e um Próspero Ano Novo"
 #~ "teletransporte. Sua tripulação está bem treinada, como você, eles não "
 #~ "entram em pânico."
 
-#~ msgid "Rocketlauncher"
-#~ msgstr "Lançador de foguetes"
-
 #~ msgid "Abort"
 #~ msgstr "Cancelar"
 

@@ -2787,9 +2787,6 @@ msgstr "Bon Nadal i feliç any nou"
 #~ msgid "Egypt - Piramids"
 #~ msgstr "Egipte - Piràmides"
 
-#~ msgid "Rocketlauncher"
-#~ msgstr "Llançacoets"
-
 #~ msgid "Use the given renderer (default: delta)"
 #~ msgstr "Fes servir el renderitzador indicat (per defecte:delta)"
 

@@ -2234,9 +2234,6 @@ msgstr ""
 msgid "Merry Christmas and a Happy New Year"
 msgstr ""
 
-#~ msgid "Rocketlauncher"
-#~ msgstr "ฐานส่งจรวด"
-
 #~ msgid "Abort"
 #~ msgstr "เลิกทำงาน"
 

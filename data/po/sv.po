@@ -2432,9 +2432,6 @@ msgstr ""
 msgid "Merry Christmas and a Happy New Year"
 msgstr ""
 
-#~ msgid "Rocketlauncher"
-#~ msgstr "Raketavfyrare"
-
 #~ msgid "Abort"
 #~ msgstr "Avbryt"
 

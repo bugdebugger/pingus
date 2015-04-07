@@ -2634,9 +2634,6 @@ msgstr "Mutlu Yıllar"
 #~ "Yaratıklar ışınlayıcının girişini engelleyerek uzay gemimizi ele "
 #~ "geçirdiler. Tayfan senin gibi iyi eğitimli ve panik yapmıyorlar."
 
-#~ msgid "Rocketlauncher"
-#~ msgstr "Roketatar"
-
 #~ msgid "Abort"
 #~ msgstr "İptal"
 

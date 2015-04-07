@@ -2469,9 +2469,6 @@ msgstr ""
 #~ "komen ze in nog een grote hal. Een grote sokkel verspert de weg naar de "
 #~ "ingang."
 
-#~ msgid "Rocketlauncher"
-#~ msgstr "Raketwerper"
-
 #~ msgid "Abort"
 #~ msgstr "Afbreken"
 
