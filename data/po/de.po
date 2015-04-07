@@ -456,10 +456,6 @@ msgstr "vergefertigtes Objekt"
 msgid "Released:%3d/%d   Out:%3d   Saved:%3d/%d"
 msgstr "Hereingelassen: %3d/%d Raus: %3d Gerettet: %3d/%d"
 
-#: src/pingus/action_name.cpp:27
-msgid "Angel"
-msgstr "Engel"
-
 #: src/pingus/action_name.cpp:28
 msgid "Basher"
 msgstr "Schachtgräber"

@@ -455,10 +455,6 @@ msgstr "Förtillverkat objekt"
 msgid "Released:%3d/%d   Out:%3d   Saved:%3d/%d"
 msgstr "Utsläppta:%3d/%-3d   Ut:%3d   Räddade:%3d/%-3d"
 
-#: src/pingus/action_name.cpp:27
-msgid "Angel"
-msgstr "Ängel"
-
 #: src/pingus/action_name.cpp:28
 msgid "Basher"
 msgstr "Bankare"

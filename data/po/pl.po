@@ -849,10 +849,6 @@ msgstr "Pingus: Przechwycono standardowy wyjątek!:\n"
 msgid "Pingus: Unknown throw caught!"
 msgstr "Pingus: Przechwycono nieznany wyjątek!"
 
-#: src/pingus/action_name.cpp:27
-msgid "Angel"
-msgstr "Anioł"
-
 #: src/pingus/action_name.cpp:28
 msgid "Basher"
 msgstr "Tunelarz"

@@ -454,10 +454,6 @@ msgstr "Polotovar"
 msgid "Released:%3d/%d   Out:%3d   Saved:%3d/%d"
 msgstr "Vysláno:%3d/%d   Venku:%3d   Doma:%3d/%d"
 
-#: src/pingus/action_name.cpp:27
-msgid "Angel"
-msgstr "Anděl"
-
 #: src/pingus/action_name.cpp:28
 msgid "Basher"
 msgstr "Tunelář"

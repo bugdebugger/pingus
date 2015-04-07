@@ -447,10 +447,6 @@ msgstr "Gnàth-oibseact"
 msgid "Released:%3d/%d   Out:%3d   Saved:%3d/%d"
 msgstr "Fa sgaoil: %3d/%d A-muigh: %3d Sàbhailte: %3d/%d"
 
-#: src/pingus/action_name.cpp:27
-msgid "Angel"
-msgstr "Aingeal"
-
 #: src/pingus/action_name.cpp:28
 msgid "Basher"
 msgstr "Slacair"

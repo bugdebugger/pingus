@@ -406,10 +406,6 @@ msgstr ""
 msgid "Released:%3d/%d   Out:%3d   Saved:%3d/%d"
 msgstr "Išėjo:%3d/%d   Keliauja:%3d   Atėjo:%3d/%d"
 
-#: src/pingus/action_name.cpp:27
-msgid "Angel"
-msgstr "Angelas"
-
 #: src/pingus/action_name.cpp:28
 msgid "Basher"
 msgstr "Rausėjas"

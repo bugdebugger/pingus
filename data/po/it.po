@@ -443,10 +443,6 @@ msgstr "Oggetti Prefabbricati"
 msgid "Released:%3d/%d   Out:%3d   Saved:%3d/%d"
 msgstr "Rilasciati:%3d/%d  Fuori:%3d Salvati:%3d/%d"
 
-#: src/pingus/action_name.cpp:27
-msgid "Angel"
-msgstr "Angelo"
-
 #: src/pingus/action_name.cpp:28
 msgid "Basher"
 msgstr "Sfondamuri"

@@ -446,10 +446,6 @@ msgstr "Prefab Nesnesi"
 msgid "Released:%3d/%d   Out:%3d   Saved:%3d/%d"
 msgstr "Çıkan:%3d/%d Dışarıda:%3d Kurtarılan:%3d/%d"
 
-#: src/pingus/action_name.cpp:27
-msgid "Angel"
-msgstr "Melek"
-
 #: src/pingus/action_name.cpp:28
 msgid "Basher"
 msgstr "Delici"

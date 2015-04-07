@@ -442,10 +442,6 @@ msgstr "Førehandslaga objekt"
 msgid "Released:%3d/%d   Out:%3d   Saved:%3d/%d"
 msgstr "Sende ut:%3d/%d   Ute:%3d   Redda:%3d/%d"
 
-#: src/pingus/action_name.cpp:27
-msgid "Angel"
-msgstr "Engel"
-
 #: src/pingus/action_name.cpp:28
 msgid "Basher"
 msgstr "Knusar"

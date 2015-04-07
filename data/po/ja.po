@@ -411,10 +411,6 @@ msgstr ""
 msgid "Released:%3d/%d   Out:%3d   Saved:%3d/%d"
 msgstr ""
 
-#: src/pingus/action_name.cpp:27
-msgid "Angel"
-msgstr "天使"
-
 #: src/pingus/action_name.cpp:28
 msgid "Basher"
 msgstr "バッシャー"

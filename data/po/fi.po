@@ -427,10 +427,6 @@ msgstr ""
 msgid "Released:%3d/%d   Out:%3d   Saved:%3d/%d"
 msgstr "Lähteneitä:%3d/%-3d   Liikkeellä:%3d   Pelastettu:%3d/%-3d"
 
-#: src/pingus/action_name.cpp:27
-msgid "Angel"
-msgstr "Enkeli"
-
 #: src/pingus/action_name.cpp:28
 msgid "Basher"
 msgstr "Murskaaja"

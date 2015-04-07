@@ -442,10 +442,6 @@ msgstr "組合物件"
 msgid "Released:%3d/%d   Out:%3d   Saved:%3d/%d"
 msgstr "已出現：%03d/%d 在外面：%03d 已拯救：%3d/%d"
 
-#: src/pingus/action_name.cpp:27
-msgid "Angel"
-msgstr "天使"
-
 #: src/pingus/action_name.cpp:28
 msgid "Basher"
 msgstr "破壞者（Basher）"

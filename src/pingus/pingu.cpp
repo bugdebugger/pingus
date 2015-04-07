@@ -26,7 +26,6 @@
 #include "pingus/worldobj.hpp"
 #include "pingus/pingu_enums.hpp"
 
-#include "pingus/actions/angel.hpp"
 #include "pingus/actions/basher.hpp"
 #include "pingus/actions/blocker.hpp"
 #include "pingus/actions/boarder.hpp"
@@ -434,7 +433,6 @@ Pingu::create_action(ActionName::Enum action_)
 {
   switch(action_)
   {
-    case ActionName::ANGEL:     return std::make_shared<Angel>(this);
     case ActionName::BASHER:    return std::make_shared<Basher>(this);
     case ActionName::BLOCKER:   return std::make_shared<Blocker>(this);
     case ActionName::BOARDER:   return std::make_shared<Boarder>(this);

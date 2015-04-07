@@ -914,14 +914,6 @@
 				Name="actions"
 				>
 				<File
-					RelativePath=".\src\actions\angel.cpp"
-					>
-				</File>
-				<File
-					RelativePath=".\src\actions\angel.hpp"
-					>
-				</File>
-				<File
 					RelativePath=".\src\actions\basher.cpp"
 					>
 				</File>

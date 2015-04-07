@@ -26,7 +26,6 @@ namespace ActionName {
     it should be it needs to be changed here. */
 enum Enum
 {
-  ANGEL,
   BASHER,
   BLOCKER,
   BOARDER,

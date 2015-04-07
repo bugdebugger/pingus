@@ -448,10 +448,6 @@ msgstr "Objeto prefabricado"
 msgid "Released:%3d/%d   Out:%3d   Saved:%3d/%d"
 msgstr "Soltos:%3d/%d   Fora:%3d   Salvos:%3d/%d"
 
-#: src/pingus/action_name.cpp:27
-msgid "Angel"
-msgstr "Anjo"
-
 #: src/pingus/action_name.cpp:28
 msgid "Basher"
 msgstr "Perfurador"

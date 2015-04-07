@@ -448,10 +448,6 @@ msgstr "Припремљен објекат"
 msgid "Released:%3d/%d   Out:%3d   Saved:%3d/%d"
 msgstr "Отпуштених:%3d/%d   Напољу:%3d   Сачуваних:%3d/%d"
 
-#: src/pingus/action_name.cpp:27
-msgid "Angel"
-msgstr "Анђелак"
-
 #: src/pingus/action_name.cpp:28
 msgid "Basher"
 msgstr "Глодач"
