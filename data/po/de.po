@@ -529,10 +529,6 @@ msgstr "zerschmettert"
 msgid "Splashed"
 msgstr "zermatscht"
 
-#: src/pingus/action_name.cpp:45
-msgid "Superman"
-msgstr "Supermann"
-
 #: src/pingus/action_name.cpp:46
 msgid "Teleported"
 msgstr "teleportiert"

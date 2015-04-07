@@ -485,10 +485,6 @@ msgstr "Esmagado"
 msgid "Splashed"
 msgstr "Esparrifado"
 
-#: src/pingus/action_name.cpp:45
-msgid "Superman"
-msgstr "Super-homem"
-
 #: src/pingus/action_name.cpp:46
 msgid "Teleported"
 msgstr "Teleportado"

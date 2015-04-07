@@ -521,10 +521,6 @@ msgstr "Смрскан"
 msgid "Splashed"
 msgstr "Згњечен"
 
-#: src/pingus/action_name.cpp:45
-msgid "Superman"
-msgstr "Супермен"
-
 #: src/pingus/action_name.cpp:46
 msgid "Teleported"
 msgstr "Телепортован"

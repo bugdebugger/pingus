@@ -482,10 +482,6 @@ msgstr "ตัวทุบ"
 msgid "Splashed"
 msgstr "ตัวสาด"
 
-#: src/pingus/action_name.cpp:45
-msgid "Superman"
-msgstr "ซูเปอร์แมน"
-
 #: src/pingus/action_name.cpp:46
 msgid "Teleported"
 msgstr "เคลื่อนย้าย"

@@ -528,10 +528,6 @@ msgstr "Krossad"
 msgid "Splashed"
 msgstr "Utsmetad"
 
-#: src/pingus/action_name.cpp:45
-msgid "Superman"
-msgstr "Stålman"
-
 #: src/pingus/action_name.cpp:46
 msgid "Teleported"
 msgstr "Teleporterad"

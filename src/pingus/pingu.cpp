@@ -44,7 +44,6 @@
 #include "pingus/actions/slider.hpp"
 #include "pingus/actions/smashed.hpp"
 #include "pingus/actions/splashed.hpp"
-#include "pingus/actions/superman.hpp"
 #include "pingus/actions/waiter.hpp"
 #include "pingus/actions/walker.hpp"
 
@@ -453,7 +452,6 @@ Pingu::create_action(ActionName::Enum action_)
     case ActionName::SLIDER:    return std::make_shared<Slider>(this);
     case ActionName::SMASHED:   return std::make_shared<Smashed>(this);
     case ActionName::SPLASHED:  return std::make_shared<Splashed>(this);
-    case ActionName::SUPERMAN:  return std::make_shared<Superman>(this);
     case ActionName::WAITER:    return std::make_shared<Waiter>(this);
     case ActionName::WALKER:    return std::make_shared<Walker>(this);
     default: assert(!"Invalid action name provied");

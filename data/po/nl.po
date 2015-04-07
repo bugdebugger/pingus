@@ -489,10 +489,6 @@ msgstr "Verpletterde"
 msgid "Splashed"
 msgstr "Vermorzelde"
 
-#: src/pingus/action_name.cpp:45
-msgid "Superman"
-msgstr "Superman"
-
 #: src/pingus/action_name.cpp:46
 msgid "Teleported"
 msgstr "Geteleporteerd"

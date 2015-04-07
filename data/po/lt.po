@@ -479,10 +479,6 @@ msgstr ""
 msgid "Splashed"
 msgstr ""
 
-#: src/pingus/action_name.cpp:45
-msgid "Superman"
-msgstr ""
-
 #: src/pingus/action_name.cpp:46
 msgid "Teleported"
 msgstr ""

@@ -500,10 +500,6 @@ msgstr "Liiskaus"
 msgid "Splashed"
 msgstr "Roiskaus"
 
-#: src/pingus/action_name.cpp:45
-msgid "Superman"
-msgstr "Teräsmies"
-
 #: src/pingus/action_name.cpp:46
 msgid "Teleported"
 msgstr "Teleportattu"

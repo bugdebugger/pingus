@@ -501,10 +501,6 @@ msgstr "Ламач"
 msgid "Splashed"
 msgstr "Хлюпун"
 
-#: src/pingus/action_name.cpp:45
-msgid "Superman"
-msgstr "Супермен"
-
 #: src/pingus/action_name.cpp:46
 msgid "Teleported"
 msgstr "Телепортер"

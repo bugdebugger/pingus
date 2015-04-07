@@ -484,10 +484,6 @@ msgstr "扁了"
 msgid "Splashed"
 msgstr "溅落"
 
-#: src/pingus/action_name.cpp:45
-msgid "Superman"
-msgstr "超人"
-
 #: src/pingus/action_name.cpp:46
 msgid "Teleported"
 msgstr "瞬间移动"

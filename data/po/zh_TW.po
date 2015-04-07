@@ -515,10 +515,6 @@ msgstr "被..粉碎"
 msgid "Splashed"
 msgstr "濺落"
 
-#: src/pingus/action_name.cpp:45
-msgid "Superman"
-msgstr "超人"
-
 #: src/pingus/action_name.cpp:46
 msgid "Teleported"
 msgstr "瞬間移動"

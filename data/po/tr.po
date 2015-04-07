@@ -519,10 +519,6 @@ msgstr "Ezildi"
 msgid "Splashed"
 msgstr "Suya düştü"
 
-#: src/pingus/action_name.cpp:45
-msgid "Superman"
-msgstr "Süpermen"
-
 #: src/pingus/action_name.cpp:46
 msgid "Teleported"
 msgstr "Işınlanacaksınız"

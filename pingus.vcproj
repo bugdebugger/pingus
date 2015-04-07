@@ -1066,14 +1066,6 @@
 					>
 				</File>
 				<File
-					RelativePath=".\src\actions\superman.cpp"
-					>
-				</File>
-				<File
-					RelativePath=".\src\actions\superman.hpp"
-					>
-				</File>
-				<File
 					RelativePath=".\src\actions\teleported.cpp"
 					>
 				</File>

@@ -512,10 +512,6 @@ msgstr "Smat"
 msgid "Splashed"
 msgstr "Splat"
 
-#: src/pingus/action_name.cpp:45
-msgid "Superman"
-msgstr "SuperPingu"
-
 #: src/pingus/action_name.cpp:46
 msgid "Teleported"
 msgstr "Teleporteret"

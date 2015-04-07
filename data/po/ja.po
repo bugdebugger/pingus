@@ -484,10 +484,6 @@ msgstr "壊した"
 msgid "Splashed"
 msgstr "撥ねした"
 
-#: src/pingus/action_name.cpp:45
-msgid "Superman"
-msgstr "スーパーマン"
-
 #: src/pingus/action_name.cpp:46
 msgid "Teleported"
 msgstr "テレポートした"

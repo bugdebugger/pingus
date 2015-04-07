@@ -519,10 +519,6 @@ msgstr "Frakasita"
 msgid "Splashed"
 msgstr "Ŝprucita"
 
-#: src/pingus/action_name.cpp:45
-msgid "Superman"
-msgstr "Superviro"
-
 #: src/pingus/action_name.cpp:46
 msgid "Teleported"
 msgstr "Teleportita"

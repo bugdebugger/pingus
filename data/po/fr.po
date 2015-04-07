@@ -522,10 +522,6 @@ msgstr "Écrasé"
 msgid "Splashed"
 msgstr "Éclaboussé"
 
-#: src/pingus/action_name.cpp:45
-msgid "Superman"
-msgstr "Superman"
-
 #: src/pingus/action_name.cpp:46
 msgid "Teleported"
 msgstr "Téléporté"

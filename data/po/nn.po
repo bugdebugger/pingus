@@ -515,10 +515,6 @@ msgstr "Knust"
 msgid "Splashed"
 msgstr "Skvist"
 
-#: src/pingus/action_name.cpp:45
-msgid "Superman"
-msgstr "Supermann"
-
 #: src/pingus/action_name.cpp:46
 msgid "Teleported"
 msgstr "Teleportert"

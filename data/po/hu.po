@@ -480,10 +480,6 @@ msgstr "Nyomi"
 msgid "Splashed"
 msgstr "Szétplaccsant"
 
-#: src/pingus/action_name.cpp:45
-msgid "Superman"
-msgstr "Szuperman!"
-
 #: src/pingus/action_name.cpp:46
 msgid "Teleported"
 msgstr "Teleportált"
