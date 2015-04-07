@@ -435,10 +435,6 @@ msgstr "Murskaaja"
 msgid "Blocker"
 msgstr "Pysäyttäjä"
 
-#: src/pingus/action_name.cpp:30
-msgid "Boarder"
-msgstr "Laatoittaja"
-
 #: src/pingus/action_name.cpp:31
 msgid "Bomber"
 msgstr "Pommittaja"

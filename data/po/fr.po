@@ -457,10 +457,6 @@ msgstr "Défonçeur"
 msgid "Blocker"
 msgstr "Bloqueur"
 
-#: src/pingus/action_name.cpp:30
-msgid "Boarder"
-msgstr "Planchiste"
-
 #: src/pingus/action_name.cpp:31
 msgid "Bomber"
 msgstr "Démolisseur"

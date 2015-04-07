@@ -455,10 +455,6 @@ msgstr "Excavador"
 msgid "Blocker"
 msgstr "Bloqueador"
 
-#: src/pingus/action_name.cpp:30
-msgid "Boarder"
-msgstr "Surfista"
-
 #: src/pingus/action_name.cpp:31
 msgid "Bomber"
 msgstr "Bombardero"

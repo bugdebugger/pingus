@@ -419,10 +419,6 @@ msgstr "バッシャー"
 msgid "Blocker"
 msgstr "ブロッカー"
 
-#: src/pingus/action_name.cpp:30
-msgid "Boarder"
-msgstr "ボーダー"
-
 #: src/pingus/action_name.cpp:31
 msgid "Bomber"
 msgstr "爆撃機"

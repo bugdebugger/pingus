@@ -424,10 +424,6 @@ msgstr "Sloper"
 msgid "Blocker"
 msgstr "Stopper"
 
-#: src/pingus/action_name.cpp:30
-msgid "Boarder"
-msgstr "Surfer"
-
 #: src/pingus/action_name.cpp:31
 msgid "Bomber"
 msgstr "Explodeur"

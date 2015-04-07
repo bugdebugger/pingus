@@ -28,7 +28,6 @@ enum Enum
 {
   BASHER,
   BLOCKER,
-  BOARDER,
   BOMBER,
   BRIDGER,
   CLIMBER,

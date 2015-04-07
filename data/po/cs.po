@@ -462,10 +462,6 @@ msgstr "Tunelář"
 msgid "Blocker"
 msgstr "Hlídač"
 
-#: src/pingus/action_name.cpp:30
-msgid "Boarder"
-msgstr "Skejťák"
-
 #: src/pingus/action_name.cpp:31
 msgid "Bomber"
 msgstr "Bombík"

@@ -10,7 +10,6 @@
     (number-to-save 10)
     (time 4500)
     (actions 
-      (boarder 20)
       (basher 20)
       (blocker 20)
       (bomber 20)

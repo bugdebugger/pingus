@@ -930,14 +930,6 @@
 					>
 				</File>
 				<File
-					RelativePath=".\src\actions\boarder.cpp"
-					>
-				</File>
-				<File
-					RelativePath=".\src\actions\boarder.hpp"
-					>
-				</File>
-				<File
 					RelativePath=".\src\actions\bomber.cpp"
 					>
 				</File>

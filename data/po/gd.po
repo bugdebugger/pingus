@@ -455,10 +455,6 @@ msgstr "Slacair"
 msgid "Blocker"
 msgstr "Bacadair"
 
-#: src/pingus/action_name.cpp:30
-msgid "Boarder"
-msgstr "Bòrdaiche"
-
 #: src/pingus/action_name.cpp:31
 msgid "Bomber"
 msgstr "Bomadair"

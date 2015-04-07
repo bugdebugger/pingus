@@ -415,10 +415,6 @@ msgstr "Vízszintes ásó"
 msgid "Blocker"
 msgstr "Blokkoló"
 
-#: src/pingus/action_name.cpp:30
-msgid "Boarder"
-msgstr "Gördeszkás"
-
 #: src/pingus/action_name.cpp:31
 msgid "Bomber"
 msgstr "Bombázó"

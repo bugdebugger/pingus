@@ -454,10 +454,6 @@ msgstr "Delici"
 msgid "Blocker"
 msgstr "Durdurucu"
 
-#: src/pingus/action_name.cpp:30
-msgid "Boarder"
-msgstr "Boarder"
-
 #: src/pingus/action_name.cpp:31
 msgid "Bomber"
 msgstr "Bombacı"

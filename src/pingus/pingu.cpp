@@ -28,7 +28,6 @@
 
 #include "pingus/actions/basher.hpp"
 #include "pingus/actions/blocker.hpp"
-#include "pingus/actions/boarder.hpp"
 #include "pingus/actions/bomber.hpp"
 #include "pingus/actions/bridger.hpp"
 #include "pingus/actions/climber.hpp"
@@ -435,7 +434,6 @@ Pingu::create_action(ActionName::Enum action_)
   {
     case ActionName::BASHER:    return std::make_shared<Basher>(this);
     case ActionName::BLOCKER:   return std::make_shared<Blocker>(this);
-    case ActionName::BOARDER:   return std::make_shared<Boarder>(this);
     case ActionName::BOMBER:    return std::make_shared<Bomber>(this);
     case ActionName::BRIDGER:   return std::make_shared<Bridger>(this);
     case ActionName::CLIMBER:   return std::make_shared<Climber>(this);

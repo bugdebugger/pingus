@@ -463,10 +463,6 @@ msgstr "Bankare"
 msgid "Blocker"
 msgstr "Blockare"
 
-#: src/pingus/action_name.cpp:30
-msgid "Boarder"
-msgstr "Skejtare"
-
 #: src/pingus/action_name.cpp:31
 msgid "Bomber"
 msgstr "Bombare"

@@ -26,7 +26,6 @@ std::string to_screenname(Enum action)
   {
     case BASHER         : return _("Basher");
     case BLOCKER        : return _("Blocker");
-    case BOARDER        : return _("Boarder");
     case BOMBER         : return _("Bomber");
     case BRIDGER        : return _("Bridger");
     case CLIMBER        : return _("Climber");
@@ -54,7 +53,6 @@ std::string to_string(Enum action)
   {
     case BASHER         : return "basher";
     case BLOCKER        : return "blocker";
-    case BOARDER        : return "boarder";
     case BOMBER         : return "bomber";
     case BRIDGER        : return "bridger";
     case CLIMBER        : return "climber";
@@ -80,7 +78,6 @@ Enum from_string(const std::string& action)
 {
   if (action == "basher")         return BASHER;
   if (action == "blocker")        return BLOCKER;
-  if (action == "boarder")        return BOARDER;
   if (action == "bomber")         return BOMBER;
   if (action == "bridger")        return BRIDGER;
   if (action == "climber")        return CLIMBER;

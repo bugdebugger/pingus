@@ -450,10 +450,6 @@ msgstr "破壞者（Basher）"
 msgid "Blocker"
 msgstr "阻擋者（Blocker）"
 
-#: src/pingus/action_name.cpp:30
-msgid "Boarder"
-msgstr "邊界"
-
 #: src/pingus/action_name.cpp:31
 msgid "Bomber"
 msgstr "炸彈客（Bomber）"

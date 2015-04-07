@@ -420,10 +420,6 @@ msgstr ""
 msgid "Blocker"
 msgstr ""
 
-#: src/pingus/action_name.cpp:30
-msgid "Boarder"
-msgstr ""
-
 #: src/pingus/action_name.cpp:31
 msgid "Bomber"
 msgstr ""

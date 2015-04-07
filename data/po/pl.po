@@ -857,10 +857,6 @@ msgstr "Tunelarz"
 msgid "Blocker"
 msgstr "Stoper"
 
-#: src/pingus/action_name.cpp:30
-msgid "Boarder"
-msgstr "Podłogowy"
-
 #: src/pingus/action_name.cpp:31
 msgid "Bomber"
 msgstr "Kamikadze"
