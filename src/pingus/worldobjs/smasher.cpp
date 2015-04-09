@@ -19,7 +19,6 @@
 #include <assert.h>
 
 #include "engine/display/scene_context.hpp"
-#include "engine/sound/sound.hpp"
 #include "pingus/particles/smoke_particle_holder.hpp"
 #include "pingus/pingu.hpp"
 #include "pingus/pingu_holder.hpp"
@@ -66,7 +65,6 @@ Smasher::update ()
         // SMASH!!! The thing hitten earth and kills the pingus
         downwards = false;
         --count;
-        Sound::PingusSound::play_sound("tenton");
 
         for(int i=0; i < 20; ++i)
         {

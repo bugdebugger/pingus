@@ -17,7 +17,6 @@
 #include "pingus/worldobjs/rain_generator.hpp"
 
 #include "engine/display/scene_context.hpp"
-#include "engine/sound/sound.hpp"
 #include "pingus/particles/rain_particle_holder.hpp"
 #include "pingus/world.hpp"
 #include "util/log.hpp"
@@ -59,7 +58,6 @@ RainGenerator::update()
     do_thunder = true;
     thunder_count = 1.0f;
     waiter_count = 1.0f;
-    Sound::PingusSound::play_sound ("thunder");
   }
 
   if (do_thunder)

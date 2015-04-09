@@ -314,7 +314,6 @@ Pingu::update()
       die. */
   if (rel_getpixel(0, -1) == Groundtype::GP_OUTOFSCREEN)
   {
-    //Sound::PingusSound::play_sound("die");
     status = PS_DEAD;
     return;
   }
