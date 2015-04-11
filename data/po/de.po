@@ -3465,10 +3465,6 @@ msgstr "Frohe Weihnachten und ein frohes neues Jahr"
 #~ msgstr "Ausgewählte Objekte entfernen"
 
 #, fuzzy
-#~ msgid "7 - bumper"
-#~ msgstr "Springer"
-
-#, fuzzy
 #~ msgid "1 - teleporter"
 #~ msgstr "teleportiert"
 

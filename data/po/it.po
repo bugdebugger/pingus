@@ -3381,10 +3381,6 @@ msgstr "Merry Christmas and a Happy New Year"
 #~ msgstr "Elimina gli oggetti selezionati"
 
 #, fuzzy
-#~ msgid "7 - bumper"
-#~ msgstr "Saltatore"
-
-#, fuzzy
 #~ msgid "1 - teleporter"
 #~ msgstr "Teletrasportato"
 
