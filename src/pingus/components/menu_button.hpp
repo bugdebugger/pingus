@@ -43,7 +43,6 @@ protected:
   std::string text;
 
   bool mouse_over;
-  bool pressed;
 
 public:
   MenuButton(PingusMenu* menu, const Vector2i& pos,
@@ -57,8 +56,6 @@ public:
 
   void on_pointer_enter ();
   void on_pointer_leave ();
-  void on_pointer_press ();
-  void on_pointer_release ();
 
   void on_primary_button_click (int x, int y) { on_click (); }
 

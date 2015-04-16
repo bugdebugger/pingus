@@ -33,8 +33,7 @@ MenuButton::MenuButton(PingusMenu* menu_,
   y_pos(),
   desc(),
   text(),
-  mouse_over(),
-  pressed()
+  mouse_over()
 {
   surface_p = Sprite("core/menu/menuitem");
   highlight = Sprite("core/menu/menuitem_highlight");
@@ -49,7 +48,6 @@ MenuButton::MenuButton(PingusMenu* menu_,
   font_large = Fonts::chalk_large;
 
   mouse_over = false;
-  pressed    = false;
 }
 
 MenuButton::~MenuButton ()
@@ -99,18 +97,6 @@ MenuButton::on_pointer_leave ()
   //log_info("X: " << this << "leave");
   mouse_over = false;
   menu->set_hint("");
-}
-
-void
-MenuButton::on_pointer_press ()
-{
-  pressed = true;
-}
-
-void
-MenuButton::on_pointer_release ()
-{
-  pressed = false;
 }
 
 bool
