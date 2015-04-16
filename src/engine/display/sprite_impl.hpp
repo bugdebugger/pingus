@@ -40,7 +40,6 @@ private:
   Size     array;
 
   bool     loop;
-  bool     loop_last_cycle;
   bool     finished;
 
   /** Current frame */
