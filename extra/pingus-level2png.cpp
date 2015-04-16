@@ -1,4 +1,5 @@
 #include <iostream>
+#include <sstream>
 
 #include "engine/display/surface.hpp"
 #include "math/color.hpp"
