@@ -71,31 +71,6 @@ bool mark_sorter(const Mark& lhs, const Mark& rhs)
   }
 }
 
-void print_rows(std::ostream& out, const std::vector<Row>& rows)
-{
-  for(std::vector<Row>::const_iterator i = rows.begin(); i != rows.end(); ++i)
-  {
-    out << "  row: " << i->top << " -> " << i->bottom << " - ";
-    for(std::vector<Mark>::const_iterator mark_it = i->marks.begin(); mark_it != i->marks.end(); ++mark_it)
-    {
-      out << ((mark_it->type == Mark::START_MARK) ? "'(" : "')")
-          << mark_it->pos
-          << ((mark_it->type == Mark::START_MARK) ? "(' " : ")' ");
-    }
-    out << std::endl;
-  }
-}
-
-void print_rects(std::ostream& out, const std::vector<Rect>& rects)
-{
-  out << "(rects " << std::endl;
-  for(std::vector<Rect>::const_iterator i = rects.begin(); i != rects.end(); ++i)
-  {
-    out << *i << std::endl;
-  }
-  out << ") ;; rects " << std::endl;
-}
-
 /** Take a list of rectangles and generate a list of rows written to
     \a rows_out. The rows are returned empty and have to be filled via
     split_rectangles()
@@ -137,7 +112,6 @@ void generate_rows(const std::vector<Rect>& rects, std::vector<Row>& rows_out)
     }
   }
 
-  //print_rects(std::cout, rects);
   assert(!rows_out.empty());
 }
 
@@ -273,7 +247,6 @@ void merge_vertical_rectangles(const std::vector<Rect>& rects, std::vector<Rect>
 */
 void merge_rectangles(const std::vector<Rect>& rects_, std::vector<Rect>& rects_out)
 {
-  //print_rects(std::cerr, rects_);
   std::vector<Rect> rects;
 
   for(std::vector<Rect>::const_iterator i = rects_.begin(); i != rects_.end(); ++i)
@@ -294,16 +267,11 @@ void merge_rectangles(const std::vector<Rect>& rects_, std::vector<Rect>& rects_
   generate_rows(rects, rows);
   split_rectangles(rects, rows);
 
-  //print_rows(std::cout, rows);
-
   std::vector<Rect> rects_out_step1;
   generate_rectangles(rows, rects_out_step1);
 
-  //print_rects(std::cout, rects_out_step1);
-
   std::sort(rects_out_step1.begin(), rects_out_step1.end(), rect_xy_sorter);
   merge_vertical_rectangles(rects_out_step1, rects_out);
-  //print_rects(std::cerr, rects_out);
 }
 
 /* EOF */
