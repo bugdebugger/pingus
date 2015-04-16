@@ -134,15 +134,6 @@ Sprite::is_finished() const
     return true;
 }
 
-bool
-Sprite::is_looping() const
-{
-  if (impl.get())
-    return impl->loop_last_cycle;
-  else
-    return false;
-}
-
 void
 Sprite::set_play_loop(bool loop)
 {
