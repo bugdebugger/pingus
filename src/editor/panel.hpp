@@ -43,7 +43,6 @@ public:
   void update (float delta);
 
   void add_button(const std::string& image, const std::string& tooltip = "", Callback callback = 0);
-  void add_toggle_button(const std::string& image);
   void add_separator();
 
 private:

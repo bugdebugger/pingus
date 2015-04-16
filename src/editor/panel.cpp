@@ -253,13 +253,6 @@ Panel::add_button(const std::string& image, const std::string& tooltip, Callback
 }
 
 void
-Panel::add_toggle_button(const std::string& image)
-{
-  PanelButton* comp = editor->get_gui_manager()->create<PanelButton>(editor, pos, image, "");
-  pos.x += comp->get_width();
-}
-
-void
 Panel::add_separator()
 {
   PanelSeparator* comp = editor->get_gui_manager()->create<PanelSeparator>(pos);
