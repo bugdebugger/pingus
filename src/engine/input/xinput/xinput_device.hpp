@@ -71,7 +71,6 @@ public:
   ~XInputDevice();
 
   void get_info(XDeviceInfo* info);
-  void on_xevent(XEvent &event);
   int  register_events(Display* dpy,
                        XDeviceInfo* info,
                        const char* dev_name,
