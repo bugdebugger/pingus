@@ -94,13 +94,6 @@ PingusMenu::~PingusMenu()
 }
 
 void
-PingusMenu::show_credits()
-{
-  ScreenManager::instance()
-    ->push_screen(std::make_shared<Credits>(Pathname("credits/pingus.credits", Pathname::DATA_PATH)));
-}
-
-void
 PingusMenu::do_quit()
 {
   ScreenManager::instance ()->pop_screen ();

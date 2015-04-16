@@ -50,8 +50,6 @@ private:
   MenuButton* contrib_button;
   MenuButton* options_button;
 
-  void show_credits();
-
   void do_quit();
   void do_start(const std::string &filename);
   void do_edit();
