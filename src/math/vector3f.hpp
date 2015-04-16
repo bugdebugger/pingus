@@ -101,8 +101,6 @@ public:
     return Math::sqrt(x * x + y * y + z * z);
   }
 
-  Vector3f rotate (float angle, const Vector3f& pos) const;
-
   static float distance(const Vector3f& a, const Vector3f& b)
   {
     float x = b.x - a.x;
