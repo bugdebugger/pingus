@@ -516,7 +516,6 @@ ObjectProperties::set_objects(const Selection& objs)
 {
   objects = objs;
 
-  std::string obj_type;
   if (objects.empty())
   {
     type_label->set_text(_("Object:"));
