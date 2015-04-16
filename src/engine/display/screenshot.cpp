@@ -114,31 +114,6 @@ Screenshot::save(SDL_Surface* surface, const std::string& filename)
 }
 
 void
-Screenshot::save_ppm(const std::string& filename, uint8_t* buffer, int width, int height)
-{
-  FILE* out = fopen(filename.c_str(), "wb");
-
-  if (!out)
-  {
-    perror(filename.c_str());
-    log_info("Screenshot: Couldn't write file: %1%", filename);
-    return;
-  }
-
-  fprintf(out,
-          "P6\n"
-          "# CREATOR: Pingus %s\n"
-          "%d %d\n"
-          "255\n",
-          VERSION,
-          width,
-          height);
-
-  fwrite(buffer, sizeof(unsigned char), width * height * 3, out);
-  fclose(out);
-}
-
-void
 Screenshot::save_png(const std::string& filename, uint8_t* buffer, int width, int height, bool flipvertically)
 {
   FILE* fp;

@@ -33,7 +33,6 @@ public:
   static void save(SDL_Surface* surface, const std::string& filename);
 
   /** buffer must be RGB and width*height*3 large */
-  static void save_ppm(const std::string& filename, uint8_t* buffer, int width, int height);
   static void save_png(const std::string& filename, uint8_t* buffer, int width, int height, bool flipvertically = false);
 
 private:
