@@ -113,7 +113,6 @@ Wiimote::deinit()
 Wiimote::Wiimote() :
   mutex(),
   m_wiimote(0),
-  m_rumble(false),
   m_led_state(0),
   m_nunchuk_btns(0),
   m_nunchuk_stick_x(0),
@@ -265,19 +264,6 @@ Wiimote::set_led(int num, bool state)
     new_led_state &= ~(1 << (num-1));
 
   set_led(static_cast<unsigned char>(new_led_state));
-}
-
-void
-Wiimote::set_rumble(bool r)
-{
-  if (r != m_rumble)
-  {
-    m_rumble = r;
-
-    if (cwiid_command(m_wiimote, CWIID_CMD_RUMBLE, m_rumble)) {
-      std::cerr << "Error setting rumble" << std::endl;
-    }
-  }
 }
 
 void

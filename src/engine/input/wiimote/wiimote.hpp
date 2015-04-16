@@ -74,7 +74,6 @@ public:
 private:
   pthread_mutex_t  mutex;
   cwiid_wiimote_t* m_wiimote;
-  bool             m_rumble;
   unsigned char    m_led_state;
   uint8_t          m_nunchuk_btns;
   float            m_nunchuk_stick_x;
@@ -145,9 +144,6 @@ public:
   void set_led(int num, bool state);
   void set_led(unsigned char led_state);
   unsigned char get_led() const { return m_led_state; }
-
-  void set_rumble(bool t);
-  bool get_rumble() const { return m_rumble; }
 
   std::vector<WiimoteEvent> pop_events();
 
