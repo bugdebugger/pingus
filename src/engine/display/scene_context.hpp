@@ -69,7 +69,6 @@ public:
 
   void set_rect(const Rect& rect);
   void set_cliprect(const Rect& rect);
-  void reset_cliprect();
 
   /** Takes all the buffers and combines them to form the final image
       that will be shown on the screen */

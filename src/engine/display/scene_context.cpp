@@ -130,12 +130,6 @@ SceneContext::set_cliprect(const Rect& rect)
 }
 
 void
-SceneContext::reset_cliprect()
-{
-  impl->use_cliprect = false;
-}
-
-void
 SceneContext::render(Framebuffer& fb, const Rect& rect)
 {
   // Render all buffers
