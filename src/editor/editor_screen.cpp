@@ -434,12 +434,6 @@ EditorScreen::objects_rotate_right()
 }
 
 void
-EditorScreen::toggle_grid_snap()
-{
-  log_info("not implemented");
-}
-
-void
 EditorScreen::toggle_minimap()
 {
   if (minimap->is_visible())
