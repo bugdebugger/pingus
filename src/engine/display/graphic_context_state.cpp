@@ -67,12 +67,6 @@ GraphicContextState::set_limit(const Rect& limit)
 }
 
 void
-GraphicContextState::set_unlimited()
-{
-  impl->have_limit = false;
-}
-
-void
 GraphicContextState::set_size(int w, int h)
 {
   impl->rect = Rect(Vector2i(impl->rect.left, impl->rect.top), Size(w, h));

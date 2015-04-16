@@ -37,7 +37,6 @@ public:
       that no point of the current visible region will be outside the
       limit */
   void set_limit(const Rect& limit);
-  void set_unlimited();
 
   void set_size(int w, int h);
 
