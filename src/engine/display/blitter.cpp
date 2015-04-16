@@ -134,13 +134,6 @@ Blitter::flip_horizontal (Surface prov)
   return BlitterImpl::modify<BlitterImpl::transform_flip>(prov);
 }
 
-/** Flip a surface vertical */
-Surface
-Blitter::flip_vertical (Surface sur)
-{
-  return BlitterImpl::modify<BlitterImpl::transform_rot180_flip>(sur);
-}
-
 /** Rotate a surface 90 degrees */
 Surface
 Blitter::rotate_90 (Surface sur)

@@ -32,9 +32,6 @@ public:
   /** Flip a surface horizontal */
   static Surface flip_horizontal (Surface sur);
 
-  /** Flip a surface vertical */
-  static Surface flip_vertical (Surface sur);
-
   /** Rotate a surface 90 degrees */
   static Surface rotate_90 (Surface sur);
 
