@@ -18,12 +18,6 @@
 
 namespace GUI {
 
-GroupComponent*
-Component::get_parent() const
-{
-  return parent;
-}
-
 void
 Component::set_parent(GroupComponent* p)
 {
