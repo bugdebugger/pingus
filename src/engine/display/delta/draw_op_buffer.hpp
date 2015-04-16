@@ -50,12 +50,6 @@ public:
   void clear();
   void add(DrawOp* op);
 
-  bool has_op(DrawOp* op) const;
-
-  /** Calculate the regions that are different between \a frontbuffer
-      and \a backbuffer, results are written to \a changed_regions  */
-  void buffer_difference_slow(const DrawOpBuffer& frontbuffer, const DrawOpBuffer& backbuffer,
-                              std::vector<Rect>& changed_regions);
   bool buffer_equal(const DrawOpBuffer& frontbuffer, const DrawOpBuffer& backbuffer);
 
   /** Calculate the regions that are different between \a frontbuffer

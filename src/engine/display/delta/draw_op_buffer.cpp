@@ -48,35 +48,6 @@ DrawOpBuffer::add(DrawOp* op)
 }
 
 bool
-DrawOpBuffer::has_op(DrawOp* op) const
-{
-  // FIXME: This is a slow brute-force approach, a hashmap or
-  // something like that could speed things up quite a bit
-  for(DrawOps::const_iterator i = draw_ops.begin(); i != draw_ops.end(); ++i)
-  {
-    if ((*i)->equal(op))
-      return true;
-  }
-  return false;
-}
-
-/** Calculate the regions that are different between \a frontbuffer
-    and \a backbuffer, results are written to \a changed_regions  */
-void
-DrawOpBuffer::buffer_difference_slow(const DrawOpBuffer& frontbuffer, const DrawOpBuffer& backbuffer,
-                                     std::vector<Rect>& changed_regions)
-{
-  // FIXME: This is a very slow brute force approach
-  for(DrawOps::const_iterator i = backbuffer.draw_ops.begin(); i != backbuffer.draw_ops.end(); ++i)
-    if (!frontbuffer.has_op(*i))
-      (*i)->mark_changed_regions(changed_regions);
-
-  for(DrawOps::const_iterator i = frontbuffer.draw_ops.begin(); i != frontbuffer.draw_ops.end(); ++i)
-    if (!backbuffer.has_op(*i))
-      (*i)->mark_changed_regions(changed_regions);
-}
-
-bool
 DrawOpBuffer::buffer_equal(const DrawOpBuffer& frontbuffer, const DrawOpBuffer& backbuffer)
 {
   if (frontbuffer.draw_ops.size() != backbuffer.draw_ops.size())
