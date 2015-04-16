@@ -40,10 +40,6 @@ XInputDevice::XInputDevice(XInputDriver* owner_, XDeviceInfo* info) :
   proximity_in_type  (INVALID_EVENT_TYPE),
   proximity_out_type (INVALID_EVENT_TYPE)
 {
-  //info = find_device_info(owner->get_display(), name.c_str(), True);
-  //if (!info)
-  // throw CL_Error("CL_InputDeviceXInput Error: Couldn't find device: " + name);
-
   get_info(info);
 
   if (!register_events(owner->get_syswminfo().info.x11.display, info, name.c_str(), True))

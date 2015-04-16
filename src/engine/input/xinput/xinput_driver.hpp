@@ -37,9 +37,6 @@ private:
   void setup_xinput();
   Bool xinput_is_present();
 
-  XDeviceInfo* find_device_info(Display *display,
-                                const char* name,
-                                Bool only_extended);
 public:
   XInputDriver();
   ~XInputDriver();

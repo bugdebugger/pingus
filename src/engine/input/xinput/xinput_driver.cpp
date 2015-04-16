@@ -82,45 +82,6 @@ XInputDriver::update(float delta)
 {
 }
 
-XDeviceInfo*
-XInputDriver::find_device_info(Display *display,
-                               const char* name,
-                               Bool only_extended)
-{
-  // FIXME: Not really needed could simply pass XDeviceInfo to the
-  // constructor, might however make a nicer interface
-  XDeviceInfo* x_devices;
-  int  num_devices;
-  int  len = strlen(name);
-  Bool is_id = True;
-  XID  id = 0;
-
-  for(int i = 0; i < len; ++i)
-  {
-    if (!isdigit(name[i]))
-    {
-      is_id = False;
-      break;
-    }
-  }
-
-  if (is_id) {
-    id = atoi(name);
-  }
-
-  x_devices = XListInputDevices(display, &num_devices);
-
-  for(int i = 0; i < num_devices; ++i)
-  {
-    if ((!only_extended || (x_devices[i].use == IsXExtensionDevice)) &&
-        ((!is_id && strcmp(x_devices[i].name, name) == 0) ||
-         (is_id && x_devices[i].id == id))) {
-      return &x_devices[i];
-    }
-  }
-  return NULL;
-}
-
 Button*
 XInputDriver::create_button(const FileReader& reader, Control* parent)
 {
