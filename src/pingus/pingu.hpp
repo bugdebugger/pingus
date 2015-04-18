@@ -185,7 +185,6 @@ public:
   bool need_catch ();
 
   void draw (SceneContext& gc);
-  void apply_force (Vector3f);
 
   void update();
 

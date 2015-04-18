@@ -393,15 +393,6 @@ Pingu::get_action ()
   return action->get_type();
 }
 
-void
-Pingu::apply_force (Vector3f arg_v)
-{
-  velocity += arg_v;
-  // Moving the pingu on pixel up, so that the force can take effect
-  // FIXME: this should be handled by a state-machine
-  --pos_y;
-}
-
 Vector3f
 Pingu::get_pos () const
 {
