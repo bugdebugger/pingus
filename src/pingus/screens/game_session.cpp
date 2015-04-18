@@ -265,12 +265,6 @@ GameSession::process_axis_event (const Input::AxisEvent& event)
   // log_info("GameSession::process_axis_event ()");
 }
 
-void
-GameSession::do_restart()
-{
-  server->send_finish_event();
-}
-
 bool
 GameSession::finished()
 {

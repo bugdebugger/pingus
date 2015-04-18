@@ -81,7 +81,6 @@ public:
   Server*    get_server() { return server.get(); }
   Playfield* get_playfield() { return playfield; }
 
-  void do_restart();
   bool finished();
   void set_finished();
 
