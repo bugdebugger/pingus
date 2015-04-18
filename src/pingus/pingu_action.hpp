@@ -97,9 +97,6 @@ public:
   /// True if Pingu in specified position would bang its head if it were walking
   bool head_collision_on_walk (int x, int y);
 
-  /// True if Pingu in specified position would have a collision if it were walking
-  bool collision_on_walk (int x, int y);
-
 public:
   static ActionType get_activation_mode(ActionName::Enum action_name);
 
