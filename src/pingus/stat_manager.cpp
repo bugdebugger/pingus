@@ -128,16 +128,6 @@ StatManager::save(const std::string& filename)
 }
 
 bool
-StatManager::get_int(const std::string& name, int& value)
-{
-  std::string str;
-  if (get_string(name, str))
-    return StringUtil::from_string(str, value);
-  else
-    return false;
-}
-
-bool
 StatManager::get_bool(const std::string& name, bool& value)
 {
   std::string str;
@@ -166,13 +156,6 @@ void
 StatManager::set_string(const std::string& name, const std::string& value)
 {
   stats[name] = value;
-  flush();
-}
-
-void
-StatManager::set_int(const std::string& name, int value)
-{
-  stats[name] = StringUtil::to_string(value);
   flush();
 }
 

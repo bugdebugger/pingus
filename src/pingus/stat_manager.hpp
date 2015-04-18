@@ -41,12 +41,10 @@ public:
   StatManager(const std::string& filename);
   ~StatManager();
 
-  bool get_int   (const std::string&, int& value);
   bool get_bool  (const std::string&, bool& value);
   bool get_string(const std::string&, std::string& vlaue);
 
   void set_string(const std::string& name, const std::string& value);
-  void set_int   (const std::string& name, int value);
   void set_bool  (const std::string& name, bool value);
 
   /** Write the current status down */
