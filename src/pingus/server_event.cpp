@@ -89,6 +89,10 @@ ServerEvent::write(std::ostream& out) const
       out << "(armageddon (time " << time_stamp << "))" << std::endl;
       break;
 
+    case END_EVENT:
+      out << "(end (time " << time_stamp << "))" << std::endl;
+      break;
+
     case FINISH_EVENT:
       out << "(finish (time " << time_stamp << "))" << std::endl;
       break;
