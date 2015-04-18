@@ -74,11 +74,9 @@ public:
   /** Get a node by its position */
   Dot* get_dot(float x, float y);
 
-  EdgeId lookup_edge(const std::string& name);
   NodeId lookup_node(const std::string& name);
 
   std::string lookup_node(EdgeId id);
-  std::string lookup_edge(NodeId id);
 
 private:
   void parse_nodes(const FileReader& reader);
