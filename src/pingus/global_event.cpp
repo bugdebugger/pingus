@@ -87,8 +87,7 @@ GlobalEvent::on_button_press(const SDL_KeyboardEvent& event)
 
     case SDLK_F12:
       {
-        std::string filename;
-        filename = Screenshot::make_screenshot();
+        Screenshot::make_screenshot();
       }
       break;
 
