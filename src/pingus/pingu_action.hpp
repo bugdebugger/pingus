@@ -100,9 +100,6 @@ public:
   /// True if Pingu in specified position would have a collision if it were walking
   bool collision_on_walk (int x, int y);
 
-  /** Move Pingu according to the forces applied to it */
-  void move_with_forces ();
-
 public:
   static ActionType get_activation_mode(ActionName::Enum action_name);
 
