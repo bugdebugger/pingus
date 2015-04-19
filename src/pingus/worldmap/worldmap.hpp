@@ -85,9 +85,6 @@ public:
   void draw (DrawingContext& gc);
   void update (float delta);
 
-  /** Enters the level on which the Pingu is currently standing */
-  void enter_level();
-
   void add_drawable(Drawable* drawable);
 
   /** @return the shortest path between node1 and node2  */

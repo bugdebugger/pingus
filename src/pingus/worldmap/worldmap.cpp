@@ -233,26 +233,6 @@ Worldmap::on_secondary_button_press(int x, int y)
   }
 }
 
-void
-Worldmap::enter_level()
-{
-  NodeId node = get_pingus()->get_node();
-
-  if (node != NoNode)
-  {
-    Dot* dot = path_graph->get_dot(node);
-    if (dot)
-    {
-      dot->on_click();
-    }
-  }
-  else
-  {
-    if (globals::developer_mode)
-      log_info("Worldmap: Pingus not on level");
-  }
-}
-
 struct unlock_nodes
 {
   PathGraph* path_graph;
