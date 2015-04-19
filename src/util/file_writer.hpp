@@ -37,7 +37,6 @@ public:
 
   virtual void write_int    (const char* name, int) =0;
   virtual void write_float  (const char* name, float) =0;
-  virtual void write_colorf (const char* name, const Color&) =0;
   virtual void write_colori (const char* name, const Color&) =0;
   virtual void write_bool   (const char* name, bool) =0;
   virtual void write_string (const char* name, const std::string&) =0;
