@@ -547,7 +547,7 @@ msgstr "Tid til rådighed: "
 msgid "Author: "
 msgstr "Designer: "
 
-#: src/pingus/screens/addon_menu.cpp:53 src/pingus/screens/option_menu.cpp:336
+#: src/pingus/screens/option_menu.cpp:336
 msgid "Close"
 msgstr ""
 

@@ -20,7 +20,6 @@
 #include "engine/screen/screen_manager.hpp"
 #include "pingus/config_manager.hpp"
 #include "pingus/globals.hpp"
-#include "pingus/screens/addon_menu.hpp"
 #include "pingus/screens/option_menu.hpp"
 #include "util/log.hpp"
 
@@ -74,14 +73,6 @@ GlobalEvent::on_button_press(const SDL_KeyboardEvent& event)
       {
         if (!dynamic_cast<OptionMenu*>(ScreenManager::instance()->get_current_screen().get()))
           ScreenManager::instance()->push_screen(std::make_shared<OptionMenu>());
-      }
-      break;
-
-    case SDLK_F6:
-      if (globals::developer_mode)
-      {
-        if (!dynamic_cast<AddOnMenu*>(ScreenManager::instance()->get_current_screen().get()))
-          ScreenManager::instance()->push_screen(std::make_shared<AddOnMenu>());
       }
       break;
 

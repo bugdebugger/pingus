@@ -518,7 +518,7 @@ msgstr "時間: "
 msgid "Author: "
 msgstr "作者: "
 
-#: src/pingus/screens/addon_menu.cpp:53 src/pingus/screens/option_menu.cpp:336
+#: src/pingus/screens/option_menu.cpp:336
 msgid "Close"
 msgstr "閉じる"
 

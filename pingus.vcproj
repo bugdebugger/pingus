@@ -203,14 +203,6 @@
 				>
 			</File>
 			<File
-				RelativePath=".\src\addon_menu.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\src\addon_menu.hpp"
-				>
-			</File>
-			<File
 				RelativePath=".\src\blitter.cpp"
 				>
 			</File>

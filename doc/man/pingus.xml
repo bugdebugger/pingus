@@ -448,17 +448,6 @@
           </listitem>
         </varlistentry>
 
-        <!--
-            <varlistentry>
-            <term><keycombo><keycap>F6</keycap></keycombo></term>
-            <listitem>
-            <para>
-            Show the AddOn Menu
-            </para>
-            </listitem>
-            </varlistentry>
-        -->
-
         <varlistentry>
           <term><keycombo><keycap>F12</keycap></keycombo></term>
           <listitem>

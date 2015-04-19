@@ -524,7 +524,7 @@ msgstr "Tid: "
 msgid "Author: "
 msgstr "Forfatter: "
 
-#: src/pingus/screens/addon_menu.cpp:53 src/pingus/screens/option_menu.cpp:336
+#: src/pingus/screens/option_menu.cpp:336
 msgid "Close"
 msgstr ""
 
