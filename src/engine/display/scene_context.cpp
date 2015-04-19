@@ -18,13 +18,10 @@
 
 #include "engine/display/framebuffer.hpp"
 
-#define SCALE_FACTOR 8.0f
-
 class SceneContextImpl
 {
 public:
   DrawingContext color;
-  DrawingContext light;
   DrawingContext highlight;
 
   Rect cliprect;
@@ -32,7 +29,6 @@ public:
 
   SceneContextImpl() :
     color(),
-    light(),
     highlight(),
     cliprect(),
     use_cliprect(false)
@@ -41,7 +37,6 @@ public:
 
   SceneContextImpl(const Rect& rect) :
     color(rect),
-    light(rect),
     highlight(rect),
     cliprect(),
     use_cliprect(false)
@@ -70,12 +65,6 @@ SceneContext::color()
 }
 
 DrawingContext&
-SceneContext::light()
-{
-  return impl->light;
-}
-
-DrawingContext&
 SceneContext::highlight()
 {
   return impl->highlight;
@@ -86,7 +75,6 @@ void
 SceneContext::translate(int x, int y)
 {
   impl->color.translate(x, y);
-  impl->light.translate(x, y);
   impl->highlight.translate(x, y);
 }
 
@@ -94,7 +82,6 @@ void
 SceneContext::push_modelview()
 {
   impl->color.push_modelview();
-  impl->light.push_modelview();
   impl->highlight.push_modelview();
 }
 
@@ -102,7 +89,6 @@ void
 SceneContext::pop_modelview()
 {
   impl->color.pop_modelview();
-  impl->light.pop_modelview();
   impl->highlight.pop_modelview();
 }
 
@@ -110,7 +96,6 @@ void
 SceneContext::reset_modelview()
 {
   impl->color.reset_modelview();
-  impl->light.reset_modelview();
   impl->highlight.reset_modelview();
 }
 
@@ -118,7 +103,6 @@ void
 SceneContext::set_rect(const Rect& rect)
 {
   impl->color.set_rect(rect);
-  impl->light.set_rect(rect);
   impl->highlight.set_rect(rect);
 }
 
@@ -145,20 +129,6 @@ SceneContext::render(Framebuffer& fb, const Rect& rect)
     impl->color.render(fb, rect);
   }
 
-#if 0
-  { // lightmap support
-    impl->light.render(impl->canvas.get_gc());
-    impl->canvas.sync_surface();
-
-    //impl->lightmap.set_blend_func(blend_src_alpha, blend_one);
-    impl->lightmap.set_blend_func(blend_dest_color, blend_zero);
-    //GL_DST_COLOR, GL_ZERO
-    impl->lightmap.set_scale(SCALE_FACTOR, SCALE_FACTOR);
-    impl->lightmap.draw();
-    impl->canvas.get_gc()->clear();
-  }
-#endif
-
   impl->highlight.render(fb, rect);
 }
 
@@ -166,7 +136,6 @@ void
 SceneContext::clear()
 {
   impl->color.clear();
-  impl->light.clear();
   impl->highlight.clear();
 }
 

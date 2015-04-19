@@ -39,17 +39,10 @@ public:
       do with a normal framebuffer */
   DrawingContext& color();
 
-  /** This is the lightmap, to this you draw all lights, meaning that
-      a color of white will result in a area that is completly
-      visible, while a value of black will mean that the area will be
-      not lighted at all and be completly black. This lightmap is
-      multiplied with the color buffer to get the light effect */
-  DrawingContext& light();
-
   /** The highlight map is usefull for all objects that are extremly
       bright so that they generate a lenseflare or a glow. The
       highlight map doesn't light the scenario itself, but gets
-      additionally rendered above the color and light buffer, thus its
+      additionally rendered above the color buffer, thus its
       allows to add glow without risking to losing it in an area of
       darkness */
   DrawingContext& highlight();
