@@ -80,7 +80,6 @@ public:
 
   Rect get_trans_rect() const;
 
-  void show_intro_story();
   void show_end_story();
 
   void resize(const Size& size);
