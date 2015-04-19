@@ -40,7 +40,6 @@ public:
   std::string default_node;
   std::string final_node;
 
-  FileReader intro_story;
   FileReader end_story;
   FileReader path_graph;
 
@@ -58,7 +57,6 @@ public:
     height(),
     default_node(),
     final_node(),
-    intro_story(),
     end_story(),
     path_graph(),
     objects()
@@ -90,13 +88,7 @@ PingusWorldmap::parse_file(const FileReader& reader)
 
     parse_properties(reader.read_section("head"));
 
-    std::string intro_story;
     std::string end_story;
-
-    if (reader.read_string("intro-story", intro_story))
-    {
-      impl->intro_story = FileReader::parse(Pathname(intro_story, Pathname::DATA_PATH));
-    }
 
     if (reader.read_string("end-story", end_story))
     {
@@ -194,12 +186,6 @@ const std::vector<FileReader>&
 PingusWorldmap::get_objects() const
 {
   return impl->objects;
-}
-
-FileReader
-PingusWorldmap::get_intro_story() const
-{
-  return impl->intro_story;
 }
 
 FileReader

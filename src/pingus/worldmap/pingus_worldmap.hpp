@@ -42,7 +42,6 @@ public:
   std::string get_default_node() const;
   std::string get_final_node() const;
 
-  FileReader get_intro_story() const;
   FileReader get_end_story() const;
 
   FileReader get_graph() const;
