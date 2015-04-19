@@ -73,7 +73,6 @@ public:
 
   std::vector<std::string> get_section_names() const;
   std::vector<FileReader>  get_sections() const;
-  int  get_num_sections() const;
 
   static FileReader parse(const std::string& filename);
   static FileReader parse(const Pathname& pathname);
