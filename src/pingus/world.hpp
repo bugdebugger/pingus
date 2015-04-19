@@ -49,8 +49,6 @@ class SnowParticleHolder;
 class World
 {
 private:
-  Color ambient_light;
-
   /** groundmap for the pingus */
   GroundMap* gfx_map;
 

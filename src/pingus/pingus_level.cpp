@@ -84,7 +84,6 @@ PingusLevel::load(const std::string& resname,
       head.read_int   ("time",             impl->time);
       head.read_int   ("number-of-pingus", impl->number_of_pingus);
       head.read_int   ("number-to-save",   impl->number_to_save);
-      head.read_colorf("ambient-light",    impl->ambient_light);
       head.read_string("author",           impl->author);
 
       log_info("Size: %1%x%2%", impl->size.width, impl->size.height);
@@ -184,12 +183,6 @@ const std::string
 PingusLevel::get_resname() const
 {
   return impl->resname;
-}
-
-const Color&
-PingusLevel::get_ambient_light() const
-{
-  return impl->ambient_light;
 }
 
 /* EOF */

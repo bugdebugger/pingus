@@ -39,7 +39,6 @@ public:
     resname(),
     levelname(),
     description(),
-    ambient_light(255, 255, 255),
     size(1920, 1200),
     number_of_pingus(50),
     number_to_save(20),
@@ -72,7 +71,6 @@ public:
   std::string levelname;
   std::string description;
 
-  Color    ambient_light;
   Size     size;
 
   int number_of_pingus;
@@ -105,7 +103,6 @@ EditorLevel::from_level_file(const Pathname& pathname)
   // Assign all of the level information to our LevelImpl
   level->impl->levelname        = plf.get_levelname();
   level->impl->description      = plf.get_description();
-  level->impl->ambient_light    = plf.get_ambient_light();
   level->impl->size             = plf.get_size();
   level->impl->number_of_pingus = plf.get_number_of_pingus();
   level->impl->number_to_save   = plf.get_number_to_save();

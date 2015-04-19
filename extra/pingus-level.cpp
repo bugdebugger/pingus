@@ -106,12 +106,6 @@ int main(int argc, char** argv)
         std::cout << "description   : " << plf.get_description() << std::endl;
         std::cout << "author        : " << plf.get_author() << std::endl;
         std::cout << "music         : " << plf.get_music() << std::endl;
-        std::cout << "ambient light : "
-                  << static_cast<int>(plf.get_ambient_light().r) << " "
-                  << static_cast<int>(plf.get_ambient_light().g) << " "
-                  << static_cast<int>(plf.get_ambient_light().b) << " "
-                  << static_cast<int>(plf.get_ambient_light().a)
-                  << std::endl;
         std::cout << "objects       : " << plf.get_objects().size() << std::endl;
         std::cout << std::endl;
       }

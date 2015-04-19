@@ -32,7 +32,6 @@ public:
     checksum(),
     levelname(),
     description(),
-    ambient_light(255, 255, 255, 255),
     size(),
     number_of_pingus(0),
     number_to_save(0),
@@ -50,7 +49,6 @@ public:
   std::string levelname;
   std::string description;
 
-  Color  ambient_light;
   Size   size;
 
   int number_of_pingus;
