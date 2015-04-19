@@ -625,37 +625,17 @@ msgstr "Některá nastavení se projeví až po restartu hry."
 msgid "Story"
 msgstr "Příběh"
 
-#: src/pingus/screens/pingus_menu.cpp:55
-msgid "..:: Start the game ::.."
-msgstr "..:: Spustit hru ::.."
-
 #: src/pingus/screens/pingus_menu.cpp:59
 msgid "Editor"
 msgstr "Editor"
-
-#: src/pingus/screens/pingus_menu.cpp:60
-msgid "..:: Create your own levels ::.."
-msgstr "..:: Vytvořit vlastní úroveň ::.."
 
 #: src/pingus/screens/pingus_menu.cpp:64
 msgid "Options"
 msgstr "Nastavení"
 
-#: src/pingus/screens/pingus_menu.cpp:65
-msgid "..:: Configure the game ::.."
-msgstr "..:: Nakonfigurovat hru ::.."
-
 #: src/pingus/screens/pingus_menu.cpp:69 src/pingus/screens/level_menu.cpp:177
 msgid "Levelsets"
 msgstr "Sady úrovní"
-
-#: src/pingus/screens/pingus_menu.cpp:70
-msgid "..:: Play User Built levels ::.."
-msgstr "..:: Spustit úroveň od uživatelů ::.."
-
-#: src/pingus/screens/pingus_menu.cpp:75
-msgid "..:: Bye, bye ::.."
-msgstr "..:: Na shledanou ::.."
 
 #: src/pingus/screens/pingus_menu.cpp:87
 msgid ""

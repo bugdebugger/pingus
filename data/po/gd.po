@@ -618,37 +618,17 @@ msgstr "Gus a h-uile roghainnean a chur an comas, ath-thòisich an geama"
 msgid "Story"
 msgstr "Sgeulachd"
 
-#: src/pingus/screens/pingus_menu.cpp:55
-msgid "..:: Start the game ::.."
-msgstr "..:: Tòisich an geama ::.."
-
 #: src/pingus/screens/pingus_menu.cpp:59
 msgid "Editor"
 msgstr "Deasaiche"
-
-#: src/pingus/screens/pingus_menu.cpp:60
-msgid "..:: Create your own levels ::.."
-msgstr "..:: Cruthaich an leibheil agad fhèin ::.."
 
 #: src/pingus/screens/pingus_menu.cpp:64
 msgid "Options"
 msgstr "Roghainnean"
 
-#: src/pingus/screens/pingus_menu.cpp:65
-msgid "..:: Configure the game ::.."
-msgstr "..:: Rèitich an geama ::.."
-
 #: src/pingus/screens/pingus_menu.cpp:69 src/pingus/screens/level_menu.cpp:177
 msgid "Levelsets"
 msgstr "Leibheilean"
-
-#: src/pingus/screens/pingus_menu.cpp:70
-msgid "..:: Play User Built levels ::.."
-msgstr "..:: Cluich leibheilean aig cluicheadairean ::.."
-
-#: src/pingus/screens/pingus_menu.cpp:75
-msgid "..:: Bye, bye ::.."
-msgstr "..:: Mar sin leat ::.."
 
 #: src/pingus/screens/pingus_menu.cpp:87
 msgid ""

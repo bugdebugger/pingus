@@ -23,7 +23,7 @@
 
 MenuButton::MenuButton(PingusMenu* menu_,
                        const Vector2i& pos_,
-                       const std::string& text_, const std::string& desc_) :
+                       const std::string& text_) :
   menu(menu_),
   surface_p(),
   highlight(),
@@ -31,14 +31,12 @@ MenuButton::MenuButton(PingusMenu* menu_,
   font_large(),
   x_pos(),
   y_pos(),
-  desc(),
   text()
 {
   surface_p = Sprite("core/menu/menuitem");
   highlight = Sprite("core/menu/menuitem_highlight");
 
   text = text_;
-  desc  = desc_;
 
   x_pos = pos_.x;
   y_pos = pos_.y;
@@ -85,7 +83,6 @@ MenuButton::on_pointer_enter ()
   set_mouse_over(true);
   Sound::PingusSound::play_sound ("tick");
   //log_info("X: " << this << "enter");
-  menu->set_hint(desc);
 }
 
 void
@@ -93,7 +90,6 @@ MenuButton::on_pointer_leave ()
 {
   //log_info("X: " << this << "leave");
   set_mouse_over(false);
-  menu->set_hint("");
 }
 
 bool

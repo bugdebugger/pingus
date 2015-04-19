@@ -621,37 +621,17 @@ msgstr ""
 msgid "Story"
 msgstr "Scénario"
 
-#: src/pingus/screens/pingus_menu.cpp:55
-msgid "..:: Start the game ::.."
-msgstr "..:: Débute la partie ::.."
-
 #: src/pingus/screens/pingus_menu.cpp:59
 msgid "Editor"
 msgstr "Éditeur"
-
-#: src/pingus/screens/pingus_menu.cpp:60
-msgid "..:: Create your own levels ::.."
-msgstr "..:: Créez vos niveaux ::.."
 
 #: src/pingus/screens/pingus_menu.cpp:64
 msgid "Options"
 msgstr "Options"
 
-#: src/pingus/screens/pingus_menu.cpp:65
-msgid "..:: Configure the game ::.."
-msgstr "..:: Configurer le jeu ::.."
-
 #: src/pingus/screens/pingus_menu.cpp:69 src/pingus/screens/level_menu.cpp:177
 msgid "Levelsets"
 msgstr "Autres niveaux"
-
-#: src/pingus/screens/pingus_menu.cpp:70
-msgid "..:: Play User Built levels ::.."
-msgstr "..:: Démarre un niveau personnel ::.."
-
-#: src/pingus/screens/pingus_menu.cpp:75
-msgid "..:: Bye, bye ::.."
-msgstr "..:: Au revoir ::.."
 
 #: src/pingus/screens/pingus_menu.cpp:87
 msgid ""
@@ -868,7 +848,7 @@ msgstr "Afficher la liste des langues disponibles"
 
 #: src/pingus/pingus_main.cpp:224
 msgid "Loads the level editor"
-msgstr "..:: Démarrer l'éditeur de niveau ::.."
+msgstr "Démarrer l'éditeur de niveau"
 
 #: src/pingus/pingus_main.cpp:226
 msgid "Directory Options:"

@@ -580,37 +580,17 @@ msgstr ""
 msgid "Story"
 msgstr "เรื่องราว"
 
-#: src/pingus/screens/pingus_menu.cpp:55
-msgid "..:: Start the game ::.."
-msgstr "..:: เริ่มเกม ::.."
-
 #: src/pingus/screens/pingus_menu.cpp:59
 msgid "Editor"
 msgstr "เครื่องมือแก้ไข"
-
-#: src/pingus/screens/pingus_menu.cpp:60
-msgid "..:: Create your own levels ::.."
-msgstr "..:: สร้างด่านของคุณเอง ::.."
 
 #: src/pingus/screens/pingus_menu.cpp:64
 msgid "Options"
 msgstr ""
 
-#: src/pingus/screens/pingus_menu.cpp:65
-msgid "..:: Configure the game ::.."
-msgstr ""
-
 #: src/pingus/screens/pingus_menu.cpp:69 src/pingus/screens/level_menu.cpp:177
 msgid "Levelsets"
 msgstr "ชุดระดับ"
-
-#: src/pingus/screens/pingus_menu.cpp:70
-msgid "..:: Play User Built levels ::.."
-msgstr "..:: เล่นด่านที่ผู้ใช้สร้างเอง ::.."
-
-#: src/pingus/screens/pingus_menu.cpp:75
-msgid "..:: Bye, bye ::.."
-msgstr "..:: บ๊าย บาย ::.."
 
 #: src/pingus/screens/pingus_menu.cpp:87
 msgid ""

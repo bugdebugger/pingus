@@ -617,37 +617,17 @@ msgstr "Kelkaj opcioj bezonas restarti la ludon por plenumiĝi"
 msgid "Story"
 msgstr "Historio"
 
-#: src/pingus/screens/pingus_menu.cpp:55
-msgid "..:: Start the game ::.."
-msgstr "..:: Ekludi ::.."
-
 #: src/pingus/screens/pingus_menu.cpp:59
 msgid "Editor"
 msgstr "Redaktilo"
-
-#: src/pingus/screens/pingus_menu.cpp:60
-msgid "..:: Create your own levels ::.."
-msgstr "..:: Krei vian propran nivelojn ::.."
 
 #: src/pingus/screens/pingus_menu.cpp:64
 msgid "Options"
 msgstr "Opcioj"
 
-#: src/pingus/screens/pingus_menu.cpp:65
-msgid "..:: Configure the game ::.."
-msgstr "..:: Agordi ludon ::.."
-
 #: src/pingus/screens/pingus_menu.cpp:69 src/pingus/screens/level_menu.cpp:177
 msgid "Levelsets"
 msgstr "Nivelujoj"
-
-#: src/pingus/screens/pingus_menu.cpp:70
-msgid "..:: Play User Built levels ::.."
-msgstr "..:: Ludi Uzant-konstruitajn nivelojn ::.."
-
-#: src/pingus/screens/pingus_menu.cpp:75
-msgid "..:: Bye, bye ::.."
-msgstr "..:: Ĝis, ĝis ::.."
 
 #: src/pingus/screens/pingus_menu.cpp:87
 msgid ""

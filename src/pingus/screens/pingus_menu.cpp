@@ -34,7 +34,6 @@
 
 PingusMenu::PingusMenu() :
   is_init(),
-  hint(),
   help(),
   text_scroll_offset(),
   background(),
@@ -51,28 +50,23 @@ PingusMenu::PingusMenu() :
 
   start_button = new MenuButton(this, Vector2i(size_.width/2 - 125,
                                                size_.height/2 - 20),
-                                _("Story"),
-                                _("..:: Start the game ::.."));
+                                _("Story"));
 
   editor_button = new MenuButton(this, Vector2i(size_.width/2 + 125,
                                                 size_.height/2 - 20),
-                                 _("Editor"),
-                                 _("..:: Create your own levels ::.."));
+                                 _("Editor"));
 
   options_button = new MenuButton(this, Vector2i(size_.width/2 + 125,
                                                  size_.height/2 + 50),
-                                  _("Options"),
-                                  _("..:: Configure the game ::.."));
+                                  _("Options"));
 
   contrib_button = new MenuButton(this, Vector2i(size_.width/2 - 125,
                                                  size_.height/2 + 50),
-                                  _("Levelsets"),
-                                  _("..:: Play User Built levels ::.."));
+                                  _("Levelsets"));
 
   quit_button = new MenuButton(this, Vector2i(size_.width/2,
                                               size_.height/2 + 120),
-                               _("Exit"),
-                               _("..:: Bye, bye ::.."));
+                               _("Exit"));
 
   gui_manager->add(quit_button);
   gui_manager->add(options_button);
@@ -154,14 +148,6 @@ PingusMenu::draw_background(DrawingContext& gc)
                   Vector2i(gc.get_width() / 2,
                            gc.get_height() - Fonts::pingus_small.get_height() - 8),
                   help);
-
-  if (0) // display hint
-  {
-    gc.print_center(Fonts::pingus_small,
-                    Vector2i(gc.get_width() / 2,
-                             gc.get_height() - Fonts::pingus_small.get_height()),
-                    hint);
-  }
 }
 
 void
@@ -187,12 +173,6 @@ PingusMenu::on_click(MenuButton* button)
   {
     ScreenManager::instance()->push_screen(std::make_shared<OptionMenu>());
   }
-}
-
-void
-PingusMenu::set_hint(const std::string& str)
-{
-  hint = str;
 }
 
 void

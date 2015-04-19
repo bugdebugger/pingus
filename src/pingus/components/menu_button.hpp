@@ -39,12 +39,11 @@ protected:
   int x_pos;
   int y_pos;
 
-  std::string desc;
   std::string text;
 
 public:
   MenuButton(PingusMenu* menu, const Vector2i& pos,
-             const std::string& text, const std::string& desc);
+             const std::string& text);
   virtual ~MenuButton();
 
   void draw(DrawingContext& gc);

@@ -627,33 +627,13 @@ msgstr "Autor: "
 msgid "Story"
 msgstr "Opowiadanie"
 
-#: src/pingus/screens/pingus_menu.cpp:55
-msgid "..:: Start the game ::.."
-msgstr "..:: Uruchom grę ::.."
-
 #: src/pingus/screens/pingus_menu.cpp:59
 msgid "Editor"
 msgstr "Edytor"
 
-#: src/pingus/screens/pingus_menu.cpp:60
-msgid "..:: Create your own levels ::.."
-msgstr "..:: Stwórz własne poziomy ::.."
-
 #: src/pingus/screens/pingus_menu.cpp:64
 msgid "Options"
 msgstr "Opcje"
-
-#: src/pingus/screens/pingus_menu.cpp:65
-msgid "..:: Configure the game ::.."
-msgstr "..:: Skonfiguruj grę ::.."
-
-#: src/pingus/screens/pingus_menu.cpp:70
-msgid "..:: Play User Built levels ::.."
-msgstr "..:: Zagraj w poziomy użytkowników ::.."
-
-#: src/pingus/screens/pingus_menu.cpp:75
-msgid "..:: Bye, bye ::.."
-msgstr "..:: pa, pa ::.."
 
 #: src/pingus/screens/pingus_menu.cpp:87
 msgid ""

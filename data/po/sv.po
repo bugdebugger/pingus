@@ -626,37 +626,17 @@ msgstr "Vissa val kräver omstart av spelet för att bli effektuerade."
 msgid "Story"
 msgstr "Berättelse"
 
-#: src/pingus/screens/pingus_menu.cpp:55
-msgid "..:: Start the game ::.."
-msgstr "..:: Starta spelet ::.."
-
 #: src/pingus/screens/pingus_menu.cpp:59
 msgid "Editor"
 msgstr "Redigerare"
-
-#: src/pingus/screens/pingus_menu.cpp:60
-msgid "..:: Create your own levels ::.."
-msgstr "..:: Skapa dina egna banor ::.."
 
 #: src/pingus/screens/pingus_menu.cpp:64
 msgid "Options"
 msgstr "Alternativ"
 
-#: src/pingus/screens/pingus_menu.cpp:65
-msgid "..:: Configure the game ::.."
-msgstr "Konfigurera spelet"
-
 #: src/pingus/screens/pingus_menu.cpp:69 src/pingus/screens/level_menu.cpp:177
 msgid "Levelsets"
 msgstr "Bandesign"
-
-#: src/pingus/screens/pingus_menu.cpp:70
-msgid "..:: Play User Built levels ::.."
-msgstr "..:: Starta en bidragen bana::.."
-
-#: src/pingus/screens/pingus_menu.cpp:75
-msgid "..:: Bye, bye ::.."
-msgstr "..:: Adjö ::.."
 
 #: src/pingus/screens/pingus_menu.cpp:87
 msgid ""
@@ -871,7 +851,7 @@ msgstr "Lista alla tillgängliga språk"
 
 #: src/pingus/pingus_main.cpp:224
 msgid "Loads the level editor"
-msgstr "..:: Starta banredigeraren ::.."
+msgstr "Starta banredigeraren"
 
 #: src/pingus/pingus_main.cpp:226
 msgid "Directory Options:"

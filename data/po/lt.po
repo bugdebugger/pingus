@@ -577,37 +577,17 @@ msgstr "Kai kurie nustatymai įsigalios tik paleidus žaidimą iš naujo."
 msgid "Story"
 msgstr "Pradžia"
 
-#: src/pingus/screens/pingus_menu.cpp:55
-msgid "..:: Start the game ::.."
-msgstr "..:: Pradėti žaidimą ::.."
-
 #: src/pingus/screens/pingus_menu.cpp:59
 msgid "Editor"
 msgstr "Kūrimo įrankis"
-
-#: src/pingus/screens/pingus_menu.cpp:60
-msgid "..:: Create your own levels ::.."
-msgstr ""
 
 #: src/pingus/screens/pingus_menu.cpp:64
 msgid "Options"
 msgstr "Nustatymai"
 
-#: src/pingus/screens/pingus_menu.cpp:65
-msgid "..:: Configure the game ::.."
-msgstr "..:: Žaidimo nustatymai ::.."
-
 #: src/pingus/screens/pingus_menu.cpp:69 src/pingus/screens/level_menu.cpp:177
 msgid "Levelsets"
 msgstr "Žaidimų serijos"
-
-#: src/pingus/screens/pingus_menu.cpp:70
-msgid "..:: Play User Built levels ::.."
-msgstr ""
-
-#: src/pingus/screens/pingus_menu.cpp:75
-msgid "..:: Bye, bye ::.."
-msgstr "..:: Ate, ate ::.."
 
 #: src/pingus/screens/pingus_menu.cpp:87
 msgid ""

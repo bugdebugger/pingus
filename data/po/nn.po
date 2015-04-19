@@ -613,42 +613,17 @@ msgstr "For nokre av innstillingane må du starta spelet på nytt."
 msgid "Story"
 msgstr "Historie"
 
-# skip-rule: mellomrom-før
-#: src/pingus/screens/pingus_menu.cpp:55
-msgid "..:: Start the game ::.."
-msgstr "..:: Start spelet ::.."
-
 #: src/pingus/screens/pingus_menu.cpp:59
 msgid "Editor"
 msgstr "Lag brett"
-
-# skip-rule: mellomrom-før
-#: src/pingus/screens/pingus_menu.cpp:60
-msgid "..:: Create your own levels ::.."
-msgstr "..:: Lag eigne brett ::.."
 
 #: src/pingus/screens/pingus_menu.cpp:64
 msgid "Options"
 msgstr "Innstillingar"
 
-# skip-rule: mellomrom-før
-#: src/pingus/screens/pingus_menu.cpp:65
-msgid "..:: Configure the game ::.."
-msgstr "..:: Set opp spelet ::.."
-
 #: src/pingus/screens/pingus_menu.cpp:69 src/pingus/screens/level_menu.cpp:177
 msgid "Levelsets"
 msgstr "Andre brett"
-
-# skip-rule: mellomrom-før
-#: src/pingus/screens/pingus_menu.cpp:70
-msgid "..:: Play User Built levels ::.."
-msgstr "..:: Spel brett andre har laga ::.."
-
-# skip-rule: mellomrom-før
-#: src/pingus/screens/pingus_menu.cpp:75
-msgid "..:: Bye, bye ::.."
-msgstr "..:: Ha det bra ::.."
 
 # skip-rule: mellomrom-før
 #: src/pingus/screens/pingus_menu.cpp:87

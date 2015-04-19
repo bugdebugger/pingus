@@ -628,37 +628,17 @@ msgstr ""
 msgid "Story"
 msgstr "Geschichte"
 
-#: src/pingus/screens/pingus_menu.cpp:55
-msgid "..:: Start the game ::.."
-msgstr "..:: das Spiel starten ::.."
-
 #: src/pingus/screens/pingus_menu.cpp:59
 msgid "Editor"
 msgstr "Editor"
-
-#: src/pingus/screens/pingus_menu.cpp:60
-msgid "..:: Create your own levels ::.."
-msgstr "..:: erstelle deinen eigenen Level ::.."
 
 #: src/pingus/screens/pingus_menu.cpp:64
 msgid "Options"
 msgstr "Einstellungen"
 
-#: src/pingus/screens/pingus_menu.cpp:65
-msgid "..:: Configure the game ::.."
-msgstr "..:: Spiel Konfigurieren ::.."
-
 #: src/pingus/screens/pingus_menu.cpp:69 src/pingus/screens/level_menu.cpp:177
 msgid "Levelsets"
 msgstr "Levelsätze"
-
-#: src/pingus/screens/pingus_menu.cpp:70
-msgid "..:: Play User Built levels ::.."
-msgstr "..:: benutzererstellte Level spielen ::.."
-
-#: src/pingus/screens/pingus_menu.cpp:75
-msgid "..:: Bye, bye ::.."
-msgstr "..:: auf Wiedersehen ::.."
 
 #: src/pingus/screens/pingus_menu.cpp:87
 msgid ""
@@ -3237,9 +3217,6 @@ msgstr "Frohe Weihnachten und ein frohes neues Jahr"
 #~ msgid "WorldMap: File not found: "
 #~ msgstr "Worldmap: Datei nicht gefunden: "
 
-#~ msgid "..:: The people who brought this game to you ::.."
-#~ msgstr "..:: Die Leute, die für dieses Spiel verantwortlich sind ... ::.."
-
 #~ msgid ""
 #~ "After the Pingus successfully passed the large window room, they are "
 #~ "entering another great hall. A large pedestal is blocking the way to the "
@@ -3403,10 +3380,6 @@ msgstr "Frohe Weihnachten und ein frohes neues Jahr"
 #~ msgstr "Schrift testen"
 
 #, fuzzy
-#~ msgid "..:: Start the story ::.."
-#~ msgstr "..:: das Spiel starten ::.."
-
-#, fuzzy
 #~ msgid "Lets celebrate Halloween 2007!"
 #~ msgstr "Halloween 2007"
 
@@ -3429,10 +3402,6 @@ msgstr "Frohe Weihnachten und ein frohes neues Jahr"
 #, fuzzy
 #~ msgid "disabled"
 #~ msgstr "Sound deaktivieren"
-
-#, fuzzy
-#~ msgid "..:: See the credits ::.."
-#~ msgstr "..:: das Spiel starten ::.."
 
 #~ msgid "PLE Level"
 #~ msgstr "PLE-Level"

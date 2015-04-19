@@ -36,7 +36,6 @@ class PingusMenu : public GUIScreen
 {
 public:
   bool is_init;
-  std::string hint;
   std::string help;
   float text_scroll_offset;
 
@@ -61,7 +60,6 @@ public:
   ~PingusMenu();
 
   void on_click(MenuButton* button);
-  void set_hint(const std::string& str);
 
   /// Load all images and other stuff for the menu
   void on_escape_press ();

@@ -614,37 +614,17 @@ msgstr "Alcune opzioni richiedono il riavvio del gioco per avere effetto."
 msgid "Story"
 msgstr "Trama"
 
-#: src/pingus/screens/pingus_menu.cpp:55
-msgid "..:: Start the game ::.."
-msgstr "..:: Inizia il gioco ::.."
-
 #: src/pingus/screens/pingus_menu.cpp:59
 msgid "Editor"
 msgstr "Crea livelli"
-
-#: src/pingus/screens/pingus_menu.cpp:60
-msgid "..:: Create your own levels ::.."
-msgstr "..:: Crea un tuo livello ::.."
 
 #: src/pingus/screens/pingus_menu.cpp:64
 msgid "Options"
 msgstr "Opzioni"
 
-#: src/pingus/screens/pingus_menu.cpp:65
-msgid "..:: Configure the game ::.."
-msgstr "..:: Configura il gioco ::.."
-
 #: src/pingus/screens/pingus_menu.cpp:69 src/pingus/screens/level_menu.cpp:177
 msgid "Levelsets"
 msgstr "Altri livelli"
-
-#: src/pingus/screens/pingus_menu.cpp:70
-msgid "..:: Play User Built levels ::.."
-msgstr "..:: Gioca livelli creati dagli utenti ::.."
-
-#: src/pingus/screens/pingus_menu.cpp:75
-msgid "..:: Bye, bye ::.."
-msgstr "..:: Ciao ciao! ::.."
 
 #: src/pingus/screens/pingus_menu.cpp:87
 msgid ""
@@ -3170,9 +3150,6 @@ msgstr "Merry Christmas and a Happy New Year"
 #~ msgid "WorldMap: File not found: "
 #~ msgstr "Worldmap: File assente: "
 
-#~ msgid "..:: The people who brought this game to you ::.."
-#~ msgstr "..:: Le persone grazie alle quali hai questo gioco ::.."
-
 #~ msgid "Do not panic"
 #~ msgstr "Niente panico"
 
@@ -3343,10 +3320,6 @@ msgstr "Merry Christmas and a Happy New Year"
 #~ "sull'assenza di gravità continuano senza sosta..."
 
 #, fuzzy
-#~ msgid "..:: Start the story ::.."
-#~ msgstr "..:: Inizia il gioco ::.."
-
-#, fuzzy
 #~ msgid "Still Marooned on an Uncharted Isle [by Lachlan McCubbin]"
 #~ msgstr "Abbandonati su un'isola inesplorata [by Lachlan McCubbin]"
 
@@ -3419,10 +3392,6 @@ msgstr "Merry Christmas and a Happy New Year"
 #, fuzzy
 #~ msgid "Screenshot: Couldn't save screenshot"
 #~ msgstr "Salva schermata: salva schermata in: "
-
-#, fuzzy
-#~ msgid "..:: Takes you to the options menu ::.."
-#~ msgstr "..:: Inizia il gioco ::.."
 
 #, fuzzy
 #~ msgid ""
