@@ -80,8 +80,6 @@ public:
 
   void on_startup();
 
-  bool is_final_map();
-
   void draw (DrawingContext& gc);
   void update (float delta);
 

@@ -316,12 +316,6 @@ Worldmap::set_starting_node()
   }
 }
 
-bool
-Worldmap::is_final_map()
-{
-  return pingus->get_node() == final_node;
-}
-
 int
 Worldmap::get_width()  const
 {
