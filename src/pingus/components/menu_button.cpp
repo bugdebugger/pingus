@@ -32,8 +32,7 @@ MenuButton::MenuButton(PingusMenu* menu_,
   x_pos(),
   y_pos(),
   desc(),
-  text(),
-  mouse_over()
+  text()
 {
   surface_p = Sprite("core/menu/menuitem");
   highlight = Sprite("core/menu/menuitem_highlight");
@@ -46,8 +45,6 @@ MenuButton::MenuButton(PingusMenu* menu_,
 
   font       = Fonts::pingus_small;
   font_large = Fonts::chalk_large;
-
-  mouse_over = false;
 }
 
 MenuButton::~MenuButton ()
@@ -64,7 +61,7 @@ MenuButton::on_click ()
 void
 MenuButton::draw (DrawingContext& gc)
 {
-  if (mouse_over) // pressed
+  if (has_mouse_over()) // pressed
   {
     gc.draw(surface_p,Vector2i(x_pos, y_pos));
     gc.draw(highlight, Vector2i(x_pos, y_pos));
@@ -85,7 +82,7 @@ MenuButton::update (float delta)
 void
 MenuButton::on_pointer_enter ()
 {
-  mouse_over = true;
+  set_mouse_over(true);
   Sound::PingusSound::play_sound ("tick");
   //log_info("X: " << this << "enter");
   menu->set_hint(desc);
@@ -95,7 +92,7 @@ void
 MenuButton::on_pointer_leave ()
 {
   //log_info("X: " << this << "leave");
-  mouse_over = false;
+  set_mouse_over(false);
   menu->set_hint("");
 }
 

@@ -42,8 +42,6 @@ protected:
   std::string desc;
   std::string text;
 
-  bool mouse_over;
-
 public:
   MenuButton(PingusMenu* menu, const Vector2i& pos,
              const std::string& text, const std::string& desc);

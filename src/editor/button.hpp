@@ -27,7 +27,6 @@ class Button : public GUI::RectComponent
 {
 private:
   std::string text;
-  bool mouse_over;
   bool mouse_down;
   bool enabled;
 

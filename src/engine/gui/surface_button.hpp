@@ -35,7 +35,6 @@ protected:
   Sprite button_mouse_over_surface;
 
   bool pressed;
-  bool mouse_over;
 
 public:
   SurfaceButton (int x_pos, int y_pos,

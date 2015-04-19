@@ -63,7 +63,6 @@ public:
   void on_pointer_leave ();
 
   bool is_at (int x, int y);
-  bool mouse_over();
 
   void draw(DrawingContext& gc);
   void update(float delta);

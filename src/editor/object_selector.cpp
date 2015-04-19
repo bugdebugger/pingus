@@ -42,7 +42,6 @@ private:
   Sprite button_raised;
   Sprite button_pressed;
   Sprite sprite;
-  bool   mouse_over;
   bool   mouse_down;
   std::string tooltip;
 
@@ -57,7 +56,6 @@ public:
     button_raised(Sprite("core/editor/obj_button-raised")),
     button_pressed(Sprite("core/editor/obj_button-pressed")),
     sprite(Sprite(sprite_)),
-    mouse_over(false),
     mouse_down(false),
     tooltip(tooltip_),
     on_click()
@@ -68,12 +66,12 @@ public:
   {
     if (mouse_down)
       gc.draw(button_pressed, Vector2i(rect.left, rect.top));
-    else if (mouse_over)
+    else if (has_mouse_over())
       gc.draw(button_raised, Vector2i(rect.left, rect.top));
 
     gc.draw(sprite, Vector2i(rect.left + 3, rect.top + 3));
 
-    if (mouse_over)
+    if (has_mouse_over())
     {
       int t_w = static_cast<int>(Fonts::verdana11.get_width(tooltip));
       Rect t_r(rect.left + 17 - t_w/2 - 4, rect.top + 38 - 2,
@@ -87,13 +85,13 @@ public:
   /** Emmitted when pointer enters the region of the component */
   void on_pointer_enter()
   {
-    mouse_over = true;
+    set_mouse_over(true);
   }
 
   /** Emmitted when pointer leaves the region of the component */
   void on_pointer_leave()
   {
-    mouse_over = false;
+    set_mouse_over(false);
   }
 
   void on_primary_button_press (int x, int y)
@@ -104,7 +102,7 @@ public:
   void on_primary_button_release (int x, int y)
   {
     mouse_down = false;
-    if (mouse_over)
+    if (has_mouse_over())
       on_click();
   }
 
