@@ -125,10 +125,4 @@ SExprFileWriter::write_vector2i(const char* name, const Vector2i& v)
   (*out) << "\n" << indent() << "(" << name << " " << v.x << " " << v.y << ")";
 }
 
-void
-SExprFileWriter::write_path(const char* name, const Pathname& path)
-{
-  write_string(name, path.get_raw_path());
-}
-
 /* EOF */

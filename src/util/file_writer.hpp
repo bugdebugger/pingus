@@ -43,7 +43,6 @@ public:
   virtual void write_vector (const char* name, const Vector3f&) =0;
   virtual void write_size   (const char* name, const Size&) =0;
   virtual void write_vector2i(const char* name, const Vector2i&) =0;
-  virtual void write_path   (const char* name, const Pathname&) =0;
 
   template<class E, class T>
   void write_enum  (const char* name, E& value, T string2enum) const
