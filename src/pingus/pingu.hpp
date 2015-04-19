@@ -46,10 +46,6 @@ private:
   /** The primary action which is currently in use */
   std::shared_ptr<PinguAction> action;
 
-  /** A secondary action which will turn active after a given amount of time
-      The only example is currently the bomber. */
-  std::shared_ptr<PinguAction> countdown_action;
-
   /** the action that gets triggered when the pingu hits a wall */
   std::shared_ptr<PinguAction> wall_action;
 
@@ -64,9 +60,6 @@ private:
   /** The uniq id of the Pingu, this is used to refer to the Pingu in
       a demo file or in a network connection */
   unsigned int id;
-
-  /** Countdown till countdown_action is triggered (-1 for no active countdown) */
-  int action_time;
 
   /** The stat of the pingu, these can be modified by PinguActions */
   PinguStatus status;

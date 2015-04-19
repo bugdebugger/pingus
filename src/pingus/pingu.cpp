@@ -52,12 +52,10 @@ using namespace Actions;
 // Init a pingu at the given position while falling
 Pingu::Pingu (int arg_id, const Vector3f& arg_pos) :
   action(),
-  countdown_action(),
   wall_action(),
   fall_action(),
   previous_action(ActionName::FALLER),
   id(arg_id),
-  action_time(-1),
   status(PS_ALIVE),
   pos_x(arg_pos.x),
   pos_y(arg_pos.y),
@@ -189,24 +187,6 @@ Pingu::request_set_action(ActionName::Enum action_name)
         }
         break;
 
-      case COUNTDOWN_TRIGGERED:
-        {
-          if (countdown_action && countdown_action->get_type() == action_name)
-          {
-            log_debug("Not using countdown action, we have already");
-            ret_val = false;
-            break;
-          }
-
-          log_debug("Setting countdown action");
-          // We set the action and start the countdown
-          std::shared_ptr<PinguAction> act = create_action(action_name);
-          action_time = act->activation_time();
-          countdown_action = act;
-          ret_val = true;
-        }
-        break;
-
       default:
         log_debug("unknown action activation_mode");
         ret_val = false;
@@ -318,19 +298,6 @@ Pingu::update()
     return;
   }
 
-  // if an countdown action is set, update the countdown time
-  if (action_time > -1)
-    --action_time;
-
-  if (action_time == 0 && countdown_action)
-  {
-    set_action(countdown_action);
-    // Reset the countdown action handlers
-    countdown_action = std::shared_ptr<PinguAction>();
-    action_time = -1;
-    return;
-  }
-
   action->update();
 }
 
@@ -338,19 +305,7 @@ Pingu::update()
 void
 Pingu::draw(SceneContext& gc)
 {
-  char str[16];
-
   action->draw(gc);
-
-  if (action_time != -1)
-  {
-    // FIXME: some people preffer a 5-0 or a 9-0 countdown, not sure
-    // FIXME: about that got used to the 50-0 countdown [counting is
-    // FIXME: in ticks, should probally be in seconds]
-    snprintf(str, 16, "%d", action_time/3);
-
-    gc.color().print_center(Fonts::chalk_normal, Vector2i(static_cast<int>(pos_x), static_cast<int>(pos_y) - 48), str);
-  }
 }
 
 int
