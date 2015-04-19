@@ -39,14 +39,6 @@ public:
       do with a normal framebuffer */
   DrawingContext& color();
 
-  /** The highlight map is usefull for all objects that are extremly
-      bright so that they generate a lenseflare or a glow. The
-      highlight map doesn't light the scenario itself, but gets
-      additionally rendered above the color buffer, thus its
-      allows to add glow without risking to losing it in an area of
-      darkness */
-  DrawingContext& highlight();
-
   /** Translate the drawing context */
   void translate(int x, int y);
 

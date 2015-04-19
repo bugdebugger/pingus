@@ -22,14 +22,12 @@ class SceneContextImpl
 {
 public:
   DrawingContext color;
-  DrawingContext highlight;
 
   Rect cliprect;
   bool use_cliprect;
 
   SceneContextImpl() :
     color(),
-    highlight(),
     cliprect(),
     use_cliprect(false)
   {
@@ -37,7 +35,6 @@ public:
 
   SceneContextImpl(const Rect& rect) :
     color(rect),
-    highlight(rect),
     cliprect(),
     use_cliprect(false)
   {
@@ -64,46 +61,35 @@ SceneContext::color()
   return impl->color;
 }
 
-DrawingContext&
-SceneContext::highlight()
-{
-  return impl->highlight;
-}
-
 /** Translate the drawing context */
 void
 SceneContext::translate(int x, int y)
 {
   impl->color.translate(x, y);
-  impl->highlight.translate(x, y);
 }
 
 void
 SceneContext::push_modelview()
 {
   impl->color.push_modelview();
-  impl->highlight.push_modelview();
 }
 
 void
 SceneContext::pop_modelview()
 {
   impl->color.pop_modelview();
-  impl->highlight.pop_modelview();
 }
 
 void
 SceneContext::reset_modelview()
 {
   impl->color.reset_modelview();
-  impl->highlight.reset_modelview();
 }
 
 void
 SceneContext::set_rect(const Rect& rect)
 {
   impl->color.set_rect(rect);
-  impl->highlight.set_rect(rect);
 }
 
 void
@@ -128,15 +114,12 @@ SceneContext::render(Framebuffer& fb, const Rect& rect)
   {
     impl->color.render(fb, rect);
   }
-
-  impl->highlight.render(fb, rect);
 }
 
 void
 SceneContext::clear()
 {
   impl->color.clear();
-  impl->highlight.clear();
 }
 
 SceneContextDrawingRequest::SceneContextDrawingRequest(SceneContext* sc_, const Vector2i& pos_, float z_)
