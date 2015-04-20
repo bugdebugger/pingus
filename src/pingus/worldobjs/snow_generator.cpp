@@ -55,15 +55,6 @@ SnowGenerator::update()
 void
 SnowGenerator::on_startup()
 {
-  // FIXME: if snow should be available from start, this needs to get fixed to have the right amount of snow
-#if 0
-  for (int i = 0; i < 500; ++i) // FIXME: 500 is a random value, doesn't work very often
-  {
-    world->get_snow_particle_holder()->add_particle(rand() % world->get_width(), rand() % world->get_height());
-    world->get_snow_particle_holder()->add_particle(rand() % world->get_width(), rand() % world->get_height());
-    world->get_snow_particle_holder()->add_particle(rand() % world->get_width(), rand() % world->get_height(), true);
-  }
-#endif
 }
 
 } // namespace WorldObjs

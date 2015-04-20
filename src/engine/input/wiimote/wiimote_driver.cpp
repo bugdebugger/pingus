@@ -72,30 +72,6 @@ WiimoteDriver::update(float delta)
         }
       }
     }
-#if 0
-    else if (event.type == WiimoteEvent::WIIMOTE_ACC_EVENT)
-    {
-      if (event.acc.accelerometer == 0)
-      {
-        float roll = atan(event.acc.x/event.acc.z);
-        if (event.acc.z <= 0.0) {
-          roll += M_PI * ((event.acc.x > 0.0) ? 1 : -1);
-        }
-        roll *= -1;
-
-        float pitch = atan(event.acc.y/event.acc.z*cos(roll));
-
-        add_axis_event(X2_AXIS, math::mid(-1.0f, -float(pitch / M_PI), 1.0f));
-        add_axis_event(Y2_AXIS, math::mid(-1.0f, -float(roll  / M_PI), 1.0f));
-
-        std::cout << boost::format("%|6.3f| %|6.3f|") % pitch % roll << std::endl;
-      }
-    }
-    else
-    {
-      assert(!"Never reached");
-    }
-#endif
   }
 }
 

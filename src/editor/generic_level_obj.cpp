@@ -172,15 +172,6 @@ GenericLevelObj::draw(DrawingContext &gc)
         gc.draw(sprite, Vector3f(static_cast<float>(x), pos.y, pos.z));
       }
     }
-#if 0
-    else if(attribs & HAS_STRETCH)
-    {
-      // Surface Background - tile it
-      for (int x = 0; x < level->size.width; x += sprite.get_width())
-        for (int y = 0; y < level->size.height; y += sprite.get_height())
-          gc.draw(sprite, Vector3f((float)x, (float)y, pos.z));
-    }
-#endif
     else if (attribs & HAS_COLOR && section_name == "solidcolor-background")
     { // FIXME: Should we have the object type in non-string form?
       gc.draw_fillrect(get_rect(), color, pos.z);

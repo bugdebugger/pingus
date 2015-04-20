@@ -263,28 +263,6 @@ Worldmap::update_locked_nodes()
 {
   // FIXME: This shouldn't be a polling function
   path_graph->graph.for_each_node(unlock_nodes(path_graph.get()));
-
-#if 0
-  bool credits_unlocked = false;
-  StatManager::instance()->get_bool(worldmap.get_short_name() + "-endstory-seen", credits_unlocked);
-
-  if (!credits_unlocked)
-  {
-    // See if the last level is finished
-    Dot* dot = path_graph->get_dot(final_node);
-    if (dot)
-    {
-      if (dot->finished())
-      {
-        ScreenManager::instance()->push_screen(new StoryScreen(worldmap.get_end_story()));
-      }
-    }
-    else
-    {
-      log_info("Error: Worldmap: Last level missing");
-    }
-  }
-#endif
 }
 
 // Determine starting node

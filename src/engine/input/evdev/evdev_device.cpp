@@ -117,18 +117,6 @@ EvdevDevice::process_absolute(struct input_event& ev)
   if (axis_index != -1)
   {
     absolutes[axis_index].pos = ev.value;
-
-#if 0
-    CL_InputEvent e;
-
-    e.device   = CL_InputDevice(this);
-    e.type     = CL_InputEvent::axis_moved;
-    e.id       = axis_index;
-    e.axis_pos = absolutes[axis_index].get_posf();
-    e.repeat_count = 0;
-
-    sig_axis_move(e);
-#endif
   }
 }
 
@@ -162,25 +150,6 @@ EvdevDevice::process_key(struct input_event& ev)
     else
       (*i)->set_state(BUTTON_RELEASED);
   }
-
-#if 0
-  CL_InputEvent e;
-
-  e.device = CL_InputDevice(this);
-  e.id     = button_index;
-  e.repeat_count = 0;
-
-  if (ev.value)
-  {
-    e.type = CL_InputEvent::pressed;
-    sig_key_down(e);
-  }
-  else
-  {
-    e.type = CL_InputEvent::released;
-    sig_key_up(e);
-  }
-#endif
 }
 
 int
@@ -236,31 +205,6 @@ EvdevDevice::update(float delta)
           break;
 
         default:
-#if 0
-          if (ev[i].type == EV_SYN)
-          {
-            printf("Event: time %ld.%06ld, -------------- %s ------------\n",
-                   ev[i].time.tv_sec, ev[i].time.tv_usec, ev[i].code ? "Config Sync" : "Report Sync" );
-          }
-          else if (ev[i].type == EV_MSC && (ev[i].code == MSC_RAW || ev[i].code == MSC_SCAN))
-          {
-            printf("Event: time %ld.%06ld, type %d (%s), code %d (%s), value %02x\n",
-                   ev[i].time.tv_sec, ev[i].time.tv_usec, ev[i].type,
-                   events[ev[i].type] ? events[ev[i].type] : "?",
-                   ev[i].code,
-                   names[ev[i].type] ? (names[ev[i].type][ev[i].code] ? names[ev[i].type][ev[i].code] : "?") : "?",
-                   ev[i].value);
-          }
-          else
-          {
-            printf("Event: time %ld.%06ld, type %d (%s), code %d (%s), value %d\n",
-                   ev[i].time.tv_sec, ev[i].time.tv_usec, ev[i].type,
-                   events[ev[i].type] ? events[ev[i].type] : "?",
-                   ev[i].code,
-                   names[ev[i].type] ? (names[ev[i].type][ev[i].code] ? names[ev[i].type][ev[i].code] : "?") : "?",
-                   ev[i].value);
-          }
-#endif
           break;
       }
     }
