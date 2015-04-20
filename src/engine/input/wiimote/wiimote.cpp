@@ -491,7 +491,7 @@ Wiimote::mesg_callback(cwiid_wiimote_t* w, int mesg_count, union cwiid_mesg mesg
 {
   pthread_mutex_lock(&mutex);
 
-  for (int i=0; i < mesg_count; i++)
+  for (int i=0; i < mesg_count; ++i)
   {
     switch (mesg[i].type)
     {

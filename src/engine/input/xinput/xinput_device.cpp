@@ -75,25 +75,25 @@ XInputDevice::register_events(Display* dpy,
 
   if (device->num_classes > 0)
   {
-    for (ip = device->classes, i=0; i<info->num_classes; ip++, i++)
+    for (ip = device->classes, i=0; i<info->num_classes; ip++, ++i)
     {
       switch (ip->input_class)
       {
         case KeyClass:
-          DeviceKeyPress  (device, key_press_type,   event_list[number]); number++;
-          DeviceKeyRelease(device, key_release_type, event_list[number]); number++;
+          DeviceKeyPress  (device, key_press_type,   event_list[number]); ++number;
+          DeviceKeyRelease(device, key_release_type, event_list[number]); ++number;
           break;
 
         case ButtonClass:
-          DeviceButtonPress  (device, button_press_type,   event_list[number]); number++;
-          DeviceButtonRelease(device, button_release_type, event_list[number]); number++;
+          DeviceButtonPress  (device, button_press_type,   event_list[number]); ++number;
+          DeviceButtonRelease(device, button_release_type, event_list[number]); ++number;
           break;
 
         case ValuatorClass:
-          DeviceMotionNotify(device, motion_type, event_list[number]); number++;
+          DeviceMotionNotify(device, motion_type, event_list[number]); ++number;
           if (handle_proximity) {
-            ProximityIn (device, proximity_in_type,  event_list[number]); number++;
-            ProximityOut(device, proximity_out_type, event_list[number]); number++;
+            ProximityIn (device, proximity_in_type,  event_list[number]); ++number;
+            ProximityOut(device, proximity_out_type, event_list[number]); ++number;
           }
           break;
 

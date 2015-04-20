@@ -162,7 +162,7 @@ Bridger::way_is_free()
 {
   bool way_free = true;
 
-  for (int x_inc = 1; x_inc <= 4; x_inc++)
+  for (int x_inc = 1; x_inc <= 4; ++x_inc)
   {
     if (rel_getpixel(x_inc, 2) != Groundtype::GP_NOTHING
         || head_collision_on_walk(x_inc, 2))

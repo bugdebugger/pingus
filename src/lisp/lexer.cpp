@@ -112,7 +112,7 @@ Lexer::getNextToken()
             if(*c == '"')
               break;
             else if(*c == '\n')
-              linenumber++;
+              ++linenumber;
             else if(*c == '\\') {
               nextChar();
               switch(*c) {

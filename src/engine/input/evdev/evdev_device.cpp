@@ -70,14 +70,14 @@ EvdevDevice::EvdevDevice(const std::string& filename) :
     memset(bit, 0, sizeof(bit));
     ioctl(fd, EVIOCGBIT(0, EV_MAX), bit[0]);
 
-    for (int i = 0; i < EV_MAX; i++)
+    for (int i = 0; i < EV_MAX; ++i)
     {
       if (test_bit(i, bit[0]))
       {
         if (!i) continue;
 
         ioctl(fd, EVIOCGBIT(i, KEY_MAX), bit[i]);
-        for (int j = 0; j < KEY_MAX; j++)
+        for (int j = 0; j < KEY_MAX; ++j)
         {
           if (test_bit(j, bit[i]))
           {

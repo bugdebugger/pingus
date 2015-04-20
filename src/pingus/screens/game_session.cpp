@@ -159,7 +159,7 @@ GameSession::update_server(float delta)
         }
       }
 
-      world_updates++;
+      ++world_updates;
     }
     // save how far behind is the world compared to the actual time
     // so that we can account for that while updating in the next frame

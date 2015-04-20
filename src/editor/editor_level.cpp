@@ -119,7 +119,7 @@ EditorLevel::from_level_file(const Pathname& pathname)
 
   // Get the objects
   std::vector<FileReader> objs = plf.get_objects();
-  for (std::vector<FileReader>::const_iterator i = objs.begin(); i != objs.end(); i++)
+  for (std::vector<FileReader>::const_iterator i = objs.begin(); i != objs.end(); ++i)
   {
     LevelObjPtr obj = LevelObjFactory::create(*i);
     if (obj)
@@ -152,7 +152,7 @@ EditorLevel::from_prefab_file(const Pathname& pathname)
 
   // Get the objects
   const std::vector<FileReader>& objs = prefab.get_objects();
-  for (auto i = objs.begin(); i != objs.end(); i++)
+  for (auto i = objs.begin(); i != objs.end(); ++i)
   {
     LevelObjPtr obj = LevelObjFactory::create(*i);
     if (obj)
@@ -256,7 +256,7 @@ EditorLevel::save_level(const std::string& filename)
 
   // Write the list of actions to the file
   fw.begin_section("actions");
-  for (auto i = impl->actions.begin(); i != impl->actions.end(); i++)
+  for (auto i = impl->actions.begin(); i != impl->actions.end(); ++i)
   {
     if (i->second > 0)
       fw.write_int(i->first.c_str(), i->second);

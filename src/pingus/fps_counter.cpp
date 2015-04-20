@@ -61,7 +61,7 @@ FPSCounter::update_fps_counter()
   unsigned int current_time = SDL_GetTicks();
   int current_fps;
 
-  fps_count++;
+  ++fps_count;
 
   if (start_time + 1000 < current_time)
   {
