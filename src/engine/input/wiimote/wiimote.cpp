@@ -447,13 +447,6 @@ Wiimote::on_nunchuk(const cwiid_nunchuk_mesg& msg)
                 static_cast<float>(msg.acc[0] - nunchuk_zero.x) / static_cast<float>(nunchuk_one.x - nunchuk_zero.x),
                 static_cast<float>(msg.acc[1] - nunchuk_zero.y) / static_cast<float>(nunchuk_one.y - nunchuk_zero.y),
                 static_cast<float>(msg.acc[2] - nunchuk_zero.z) / static_cast<float>(nunchuk_one.z - nunchuk_zero.z));
-  if (0)
-    printf("Nunchuk Report: btns=%.2X stick=(%3d,%3d) (%5.2f, %5.2f) acc.x=%d acc.y=%d acc.z=%d\n",
-           msg.buttons,
-           msg.stick[0], msg.stick[1],
-           m_nunchuk_stick_x,
-           m_nunchuk_stick_y,
-           msg.acc[0], msg.acc[1], msg.acc[2]);
 }
 
 void

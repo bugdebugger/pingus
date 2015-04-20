@@ -197,12 +197,6 @@ DemoSession::update_demo()
   {
     ServerEvent& event = events.back();
 
-    if (0)
-    {
-      std::cout << "Sending: ";
-      event.write(std::cout);
-    }
-
     event.send(server.get());
     events.pop_back();
   }
@@ -217,25 +211,12 @@ DemoSession::update_demo()
 void
 DemoSession::on_pause_press()
 {
-  if (0)
-  {
-    for(std::vector<ServerEvent>::iterator i = events.begin(); i != events.end(); ++i)
-    {
-      std::cout << "Event: ";
-      i->write(std::cout);
-    }
-  }
-
   pause = !pause;
-
 }
 
 void
 DemoSession::on_fast_forward_press()
 {
-  if (0)
-    log_info("Fast Forward Pressed: %1% %2%", events.size(), server->get_time());
-
   fast_forward = !fast_forward;
 }
 

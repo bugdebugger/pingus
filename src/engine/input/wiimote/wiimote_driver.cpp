@@ -77,13 +77,6 @@ WiimoteDriver::update(float delta)
     {
       if (event.acc.accelerometer == 0)
       {
-        if (0)
-          printf("%d - %6.3f %6.3f %6.3f\n",
-                 event.acc.accelerometer,
-                 event.acc.x,
-                 event.acc.y,
-                 event.acc.z);
-
         float roll = atan(event.acc.x/event.acc.z);
         if (event.acc.z <= 0.0) {
           roll += M_PI * ((event.acc.x > 0.0) ? 1 : -1);

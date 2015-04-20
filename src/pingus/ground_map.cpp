@@ -149,17 +149,6 @@ GroundMap::draw(SceneContext& gc)
         gc.color().draw(get_tile(x, y)->get_sprite(),
                         Vector2i(x * globals::tile_size, y * globals::tile_size));
       }
-      else
-      {
-        if (false)
-        {
-          gc.color().draw_fillrect(Rect(x * globals::tile_size,
-                                        y * globals::tile_size,
-                                        x * globals::tile_size + globals::tile_size,
-                                        y * globals::tile_size + globals::tile_size),
-                                   Color(255, 0, 0, 75));
-        }
-      }
     }
 }
 

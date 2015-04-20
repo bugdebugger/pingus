@@ -206,13 +206,6 @@ DrawingContext::render(Framebuffer& fb, const Rect& parent_rect)
 
   std::stable_sort(drawingrequests.begin(), drawingrequests.end(), DrawingRequestsSorter());
 
-  if (0)
-  {
-    log_info("<<<<<<<<<<<<<<");
-    for(DrawingRequests::iterator i = drawingrequests.begin(); i != drawingrequests.end(); ++i)
-      log_info("%1%", (*i)->get_z_pos());
-    log_info(">>>>>>>>>>>>>>");
-  }
   for(DrawingRequests::iterator i = drawingrequests.begin(); i != drawingrequests.end(); ++i)
   {
     (*i)->render(fb, this_rect); // FIXME: Should we clip size against parent rect?

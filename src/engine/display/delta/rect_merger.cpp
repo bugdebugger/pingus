@@ -162,18 +162,6 @@ void generate_rectangles(const std::vector<Row>& rows, std::vector<Rect>& rects_
     if (!marks.empty())
     {
       assert(marks.front().type == Mark::START_MARK);
-      if (0)
-      {
-        log_error("Size: %1%", i->marks.size());
-        if (marks.front().type != Mark::START_MARK)
-        {
-          for(std::vector<Mark>::const_iterator mark_it = marks.begin(); mark_it != marks.end(); )
-            log_error("%1% %2%",
-                      (mark_it->type == Mark::START_MARK) ? "'(" : "')",
-                      mark_it->pos);
-          assert(!"False");
-        }
-      }
 
       int start = marks.front().pos;
       int parenthesis_count = 1;

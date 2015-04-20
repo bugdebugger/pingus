@@ -542,20 +542,6 @@ Surface::print(std::ostream& out)
 
   if (impl->surface->flags & SDL_SRCALPHA)
     out << "Alpha: " << static_cast<int>(impl->surface->format->alpha) << std::endl;
-
-  if (0)
-  {
-    SDL_LockSurface(impl->surface);
-    Uint8* pixels = static_cast<Uint8*>(impl->surface->pixels);
-    for(int i = 0; i < impl->surface->pitch * impl->surface->h; i += 4)
-      out << boost::format("(%3d %3d %3d %3d) ")
-        % static_cast<int>(pixels[i+0])
-        % static_cast<int>(pixels[i+1])
-        % static_cast<int>(pixels[i+2])
-        % static_cast<int>(pixels[i+3]);
-    out << std::endl;
-    SDL_UnlockSurface(impl->surface);
-  }
 }
 
 /* EOF */

@@ -31,15 +31,6 @@ int main(int argc, char** argv)
   std::vector<Rect> rects_out;
 
   // Generate random rectangles
-  if (0)
-    for(int i = 0; i < 400; ++i)
-      {
-        rects_in.push_back(Rect(Vector2i(rand() % 800,
-                                         rand() % 800),
-                                Size(rand() % 60 + 10,
-                                     rand() % 60 + 10)));
-      }
-
   rects_in.push_back(Rect(380, 279, 412, 311));
   rects_in.push_back(Rect(307, 280, 339, 312));
   rects_in.push_back(Rect(397, 279, 429, 311));
