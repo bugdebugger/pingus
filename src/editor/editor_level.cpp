@@ -446,11 +446,8 @@ EditorLevel::raise_object(LevelObjPtr obj)
     ++j;
     j = std::find_if(j, impl->objects.end(), OverlapsWith(obj->get_rect()));
 
-    if (j == impl->objects.end())
-    {
-      // object overlaps with no other object, no point in raising it
-    }
-    else
+    // only raise objects overlapping with other objects
+    if (j != impl->objects.end())
     {
       impl->objects.erase(i);
       impl->objects.insert(++j, obj);
@@ -472,11 +469,8 @@ EditorLevel::lower_object(LevelObjPtr obj)
     ++j;
     j = std::find_if(j, impl->objects.rend(), OverlapsWith(obj->get_rect()));
 
-    if (j == impl->objects.rend())
-    {
-      // object overlaps with no other object, no point in lowering it
-    }
-    else
+    // only lower objects overlapping with other objects
+    if (j != impl->objects.rend())
     {
       // the base() of base in one further then where the reverse
       // iterator was, so we have to move back to get the same
