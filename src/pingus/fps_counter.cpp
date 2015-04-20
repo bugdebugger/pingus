@@ -27,11 +27,9 @@ FPSCounter fps_counter;
 FPSCounter::FPSCounter() :
   odd_frame(),
   fps_string(),
-  fps_count(),
-  start_time()
+  fps_count(0),
+  start_time(SDL_GetTicks())
 {
-  start_time = SDL_GetTicks();
-  fps_count = 0;
 }
 
 FPSCounter::~FPSCounter()

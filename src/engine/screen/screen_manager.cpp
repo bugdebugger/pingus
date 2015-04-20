@@ -70,7 +70,7 @@ ScreenManager::ScreenManager(Input::Manager& arg_input_manager,
   input_controller(arg_input_controller),
   display_gc(new DrawingContext()),
   fps_counter(),
-  cursor(),
+  cursor("core/cursors/animcross"),
   screens(),
   mouse_pos(),
   record_input(false),
@@ -79,7 +79,6 @@ ScreenManager::ScreenManager(Input::Manager& arg_input_manager,
   assert(instance_ == 0);
   instance_ = this;
 
-  cursor = Sprite("core/cursors/animcross");
   fps_counter = std::unique_ptr<FPSCounter>(new FPSCounter());
 }
 

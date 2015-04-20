@@ -34,7 +34,7 @@ Bomber::Bomber (Pingu* p) :
   colmap_exploded(false),
   bomber_radius("other/bomber_radius_gfx", "other/bomber_radius"),
   sprite(),
-  explo_surf(Sprite("pingus/explo"))
+  explo_surf("pingus/explo")
 {
   sprite.load(Direction::LEFT,  "pingus/bomber/left");
   sprite.load(Direction::RIGHT, "pingus/bomber/right");

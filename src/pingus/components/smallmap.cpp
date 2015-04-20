@@ -30,13 +30,11 @@ SmallMap::SmallMap(Server* server_, Playfield* playfield_, const Rect& rect_) :
   exit_sur(),
   entrance_sur(),
   image(),
-  scroll_mode(),
+  scroll_mode(false),
   has_focus(),
   gc_ptr(0)
 {
   image = std::unique_ptr<SmallMapImage>(new SmallMapImage(server, rect.get_width(), rect.get_height()));
-
-  scroll_mode = false;
 }
 
 SmallMap::~SmallMap()

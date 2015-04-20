@@ -30,32 +30,29 @@ CollisionMask::CollisionMask() :
 }
 
 CollisionMask::CollisionMask(const std::string& gfx_name, const std::string& col_name) :
-  surface(),
+  surface(Resource::load_surface(gfx_name)),
   buffer(),
   width(),
   height()
 {
-  surface = Resource::load_surface(gfx_name);
   init_colmap(Resource::load_surface(col_name), col_name);
 }
 
 CollisionMask::CollisionMask(const std::string& name) :
-  surface(),
+  surface(Resource::load_surface(name)),
   buffer(),
   width(),
   height()
 {
-  surface = Resource::load_surface(name);
   init_colmap(surface, name);
 }
 
 CollisionMask::CollisionMask(const ResDescriptor& res_desc) :
-  surface(),
+  surface(Resource::load_surface(res_desc)),
   buffer(),
   width(),
   height()
 {
-  surface = Resource::load_surface(res_desc);
   init_colmap(surface, res_desc.res_name);
 }
 

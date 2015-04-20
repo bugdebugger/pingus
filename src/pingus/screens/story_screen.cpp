@@ -156,26 +156,21 @@ StoryScreen::~StoryScreen()
 }
 
 StoryScreenComponent::StoryScreenComponent (WorldmapNS::WorldmapStory *arg_story, bool credits) :
-  background(),
-  blackboard(),
+  background("core/menu/wood"),
+  blackboard("core/menu/blackboard"),
   display_text(),
-  time_passed(),
-  page_displayed_completly(),
+  time_passed(0),
+  page_displayed_completly(false),
   story(arg_story),
   pages(),
   page_surface(),
   current_page(),
   m_credits(credits)
 {
-  page_displayed_completly = false;
-  time_passed  = 0;
   pages = story->get_pages();
 
   current_page = pages.back();
   page_surface = Sprite(current_page.image);
-
-  background = Sprite("core/menu/wood");
-  blackboard = Sprite("core/menu/blackboard");
 }
 
 void

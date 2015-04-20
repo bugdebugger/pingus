@@ -24,14 +24,12 @@
 ArmageddonButton::ArmageddonButton(Server* s, int x, int y) :
   RectComponent(Rect(Vector2i(x, y), Size(38, 60))),
   server(s),
-  pressed(),
+  pressed(false),
   press_time(),
-  sprite(),
+  sprite("core/buttons/armageddon_anim"),
   background  ("core/buttons/hbuttonbgb"),
   backgroundhl("core/buttons/hbuttonbg")
 {
-  pressed      = false;
-  sprite       = Sprite("core/buttons/armageddon_anim");
 }
 
 ArmageddonButton::~ArmageddonButton ()
@@ -94,11 +92,10 @@ ArmageddonButton::on_primary_button_click (int x, int y)
 ForwardButton::ForwardButton(GameSession* s, int x, int y) :
   RectComponent(Rect(Vector2i(x, y), Size(38, 60))),
   session(s),
-  surface(),
+  surface("core/buttons/fast_forward"),
   background ("core/buttons/hbuttonbgb"),
   backgroundhl("core/buttons/hbuttonbg")
 {
-  surface = Sprite("core/buttons/fast_forward");
 }
 
 ForwardButton::~ForwardButton () {}
@@ -135,11 +132,10 @@ ForwardButton::on_primary_button_release (int x, int y)
 PauseButton::PauseButton(GameSession* s, int x, int y) :
   RectComponent(Rect(Vector2i(x, y), Size(38, 60))),
   session(s),
-  surface(),
+  surface("core/buttons/pause"),
   background ("core/buttons/hbuttonbgb"),
   backgroundhl("core/buttons/hbuttonbg")
 {
-  surface = Sprite("core/buttons/pause");
 }
 
 PauseButton::~PauseButton ()

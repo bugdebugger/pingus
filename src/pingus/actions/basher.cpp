@@ -33,14 +33,12 @@ Basher::Basher (Pingu* p) :
   bash_radius("pingus/common/bash_radius_gfx", "pingus/common/bash_radius"),
   basher_c(0),
   first_bash(true),
-  bash_reach()
+  bash_reach(bash_radius.get_width())
 {
   assert(bash_radius.get_width() % 2 == 0);
 
   sprite.load(Direction::LEFT,  Sprite("pingus/basher/left"));
   sprite.load(Direction::RIGHT, Sprite("pingus/basher/right"));
-
-  bash_reach = bash_radius.get_width();
 
   // Start a bash even so the action will stops instantly after the
   // first bash

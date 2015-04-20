@@ -29,7 +29,7 @@ Playfield::Playfield(Server* server_, GameSession* session_, const Rect& rect_) 
   server(server_),
   session(session_),
   current_pingu(0),
-  mouse_scrolling(),
+  mouse_scrolling(false),
   scroll_speed(),
   scroll_center(),
   scene_context(new SceneContext(rect_)),
@@ -39,8 +39,6 @@ Playfield::Playfield(Server* server_, GameSession* session_, const Rect& rect_) 
   mouse_pos(),
   old_state_pos()
 {
-  mouse_scrolling    = false;
-
   state.set_limit(Rect(Vector2i(0, 0),
                        Size(server->get_world()->get_width(),
                             server->get_world()->get_height())));

@@ -53,9 +53,9 @@ public:
                        const Vector2i& pos_, const std::string& sprite_, const std::string& tooltip_) :
     RectComponent(Rect(pos_, Size(30, 30))),
     object_list(object_list_),
-    button_raised(Sprite("core/editor/obj_button-raised")),
-    button_pressed(Sprite("core/editor/obj_button-pressed")),
-    sprite(Sprite(sprite_)),
+    button_raised("core/editor/obj_button-raised"),
+    button_pressed("core/editor/obj_button-pressed"),
+    sprite(sprite_),
     mouse_down(false),
     tooltip(tooltip_),
     on_click()

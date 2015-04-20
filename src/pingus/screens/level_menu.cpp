@@ -123,7 +123,7 @@ public:
     level_menu(level_menu_),
     levelsets(),
     current_levelset(),
-    marker(),
+    marker("core/menu/marker"),
     page(0),
     item_height(95),
     items_per_page(4),
@@ -131,8 +131,6 @@ public:
               680 - 90,
               70 + items_per_page * item_height)
   {
-    marker      = Sprite("core/menu/marker");
-
     auto directory = Pathname("levelsets", Pathname::DATA_PATH).opendir("*.levelset");
     for(auto i = directory.begin(); i != directory.end(); ++i)
     {
@@ -284,10 +282,10 @@ public:
   LevelSelector(LevelMenu* level_menu_, const Rect& rect_) :
     RectComponent(rect_),
     level_menu(level_menu_),
-    marker(),
-    m_checkbox_marked(),
-    m_checkbox_locked(),
-    m_checkbox(),
+    marker("core/menu/marker2"),
+    m_checkbox_marked("core/menu/checkbox_marked_small"),
+    m_checkbox_locked("core/menu/locked_small"),
+    m_checkbox("core/menu/checkbox_small"),
     levelset(0),
     current_level(-1),
     page(0),
@@ -295,11 +293,6 @@ public:
     items_per_page(10),
     list_rect(50, 112, 680 - 90, 112 + items_per_page * item_height)
   {
-    marker        = Sprite("core/menu/marker2");
-
-    m_checkbox_marked = Sprite("core/menu/checkbox_marked_small");
-    m_checkbox_locked = Sprite("core/menu/locked_small");
-    m_checkbox = Sprite("core/menu/checkbox_small");
   }
 
   void draw(DrawingContext& gc)
@@ -433,15 +426,13 @@ LevelMenu::LevelMenu() :
   y_pos((Display::get_height() - globals::default_screen_height)/2),
   background("core/menu/wood"),
   blackboard("core/menu/blackboard"),
-  ok_button(),
+  ok_button("core/start/ok"),
   level_selector(),
   levelset_selector(),
   abort_button(),
   next_button(),
   prev_button()
 {
-  ok_button  = Sprite("core/start/ok");
-
   levelset_selector = new LevelsetSelector(this, Rect());
   level_selector    = new LevelSelector(this, Rect());
 

@@ -33,19 +33,17 @@
 #include "pingus/stat_manager.hpp"
 
 PingusMenu::PingusMenu() :
-  is_init(),
+  is_init(false),
   help(),
   text_scroll_offset(),
   background(),
-  logo(),
+  logo("core/misc/logo"),
   start_button(),
   quit_button(),
   editor_button(),
   contrib_button(),
   options_button()
 {
-  is_init = false;
-
   Size size_(Display::get_width(), Display::get_height());
 
   start_button = new MenuButton(this, Vector2i(size_.width/2 - 125,
@@ -73,8 +71,6 @@ PingusMenu::PingusMenu() :
   gui_manager->add(contrib_button);
   gui_manager->add(start_button);
   gui_manager->add(editor_button);
-
-  logo = Sprite("core/misc/logo");
 
   create_background(Size(Display::get_width(), Display::get_height()));
 

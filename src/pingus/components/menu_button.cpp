@@ -25,24 +25,14 @@ MenuButton::MenuButton(PingusMenu* menu_,
                        const Vector2i& pos_,
                        const std::string& text_) :
   menu(menu_),
-  surface_p(),
-  highlight(),
-  font(),
-  font_large(),
-  x_pos(),
-  y_pos(),
-  text()
+  surface_p("core/menu/menuitem"),
+  highlight("core/menu/menuitem_highlight"),
+  font(Fonts::pingus_small),
+  font_large(Fonts::chalk_large),
+  x_pos(pos_.x),
+  y_pos(pos_.y),
+  text(text_)
 {
-  surface_p = Sprite("core/menu/menuitem");
-  highlight = Sprite("core/menu/menuitem_highlight");
-
-  text = text_;
-
-  x_pos = pos_.x;
-  y_pos = pos_.y;
-
-  font       = Fonts::pingus_small;
-  font_large = Fonts::chalk_large;
 }
 
 MenuButton::~MenuButton ()

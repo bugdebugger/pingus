@@ -28,10 +28,10 @@ Pingus::Pingus (PathGraph* arg_path) :
   sprite(),
   sprite_standing("core/worldmap/pingus_standing"),
   arrow("core/worldmap/arrow"),
-  current_node(),
+  current_node(NoNode),
   source_node(),
   target_node(),
-  final_target_node(),
+  final_target_node(NoNode),
   node_path(),
   edge_path(),
   edge_path_position(),
@@ -40,9 +40,6 @@ Pingus::Pingus (PathGraph* arg_path) :
 {
   sprite.load(Direction::LEFT,  Sprite("core/worldmap/pingus/left"));
   sprite.load(Direction::RIGHT, Sprite("core/worldmap/pingus/right"));
-
-  final_target_node = NoNode;
-  current_node = NoNode;
 }
 
 Pingus::~Pingus ()
