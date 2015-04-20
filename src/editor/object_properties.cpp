@@ -477,15 +477,12 @@ ObjectProperties::set_object(LevelObjPtr obj)
       place(height_label, height_inputbox);
     }
 
-    if (1) // everybody has x-pos, y-pos and z-pos
-    {
-      pos_x_inputbox->set_text(StringUtil::to_string(obj->get_pos_x()));
-      place(pos_x_label, pos_x_inputbox);
-      pos_y_inputbox->set_text(StringUtil::to_string(obj->get_pos_y()));
-      place(pos_y_label, pos_y_inputbox);
-      pos_z_inputbox->set_text(StringUtil::to_string(obj->get_pos_z()));
-      place(pos_z_label, pos_z_inputbox);
-    }
+    pos_x_inputbox->set_text(StringUtil::to_string(obj->get_pos_x()));
+    place(pos_x_label, pos_x_inputbox);
+    pos_y_inputbox->set_text(StringUtil::to_string(obj->get_pos_y()));
+    place(pos_y_label, pos_y_inputbox);
+    pos_z_inputbox->set_text(StringUtil::to_string(obj->get_pos_z()));
+    place(pos_z_label, pos_z_inputbox);
 
     if (attr & CAN_ROTATE)
     {

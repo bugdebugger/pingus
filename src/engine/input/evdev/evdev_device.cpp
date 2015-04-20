@@ -52,13 +52,11 @@ EvdevDevice::EvdevDevice(const std::string& filename) :
     throw std::runtime_error("Error: EvdevDevice: Couldn't get version for " + filename);
   }
 
-  if (1)
-  { // FIXME: Some versions of linux don't have these structs, use arrays there
-    struct input_id id;
-    ioctl(fd, EVIOCGID, &id);
-    printf("Input device ID: bus 0x%x vendor 0x%x product 0x%x version 0x%x\n",
-           id.bustype, id.vendor, id.product, id.vendor);
-  }
+  // FIXME: Some versions of linux don't have these structs, use arrays there
+  struct input_id id;
+  ioctl(fd, EVIOCGID, &id);
+  printf("Input device ID: bus 0x%x vendor 0x%x product 0x%x version 0x%x\n",
+         id.bustype, id.vendor, id.product, id.vendor);
 
   {  // Get the human readable name
     char c_name[256] = "unknown";
