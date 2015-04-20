@@ -279,7 +279,7 @@ Pingus 0.2.0 (11/Aug/1999)
 * Added Result window, after finishing a level (not correct working)
 * Added fps printer is back again
 * A software cursor is now available, it can be enabled with
-  --enable-cursor, usefull for graphic modes, which doesn't provide
+  --enable-cursor, useful for graphic modes, which doesn't provide
   one, for example GGI.
 * Liquid Data Type (water, lava, ...), see level2 or level8
 * Some new gfx (many thank to Joel Fauche)

@@ -32,7 +32,7 @@ class Sprite;
     advantage that it is possible to z-sort, texture-id sort or
     otherwise optimize the drawing. In addition to that it also allows
     you do render the drawing commands to multiple buffers which might
-    be usefull for post-processing effects and such. */
+    be useful for post-processing effects and such. */
 class DrawingContext
 {
 private:

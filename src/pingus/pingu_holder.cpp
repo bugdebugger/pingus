@@ -71,7 +71,7 @@ PinguHolder::draw (SceneContext& gc)
 
   // Draw all non-walkers, so that they are easier spotable
 
-  // FIXME: This might be usefull, but looks kind of ugly in the game
+  // FIXME: This might be useful, but looks kind of ugly in the game
   // FIXME: Bridgers where walkers walk behind are an example of
   // FIMME: uglyness. Either we rip this code out again or fix the
   // FIXME: bridger so that it looks higher and better with walkers

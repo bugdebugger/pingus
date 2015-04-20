@@ -47,7 +47,7 @@ public:
   PFinderCache pathfinder_cache;
 private:
 
-  // FIXME: This could/should probally be moved inside the graph (or not?!)
+  // FIXME: This could/should probaly be moved inside the graph (or not?!)
   /** Map to look up node names and get the coresponding id's */
   std::map<std::string, NodeId> node_lookup;
 

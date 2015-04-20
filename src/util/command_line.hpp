@@ -129,7 +129,7 @@ public:
   //param help: the help string for this option
   //param visible: true if the option should be listed in the help
   //param visible: output, false will not list it in the help output which might
-  //param visible: be usefull for cheat-options or backward-compability options
+  //param visible: be useful for cheat-options or backward-compability options
   //param visible: than would only clutter the help output
   void add_option(
     int key,

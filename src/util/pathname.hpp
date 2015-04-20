@@ -66,7 +66,7 @@ public:
 
   Type get_type() const;
 
-  /** Converts the Pathname into human readable form, usefull for
+  /** Converts the Pathname into human readable form, useful for
       debugging output, but nothing else */
   std::string str() const;
 

@@ -38,7 +38,7 @@ public:
       killed, PS_ALIVE are pingus that are still active in the world and
       PS_EXITED are pingus that successfully finished a level
 
-      FIXME: different subvalues of PS_DEAD might be usefull (drowned,
+      FIXME: different subvalues of PS_DEAD might be useful (drowned,
       FIXME: splashed, smashed, etc.) */
   enum PinguStatus { PS_ALIVE, PS_EXITED, PS_DEAD };
 
