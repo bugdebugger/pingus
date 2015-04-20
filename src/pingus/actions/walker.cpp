@@ -135,8 +135,6 @@ Walker::update ()
       { // FIXME:
         found_next_step = true;
         possible_y_step = y_inc;
-        // No break here, since we always want to use the highest possible position
-        //break;
       }
     }
 
@@ -184,22 +182,6 @@ Walker::update ()
     pingu->set_pos(last_pos);
     return;
   }
-
-  /*
-    for(int y_inc=1; y_inc <= max_steps; ++y_inc)
-    {
-    if (rel_getpixel(1, -y_inc) == ColMap::WATER)
-    {
-    pingu->set_paction ("drown");
-    return;
-    }
-    else if(rel_getpixel(1, -y_inc) != ColMap::NOTHING)
-    { // there is land
-    pingu->pos.y += y_inc - 1;
-    break;
-    }
-    }
-  */
 }
 
 void

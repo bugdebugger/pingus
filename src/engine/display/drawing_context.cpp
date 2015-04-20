@@ -215,7 +215,6 @@ DrawingContext::render(Framebuffer& fb, const Rect& parent_rect)
   }
   for(DrawingRequests::iterator i = drawingrequests.begin(); i != drawingrequests.end(); ++i)
   {
-    //log_info("%1%", this << ": " << (*i)->get_z_pos());
     (*i)->render(fb, this_rect); // FIXME: Should we clip size against parent rect?
   }
 

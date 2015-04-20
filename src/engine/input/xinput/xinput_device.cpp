@@ -125,7 +125,6 @@ XInputDevice::register_events(Display* dpy,
     }
   }
 
-  //std::cout << "### Registered events: " << number << std::endl;
   return number;
 }
 

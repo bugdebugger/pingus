@@ -484,7 +484,6 @@ PingusMain::init_path_finder()
   }
 
   // Language is automatically picked from env variable
-  //dictionary_manager.set_language(tinygettext::Language::from_env("it_IT.utf8")); // maybe overwritten by file ~/.pingus/config
   dictionary_manager.add_directory(g_path_manager.complete("po/"));
 }
 

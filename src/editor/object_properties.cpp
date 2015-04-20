@@ -575,7 +575,7 @@ ObjectProperties::on_entrance_direction_change(const ComboItem& item)
       (*i)->set_direction("left");
     else if (item.id == 1)
       (*i)->set_direction("misc");
-    else // (item.id == 2)
+    else
       (*i)->set_direction("right");
   }
 }

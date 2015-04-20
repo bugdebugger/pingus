@@ -137,17 +137,10 @@ Credits::~Credits ()
 void
 Credits::update (float delta)
 {
-  if (offset < end_offset)
-  {
-    //ScreenManager::instance()->pop_screen ();
-  }
+  if (fast_scrolling)
+    offset -= 450.0f * delta;
   else
-  {
-    if (fast_scrolling)
-      offset -= 450.0f * delta;
-    else
-      offset -= 35.0f * delta;
-  }
+    offset -= 35.0f * delta;
 }
 
 void
@@ -204,7 +197,6 @@ void
 Credits::on_startup ()
 {
   offset = static_cast<float>(Display::get_height()) - 50;
-  //PingusSound::play_music("pingus-5.it");
 }
 
 void

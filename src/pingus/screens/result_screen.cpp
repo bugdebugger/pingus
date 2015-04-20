@@ -181,16 +181,12 @@ ResultScreenComponent::draw(DrawingContext& gc)
                     Vector2i(gc.get_width()/2,
                              Display::get_height()/2 - 140),
                     _("Success!"));
-    /*gc.print_center(Fonts::pingus_small, gc.get_width()/2, gc.get_height()-30,
-      "..:: Press Space to continue ::..");*/
   }
   else
   {
     gc.print_center(Fonts::chalk_large,
                     Vector2i(gc.get_width()/2, Display::get_height()/2 - 140),
                     _("Failure!"));
-    /*gc.print_center(Fonts::pingus_normal, gc.get_width()/2, gc.get_height()-30,
-      "..:: Press Space to retry the level ::..");*/
   }
 
   std::string message;
@@ -267,8 +263,6 @@ ResultScreen::ResultScreen(Result arg_result) :
                                                                 Display::get_width()/2 + 245,
                                                                 Display::get_height()/2 + 150));
   }
-
-  //gui_manager->add(new GUI::SurfaceButton(500, 500, cancel_desc, cancel_desc, cancel_desc), true);
 }
 
 void

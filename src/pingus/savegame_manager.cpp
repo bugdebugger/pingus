@@ -121,8 +121,6 @@ SavegameManager::store(Savegame& arg_savegame)
 SavegameManager::SavegameTable::iterator
 SavegameManager::find(const std::string& filename_)
 {
-  //log_info("SavegameManager::find: \"" << filename << "\"");
-
   for(SavegameTable::iterator i = savegames.begin();
       i != savegames.end(); ++i)
     if ((*i)->get_filename() == filename_)

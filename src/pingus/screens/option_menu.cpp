@@ -92,8 +92,6 @@ OptionMenu::OptionMenu() :
   master_volume_box(),
   sound_volume_box(),
   music_volume_box(),
-  //defaults_label(),
-  //defaults_box(),
   connections(),
   m_language(),
   m_language_map()
@@ -243,13 +241,6 @@ OptionMenu::OptionMenu() :
 
   dragdrop_scroll_box->set_state(config_manager.get_drag_drop_scrolling(), false);
   C(config_manager.on_drag_drop_scrolling_change.connect(std::bind(&CheckBox::set_state, dragdrop_scroll_box, std::placeholders::_1, false)));
-
-  /*
-    defaults_label = new Label(_("Reset to Defaults:"), Rect(Vector2i(Display::get_width()/2 - 100, Display::get_height()/2 + 160), Size(170, 32)));
-    gui_manager->add(defaults_label);
-    defaults_box = new CheckBox(Rect(Vector2i(Display::get_width()/2 - 100 + 170, Display::get_height()/2 + 160), Size(32, 32)));
-    gui_manager->add(defaults_box);
-  */
 }
 
 void
@@ -325,7 +316,6 @@ OptionMenu::draw_background(DrawingContext& gc)
     for(int x = 0; x < gc.get_width(); x += m_background.get_width())
       gc.draw(m_background, Vector2i(x, y));
 
-  // gc.draw_fillrect(Rect(100, 100, 400, 400), Color(255, 0, 0));
   gc.draw(m_blackboard, Vector2i(gc.get_width()/2, gc.get_height()/2));
 
   gc.print_center(Fonts::chalk_large,
@@ -360,12 +350,6 @@ OptionMenu::resize(const Size& size_)
 
   if (ok_button)
     ok_button->set_pos(size.width/2 + 245, size.height/2 + 150);
-  /*
-  if (defaults_label)
-    defaults_label->set_rect(Rect(Vector2i(Display::get_width()/2 - 100, Display::get_height()/2 + 160), Size(170, 32)));
-  if (defaults_box)
-    defaults_box->set_rect(Rect(Vector2i(Display::get_width()/2 - 100 + 170, Display::get_height()/2 + 160), Size(32, 32)));
-  */
 
   if (options.empty())
     return;

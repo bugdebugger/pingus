@@ -181,7 +181,7 @@ void generate_rectangles(const std::vector<Row>& rows, std::vector<Rect>& rects_
       {
         if (mark_it->type == Mark::END_MARK)
           parenthesis_count -= 1;
-        else // if (mark_it->type == START_MARK)
+        else
           parenthesis_count += 1;
 
         if (parenthesis_count == 0)
@@ -218,7 +218,6 @@ void generate_rectangles(const std::vector<Row>& rows, std::vector<Rect>& rects_
 */
 void merge_vertical_rectangles(const std::vector<Rect>& rects, std::vector<Rect>& rects_out)
 {
-  //assert(__gnu_cxx::is_sorted(rects.begin(), rects.end(), rect_xy_sorter));
   assert(!rects.empty());
 
   Rect rect = rects.front();

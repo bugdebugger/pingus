@@ -57,7 +57,6 @@ SDLDriver::create_keyboard(const FileReader& reader, Control* parent)
 Button*
 SDLDriver::create_button(const FileReader& reader, Control* parent)
 {
-  //log_info("SDL: " << reader.get_name());
   if (reader.get_name() == "sdl:joystick-button")
   {
     JoystickButtonBinding binding;

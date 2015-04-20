@@ -35,7 +35,6 @@ WorldObj::WorldObj(const FileReader& reader) :
 WorldObj::WorldObj() :
   id()
 {
-  // z_pos = 0;
 }
 
 WorldObj::~WorldObj()

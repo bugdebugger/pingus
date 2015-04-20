@@ -67,7 +67,6 @@ PathGraph::parse_nodes(const FileReader& reader)
       // add the dot to the pathfinding
       NodeId id = graph.add_node(dot);
 
-      //log_info("Adding to lookup table: " << dot->get_name());
       node_lookup[dot->get_name()] = id;
 
       // add the dot to the list of drawables
@@ -138,15 +137,11 @@ PathGraph::parse_edges(const FileReader& reader)
 
       Path* path2 = new Path();
       path2->reverse_insert(*path);
-      //EdgeId id2 =
       graph.add_edge(path2, // FIXME: Memory leak!
                      lookup_node(source), lookup_node(destination),
                      cost /* costs */);
 
-      //log_info("Cost: " << cost);
-
       // FIXME: edge lookup is flawed, since we have different edges in both directions
-
       edge_lookup[name] = id1;
     }
     else

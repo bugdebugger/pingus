@@ -118,10 +118,6 @@ Entrance::create_pingu ()
         break;
     }
   }
-  else
-  {
-    //log_error("entrance: pingu couldn't get created");
-  }
 }
 
 void
@@ -139,7 +135,6 @@ Entrance::draw (SceneContext& gc)
   if (!surface)
   {
     // Entrances have only a surface for historical reasons
-    // log_error("entrance without a surface?!");
     return;
   }
 

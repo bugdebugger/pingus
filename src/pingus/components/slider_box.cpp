@@ -45,7 +45,6 @@ SliderBox::draw(DrawingContext& gc)
     {
       if (i < value)
         gc.print_left(Fonts::chalk_normal, Vector2i(rect.left + i*(rect.get_width()-12)/m_steps + 6, rect.top), "|");
-      //gc.print_left(Fonts::chalk_normal, rect.left + i*(rect.get_width()-12)/20 + 6, rect.top, "l");
     }
   }
 

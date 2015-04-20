@@ -106,7 +106,6 @@ FileDialog::load_file(const System::DirectoryEntry& entry)
 
   if (entry.type == System::DE_DIRECTORY)
   {
-    //log_info("Directory: " << entry.name);
     set_directory(Pathname::join(pathname_inputbox->get_text(), entry.name));
   }
   else

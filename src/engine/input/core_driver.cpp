@@ -51,7 +51,6 @@ public:
 
   void update(Control* )
   {
-    //log_error("event");
   }
 
   void update(float delta)
@@ -116,7 +115,6 @@ public:
 
   void update(Control* )
   {
-    //log_error("event");
   }
 
   void update(float delta_)

@@ -145,7 +145,6 @@ WorldmapScreen::load(const Pathname& filename)
   worldmap = std::unique_ptr<Worldmap>(new Worldmap(filename));
 
   bool credits_unlocked = false;
-  //StatManager::instance()->get_bool(worldmap->get_short_name() + "-endstory-seen", credits_unlocked);
   if (credits_unlocked)
   {
     gui_manager->add(new WorldmapScreenCreditsButton(this));
@@ -165,7 +164,6 @@ WorldmapScreen::on_startup ()
 void
 WorldmapScreen::on_escape_press ()
 {
-  //log_info("WorldmapScreen::on_escape_press ()...");
   exit_worldmap = true;
 }
 

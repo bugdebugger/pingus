@@ -62,9 +62,6 @@ EditorScreen::EditorScreen() :
   // Create the panel for the buttons
   panel = new Panel(this);
 
-  //rect(Vector2i(Display::get_width() - 244 + 2,  38 + 3 + 62),
-  //      Size(240, Display::get_height() - (600 - 495))),
-
   minimap = new Minimap(this, Rect());
   gui_manager->add(minimap);
 
@@ -211,8 +208,6 @@ EditorScreen::load(const Pathname& file)
 void
 EditorScreen::draw(DrawingContext& gc)
 {
-  // Black out screen
-  //gc.fill_screen(Color(255,0,255)); // FIXME: Could be removed for added speed
   gui_manager->draw(gc);
 
   if (show_help)

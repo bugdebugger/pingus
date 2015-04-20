@@ -63,8 +63,6 @@ Climber::update ()
     }
     else if (rel_getpixel(1, 1) ==  Groundtype::GP_NOTHING)
     {
-      //  log_info("Climber failed, no more wall");
-
       // If Pingu able to get to new position without head collision
       if (!head_collision_on_walk(pingu->direction, 1))
       {
@@ -84,7 +82,6 @@ Climber::update ()
   }
   else
   {
-    //    log_info("Climber failed, falling down");
     pingu->direction.change();
     pingu->set_action(ActionName::WALKER);
   }

@@ -65,7 +65,6 @@ private:
 
     bool operator()(NodeId a, NodeId b)
     {
-      //log_info("Coast: " << pathfinder.stat_graph[a].cost << " " << pathfinder.stat_graph[b].cost);
       return pathfinder.stat_graph[a].cost > pathfinder.stat_graph[b].cost;
     }
   };
@@ -117,7 +116,6 @@ public:
         }
       }
     }
-    //log_info("---DONE---");
   }
 
   /** The nodes to walk to reach end is returned in reverse order! so

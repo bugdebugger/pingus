@@ -246,7 +246,6 @@ struct unlock_nodes
   {
     if (node.data->finished())
     {
-      //log_info("Unlocking neightbours of: " << node.data);
       for (std::vector<EdgeId>::iterator i = node.next.begin(); i != node.next.end(); ++i)
       {
         Edge<Path*>& edge = path_graph->graph.resolve_edge(*i);

@@ -135,9 +135,6 @@ Combobox::draw(DrawingContext &gc)
 int
 Combobox::get_box_offset()
 {
-  // open over the current item
-  //return -(rect.get_height() * current_item);
-
   // open to the top
   return -(rect.get_height() * static_cast<int>(item_list.size()));
 }

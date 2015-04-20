@@ -105,7 +105,6 @@ Surface::Surface(int width, int height) :
                                        0x000000ff, 0x0000ff00, 0x00ff0000, 0xff000000
 #endif
     );
-  //SDL_FillRect(surface, NULL, SDL_MapRGBA(surface->format, 0, 0, 0, 0));
 }
 
 Surface::Surface(SDL_Surface* surface)

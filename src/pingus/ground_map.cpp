@@ -304,8 +304,6 @@ GroundMap::put(Surface source, int x, int y)
   int end_x   = std::min(tile_width,  (x + source.get_width())  / globals::tile_size + 1);
   int end_y   = std::min(tile_height, (y + source.get_height()) / globals::tile_size + 1);
 
-  //log_debug("GroundMap:put: " << source.get_width() << "x" << source.get_height());
-
   for(int ix = start_x; ix < end_x; ++ix)
     for(int iy = start_y; iy < end_y; ++iy)
     {

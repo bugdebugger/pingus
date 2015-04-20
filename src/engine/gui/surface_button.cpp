@@ -54,9 +54,6 @@ SurfaceButton::draw (DrawingContext& gc)
 bool
 SurfaceButton::is_at (int x, int y)
 {
-  /*log_debug("Is AT: " << (x > x_pos && x < x_pos + int(button_surface.get_width ())
-    && y > y_pos && y < y_pos + int(button_surface.get_height ()))); */
-
   return x > x_pos && x < x_pos + int(button_surface.get_width ())
     && y > y_pos && y < y_pos + int(button_surface.get_height ());
 }

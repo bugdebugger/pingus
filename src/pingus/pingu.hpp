@@ -181,9 +181,6 @@ public:
 
   void update();
 
-  /** Indicate if the pingu's speed is above the deadly velocity */
-  //bool is_tumbling () const;
-
   float get_z_pos () const { return 0; }
 
   bool   is_over (int x, int y);

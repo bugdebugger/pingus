@@ -226,7 +226,6 @@ ObjectSelector::create_groundpiece(const std::string& prefix, const std::string&
   std::vector<std::string> lst = Resource::resmgr.get_section(prefix);
   for(std::vector<std::string>::const_iterator i = lst.begin(); i != lst.end(); ++i)
   {
-    //sprite.scale(48, 48);
     set->add(new Groundpiece(*i, type));
   }
 

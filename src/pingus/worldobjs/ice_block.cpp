@@ -58,7 +58,6 @@ IceBlock::draw (SceneContext& gc)
 
   gc.color().draw(block_sur,
                   pos);
-  //, static_cast<int>((1.0 - thickness) * (block_sur.get_frame_count() - 1)));
 }
 
 void
@@ -80,7 +79,6 @@ IceBlock::update()
 
   if (last_contact && last_contact + 1000 > world->get_time())
   {
-    //log_error("IceBlock: Catched Pingu: " << thickness);
     thickness -= 0.01f;
 
     if (thickness < 0)

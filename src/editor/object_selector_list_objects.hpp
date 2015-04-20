@@ -76,7 +76,6 @@ struct Exit : public ObjectSelectorList::Object
     LevelObjPtr obj = std::make_shared<GenericLevelObj>("exit");
     obj->set_pos(pos);
     obj->set_res_desc(desc);
-    // obj->set_para();
     return obj;
   }
 };
@@ -98,7 +97,6 @@ struct Hotspot : public ObjectSelectorList::Object
     obj->set_pos(pos);
     obj->set_pos_z(static_cast<float>(z_pos));
     obj->set_res_desc(desc);
-    // obj->set_para();
     return obj;
   }
 };
@@ -121,8 +119,6 @@ struct SurfaceBackground : public ObjectSelectorList::Object
     obj->set_scroll_x(0.0f);
     obj->set_scroll_y(0.0f);
     obj->set_res_desc(desc);
-    // obj->set_para();
-
     return obj;
   }
 };

@@ -121,7 +121,6 @@ void PingusMenu::do_edit()
 void
 PingusMenu::on_escape_press ()
 {
-  //FIXME: get_manager()->show_exit_menu ();
 }
 
 void

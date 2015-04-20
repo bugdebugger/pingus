@@ -36,7 +36,6 @@ SpriteDrawable::SpriteDrawable(const FileReader& reader) :
   reader.read_bool  ("auto-uncover", auto_uncover);
 
   surface = Sprite(desc);
-  //log_info("XXX Desc: " << desc.res_name);
 }
 
 void

@@ -22,9 +22,6 @@
 int main(int argc, char** argv)
 {
   int t = 1216020230; // 20
-  //1216032809 // 20
-  //int t = time(NULL);
-  //int t = 1216035347;
 
   srand(t);
 
@@ -87,44 +84,5 @@ int main(int argc, char** argv)
 
   return 0;
 }
-
-/*
-
-  if (1)
-    {
-      std::cout << "--- Merge rectangles: " << rects_in.size() << std::endl;
-      for(std::vector<Rect>::const_iterator i = rects_in.begin(); i != rects_in.end(); ++i)
-        {
-          std::cout << "  rectin: " << *i << std::endl;
-        }
-    }
-
-  for(std::vector<Row>::const_iterator i = rows.begin(); i != rows.end(); ++i)
-    {
-      std::cout << "Row: " << i->marks.size() << " ";
-      for(std::vector<Mark>::const_iterator j = i->marks.begin(); j != i->marks.end(); ++j)
-        {
-          std::cout << ((j->type == Mark::START_MARK) ? "'(" : "')")
-                      << j->pos
-                      << "' ";
-        }
-      std::cout << std::endl;
-    }
-
-  // Print rows
-  if (0)
-    for(std::vector<Row>::iterator i = rows.begin(); i != rows.end(); ++i)
-      {
-        std::cout << "  row: " << i->top << "-" << i->bottom << " - ";
-        for(std::vector<Mark>::iterator mark_it = i->marks.begin(); mark_it != i->marks.end(); ++mark_it)
-          {
-            std::cout << ((mark_it->type == Mark::START_MARK) ? "'(" : "')")
-                      << mark_it->pos
-                      << "' ";
-          }
-        std::cout << std::endl;
-      }
-
- */
 
 /* EOF */

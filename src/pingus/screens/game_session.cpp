@@ -202,8 +202,6 @@ GameSession::update(const Input::Event& event)
 {
   GUIScreen::update(event);
 
-  //log_info("Events: " << event.get_type ());
-
   switch (event.type)
   {
     case Input::BUTTON_EVENT_TYPE:
@@ -261,7 +259,6 @@ GameSession::process_scroll_event (const Input::ScrollEvent& ev)
 void
 GameSession::process_axis_event (const Input::AxisEvent& event)
 {
-  // log_info("GameSession::process_axis_event ()");
 }
 
 void

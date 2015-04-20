@@ -127,7 +127,6 @@ GlobalEvent::on_button_press(const SDL_KeyboardEvent& event)
       break;
 
     default:
-      // console << "GlobalEvent: Unknown key pressed: " << key.id;
       break;
   }
 }

@@ -146,9 +146,6 @@ Wiimote::connect()
   /* Connect to any wiimote */
   bdaddr_t bdaddr = {{0, 0, 0, 0, 0, 0}};
 
-  /* Connect to address in string WIIMOTE_BDADDR */
-  /* str2ba(WIIMOTE_BDADDR, &bdaddr); */
-
   /* Connect to the wiimote */
   printf("Put Wiimote in discoverable mode now (press 1+2)...\n");
 
@@ -243,7 +240,6 @@ Wiimote::set_led(unsigned char led_state)
 {
   if (m_led_state != led_state)
   {
-    //std::cout << "Wiimote: " << (int)m_led_state << std::endl;
     m_led_state = led_state;
 
     if (cwiid_command(m_wiimote, CWIID_CMD_LED, m_led_state)) {
@@ -260,7 +256,7 @@ Wiimote::set_led(int num, bool state)
   int new_led_state = m_led_state;
   if (state)
     new_led_state |= (1 << (num-1));
-  else // (!state)
+  else
     new_led_state &= ~(1 << (num-1));
 
   set_led(static_cast<unsigned char>(new_led_state));
@@ -269,7 +265,6 @@ Wiimote::set_led(int num, bool state)
 void
 Wiimote::add_button_event(int device, int button, bool down)
 {
-  // std::cout << "Wiimote::add_button_event: " << device << " " << button << " " << down << std::endl;
   WiimoteEvent event;
 
   event.type = WiimoteEvent::WIIMOTE_BUTTON_EVENT;
@@ -283,8 +278,6 @@ Wiimote::add_button_event(int device, int button, bool down)
 void
 Wiimote::add_axis_event(int device, int axis, float pos)
 {
-  //std::cout << "Wiimote::add_axis_event: " << device << " " << axis << " " << pos << std::endl;
-
   WiimoteEvent event;
 
   event.type = WiimoteEvent::WIIMOTE_AXIS_EVENT;
@@ -377,8 +370,6 @@ Wiimote::on_button(const cwiid_btn_mesg& msg)
 void
 Wiimote::on_acc(const cwiid_acc_mesg& msg)
 {
-  //printf("Acc Report: x=%d, y=%d, z=%d\n", msg.acc[0], msg.acc[1], msg.acc[2]);
-
   add_acc_event(0, 0,
                 static_cast<float>(msg.acc[0] - wiimote_zero.x) / static_cast<float>(wiimote_one.x - wiimote_zero.x),
                 static_cast<float>(msg.acc[1] - wiimote_zero.y) / static_cast<float>(wiimote_one.y - wiimote_zero.y),
@@ -507,7 +498,6 @@ Wiimote::mesg_callback(cwiid_wiimote_t* w, int mesg_count, union cwiid_mesg mesg
 {
   pthread_mutex_lock(&mutex);
 
-  //std::cout << "StatusCallback: " << w << " " << mesg_count << std::endl;
   for (int i=0; i < mesg_count; i++)
   {
     switch (mesg[i].type)

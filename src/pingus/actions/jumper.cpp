@@ -46,7 +46,7 @@ Jumper::update ()
   {
     pingu->set_velocity(pingu->get_velocity() + Vector3f(-4.58f, -4.58f));
   }
-  else // if (pingu->direction.is_right())
+  else
   {
     pingu->set_velocity(pingu->get_velocity() + Vector3f(4.58f, -4.58f));
   }

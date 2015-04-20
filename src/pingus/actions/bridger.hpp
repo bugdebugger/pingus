@@ -38,8 +38,6 @@ private:
   CollisionMask brick_r;
 
   int bricks;
-  //int step;
-  //int do_steps;
   bool block_build;
 
   std::string name;

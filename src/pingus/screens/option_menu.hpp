@@ -63,9 +63,6 @@ private:
   SliderBox* sound_volume_box;
   SliderBox* music_volume_box;
 
-  //Label* defaults_label;
-  //CheckBox* defaults_box;
-
   typedef std::vector<boost::signals2::connection> Connections;
   Connections connections;
 

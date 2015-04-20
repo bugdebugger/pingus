@@ -195,10 +195,6 @@ public:
       y += item_height;
     }
 
-    //int total_pages = static_cast<int>(levelsets.size());;
-    //gc.print_center(Fonts::chalk_normal, Vector2i(rect.get_width()/2, 360),
-    //                (boost::format("%1% %2%/%3%") % _("Page") % (page+1) % total_pages).str());
-
     gc.pop_modelview();
   }
 
@@ -321,12 +317,6 @@ public:
     if (levelset)
     {
       levelset->refresh(); // should be better placed in on_startup() or so
-
-      //gc.draw_fillrect(Rect(Vector2i(0,0), Size(rect.get_width(), rect.get_height())),
-      //                 Color(255, 255, 0, 100));
-
-      //gc.print_left(Fonts::chalk_normal,  Vector2i(30, -32), _("Title"));
-      //gc.print_right(Fonts::chalk_normal, Vector2i(rect.get_width() - 30, -32), _("Status"));
 
       int y = list_rect.top;
       for(int i = page; i < (page + items_per_page) && i < levelset->get_level_count(); ++i)
@@ -501,7 +491,6 @@ LevelMenu::on_escape_press()
   }
   else
   {
-    //log_debug("OptionMenu: poping screen");
     ScreenManager::instance()->pop_screen();
   }
 }

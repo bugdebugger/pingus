@@ -74,8 +74,6 @@ EvdevDevice::EvdevDevice(const std::string& filename) :
     {
       if (test_bit(i, bit[0]))
       {
-        //printf("  Event type %d (%s)\n", i, events[i] ? events[i] : "?");
-
         if (!i) continue;
 
         ioctl(fd, EVIOCGBIT(i, KEY_MAX), bit[i]);
@@ -218,13 +216,11 @@ EvdevDevice::update(float delta)
   struct input_event ev[128];
   // FIXME: turn this into a while loop so all events get processed
   ssize_t rd = read(fd, ev, sizeof(struct input_event) * 128);
-  //log_debug("%1%", rd / sizeof(struct input_event));
+
   if (rd >= static_cast<ssize_t>(sizeof(struct input_event)))
   {
     for (int i = 0; i < rd / static_cast<int>(sizeof(struct input_event)); ++i)
     {
-      //log_debug("%1%", ev[i].type << " " << ev[i].code << " " << ev[i].value);
-
       switch (ev[i].type)
       {
         case EV_ABS:
