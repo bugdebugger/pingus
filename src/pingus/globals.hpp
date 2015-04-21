@@ -43,7 +43,6 @@ extern int         default_screen_height;           ///< default screen height
 extern bool        draw_collision_map;              ///<
 extern bool        software_cursor;                 ///< --enable-swcursor
 
-extern std::string  global_username;                 ///< The name of the currently logged in user
 extern std::string  default_language;                ///< The default language, which is used when the env var LANG is not set
 
 } // namespace globals

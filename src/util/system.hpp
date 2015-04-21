@@ -28,8 +28,6 @@ class Pathname;
 class System
 {
 private:
-  static std::string default_username;
-
   static std::string userdir;
 
 public:
@@ -84,9 +82,6 @@ public:
   /** Returns the directory where Pingus can store its user specific
       state and config data (savegames, config files, demos, etc.) */
   static std::string get_userdir();
-
-  /** Returns the Username how the current user or an empty string */
-  static std::string get_username();
 
   /** Get the currently country code, in a two letter ISO 639 syntax */
   static std::string get_language();

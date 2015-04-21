@@ -55,7 +55,6 @@
 #include "util/string_util.hpp"
 
 std::string System::userdir;
-std::string System::default_username;
 
 System::DirectoryEntry::DirectoryEntry(const std::string& n, FileType t)
   : type (t), name (n)
@@ -398,25 +397,6 @@ std::string
 System::get_userdir()
 {
   return userdir;
-}
-
-/** Returns the username of the current user or an empty string */
-std::string
-System::get_username()
-{
-  if (default_username.empty())
-  {
-    char* username = getenv("USERNAME");
-
-    if (username)
-      return std::string(username);
-    else
-      return "";
-  }
-  else
-  {
-    return default_username;
-  }
 }
 
 std::string
