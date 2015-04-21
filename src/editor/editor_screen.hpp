@@ -126,12 +126,6 @@ public:
   void objects_lower();
   void objects_lower_to_bottom();
 
-  void objects_flip_vertical();
-  void objects_flip_horizontal();
-
-  void objects_rotate_left();
-  void objects_rotate_right();
-
   void toggle_object_selector();
 
   void toggle_object_properties();

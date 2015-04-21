@@ -405,30 +405,6 @@ EditorScreen::objects_lower_to_bottom()
 }
 
 void
-EditorScreen::objects_flip_vertical()
-{
-  viewport->vflip_selected_objects();
-}
-
-void
-EditorScreen::objects_flip_horizontal()
-{
-  viewport->hflip_selected_objects();
-}
-
-void
-EditorScreen::objects_rotate_left()
-{
-  viewport->rotate_270_selected_objects();
-}
-
-void
-EditorScreen::objects_rotate_right()
-{
-  viewport->rotate_90_selected_objects();
-}
-
-void
 EditorScreen::toggle_minimap()
 {
   if (minimap->is_visible())
