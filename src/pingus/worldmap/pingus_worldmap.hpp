@@ -35,7 +35,6 @@ public:
   std::string get_description() const;
   std::string get_music() const;
   std::string get_author() const;
-  std::string get_email() const;
   int get_width() const;
   int get_height() const;
 

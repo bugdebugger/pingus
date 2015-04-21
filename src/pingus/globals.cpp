@@ -35,7 +35,6 @@ bool        draw_collision_map      = false;
 bool        software_cursor         = false;
 
 std::string global_username;
-std::string global_email;
 std::string default_language        = "en";
 
 bool        delta_drawing           = false;

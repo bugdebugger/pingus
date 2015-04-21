@@ -55,7 +55,6 @@
 #include "util/string_util.hpp"
 
 std::string System::userdir;
-std::string System::default_email;
 std::string System::default_username;
 
 System::DirectoryEntry::DirectoryEntry(const std::string& n, FileType t)
@@ -417,27 +416,6 @@ System::get_username()
   else
   {
     return default_username;
-  }
-}
-
-/** Returns the EMail of the user or an empty string */
-std::string
-System::get_email()
-{
-  if (default_email.empty())
-  {
-    char* email = getenv("EMAIL");
-
-    if (email)
-      // FIXME: $EMAIL contains the complete from header, not only
-      // the email address
-      return std::string(email);
-    else
-      return "";
-  }
-  else
-  {
-    return default_email;
   }
 }
 

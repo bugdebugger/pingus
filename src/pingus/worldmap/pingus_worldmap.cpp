@@ -33,7 +33,6 @@ public:
   std::string description;
   std::string music;
   std::string author;
-  std::string email;
   int width;
   int height;
 
@@ -52,7 +51,6 @@ public:
     description(),
     music(),
     author(),
-    email(),
     width(),
     height(),
     default_node(),
@@ -108,7 +106,6 @@ PingusWorldmap::parse_properties(const FileReader& reader)
   reader.read_string("author", impl->author);
   reader.read_string("name",   impl->name);
   reader.read_string("short-name", impl->short_name);
-  reader.read_string("email",  impl->email);
   reader.read_int("width",     impl->width);
   reader.read_int("height",    impl->height);
 
@@ -144,12 +141,6 @@ std::string
 PingusWorldmap::get_author() const
 {
   return impl->author;
-}
-
-std::string
-PingusWorldmap::get_email() const
-{
-  return impl->email;
 }
 
 int

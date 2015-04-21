@@ -28,7 +28,6 @@ class Pathname;
 class System
 {
 private:
-  static std::string default_email;
   static std::string default_username;
 
   static std::string userdir;
@@ -88,9 +87,6 @@ public:
 
   /** Returns the Username how the current user or an empty string */
   static std::string get_username();
-
-  /** Returns the EMail of the user or an empty string */
-  static std::string get_email();
 
   /** Get the currently country code, in a two letter ISO 639 syntax */
   static std::string get_language();
