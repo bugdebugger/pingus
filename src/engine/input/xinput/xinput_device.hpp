@@ -56,8 +56,6 @@ private:
   Time time_at_last_press;
   int  last_press_id;
 
-  bool key_states[5];
-
   int motion_type;
   int button_press_type;
   int button_release_type;
