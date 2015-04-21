@@ -22,43 +22,6 @@
 
 Wiimote* wiimote = 0;
 
-std::string
-Wiimote::id2str(int id)
-{
-  if      (id == WIIMOTE_A)     return "a";
-  else if (id == WIIMOTE_B)     return "b";
-  else if (id == WIIMOTE_LEFT)  return "left";
-  else if (id == WIIMOTE_RIGHT) return "right";
-  else if (id == WIIMOTE_UP)    return "up";
-  else if (id == WIIMOTE_DOWN)  return "down";
-  else if (id == WIIMOTE_PLUS)  return "plus";
-  else if (id == WIIMOTE_MINUS) return "minus";
-  else if (id == WIIMOTE_HOME)  return "home";
-  else if (id == WIIMOTE_1)     return "1";
-  else if (id == WIIMOTE_2)     return "2";
-
-  else if (id == NUNCHUK_C) return "nunchuk:c";
-  else if (id == NUNCHUK_Z) return "nunchuk:z";
-
-  else if (id == CLASSIC_LEFT)  return "classic:left";
-  else if (id == CLASSIC_RIGHT) return "classic:right";
-  else if (id == CLASSIC_UP)    return "classic:up";
-  else if (id == CLASSIC_DOWN)  return "classic:down";
-  else if (id == CLASSIC_PLUS)  return "classic:plus";
-  else if (id == CLASSIC_MINUS) return "classic:minus";
-  else if (id == CLASSIC_HOME)  return "classic:home";
-  else if (id == CLASSIC_A)     return "classic:a";
-  else if (id == CLASSIC_B)     return "classic:b";
-  else if (id == CLASSIC_X)     return "classic:x";
-  else if (id == CLASSIC_Y)     return "classic:y";
-  else if (id == CLASSIC_L)     return "classic:l";
-  else if (id == CLASSIC_R)     return "classic:r";
-  else if (id == CLASSIC_ZL)    return "classic:zl";
-  else if (id == CLASSIC_ZR)    return "classic:zr";
-  else
-    return "unknown";
-}
-
 int
 Wiimote::str2id(const std::string& str)
 {

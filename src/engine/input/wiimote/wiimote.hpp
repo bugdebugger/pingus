@@ -132,7 +132,6 @@ public:
     UNKNOWN
   };
 
-  static std::string id2str(int id);
   static int str2id(const std::string& str);
 
   Wiimote();
