@@ -401,12 +401,6 @@ System::get_userdir()
   return userdir;
 }
 
-std::string
-System::get_cachedir()
-{
-  return get_userdir() + "cache/";
-}
-
 /** Returns the username of the current user or an empty string */
 std::string
 System::get_username()

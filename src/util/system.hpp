@@ -86,10 +86,6 @@ public:
       state and config data (savegames, config files, demos, etc.) */
   static std::string get_userdir();
 
-  /** Returns the directory where Pingus can store things that needs
-      to be cached, for example thumbnails */
-  static std::string get_cachedir();
-
   /** Returns the Username how the current user or an empty string */
   static std::string get_username();
 
